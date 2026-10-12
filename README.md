@@ -81,6 +81,7 @@ The assistant runs the commands and stops only at the points that need your inpu
 locale/<language>/*.json   Dictionary sources — edit here
 locale/_policy/            Terms kept in English
 lib/client.js              Generated bundle (from the dictionaries)
+styles/locale-fonts.css    Locale-scoped font corrections (inlined at build)
 tools/build-client.mjs     Dictionaries → lib/client.js
 tools/smoke.mjs            Smoke test
 tools/check-keep.mjs       Translation quality check
@@ -138,6 +139,7 @@ Requests move through four models in order. If the first one fails, the worker r
 - The menu bar, the right-click menu, and the update dialog belong to the desktop shell, so this pack does not change them.
 - When DeepSeek Harness ships a new version, new strings appear in English until they are translated.
 - Korean is reviewed by hand. Other languages come from machine translation, and each language's dictionary file is the place to adjust wording.
+- Japanese and Traditional Chinese keep their own glyph shapes. The harness font stack lists Simplified-Chinese faces ahead of the other CJK faces, so Han characters shared between the standards would otherwise be drawn in their Simplified form. The pack scopes a corrected stack to `ja`, `zh-tw`, and `zh-hk`, and it follows the language picker.
 
 ## Contributing
 

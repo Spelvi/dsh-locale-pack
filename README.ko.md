@@ -80,8 +80,9 @@ dsh plugin --profile desktop add link:(Get-Location).Path
 ```text
 locale/<언어>/*.json   언어별 사전 원본 — 여기서 작업
 locale/_policy/       영어로 두는 용어 목록
-lib/client.js         생성된 번들 (사전에서 만듦)
-tools/build-client.mjs  사전 → lib/client.js 생성
+lib/client.js              생성된 번들(사전에서 만들어짐)
+styles/locale-fonts.css    언어별 글꼴 보정(빌드 시 번들에 인라인됨)
+tools/build-client.mjs     사전 → lib/client.js
 tools/smoke.mjs         스모크 테스트
 tools/check-keep.mjs    번역 품질 점검
 tools/translate_worker.py  번역 워커(대화 세션과 분리되어 동작)
@@ -138,6 +139,7 @@ python3 tools/translate_worker.py --all              # 전체
 - 메뉴 표시줄, 마우스 오른쪽 메뉴, 업데이트 확인 창은 데스크톱 프로그램 부분이라 이 플러그인이 바꾸지 못합니다
 - DeepSeek Harness가 새 버전을 내면 문구가 늘어납니다. 늘어난 문구는 번역 전까지 영어로 표시됩니다
 - 한국어는 사람이 확인했고, 나머지 언어는 기계 번역 결과입니다. 표현을 다듬으려면 해당 언어 사전 파일에서 고치면 됩니다
+- 일본어와 중국어 번체는 각자의 글자 모양을 유지합니다. 하니스 기본 글꼴 목록이 중국어 간체 글꼴을 다른 CJK 글꼴보다 앞에 두어, 규격끼리 공유하는 한자가 간체 모양으로 그려지던 부분을 이 팩이 `ja`·`zh-tw`·`zh-hk` 로케일에 한해 바로잡습니다
 
 ## 기여
 

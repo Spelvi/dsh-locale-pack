@@ -82,4 +82,36 @@ expect(bind('fmt.name', { name: 'Ana' }) === 'Hello Ana', 'param substitution fa
 apply(ctx);
 console.log('double-load OK (idempotent)');
 
+// 5. the locale font sheet travels with the bundle, one rule per corrected locale
+const FONT_CSS = JSON.parse(src.match(/const FONT_CSS = (".*?");\n/)[1]);
+const EXPECTED_STACKS = {
+  ja: { keep: ['"Hiragino Sans"', '"Yu Gothic"', 'Meiryo'], drop: ['PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei'] },
+  'zh-tw': { keep: ['"PingFang TC"', '"Microsoft JhengHei"'], drop: ['PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei'] },
+  'zh-hk': { keep: ['"PingFang HK"', '"PingFang TC"', '"Microsoft JhengHei"'], drop: ['PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei'] },
+};
+for (const [id, spec] of Object.entries(EXPECTED_STACKS)) {
+  const start = FONT_CSS.indexOf(`html[lang="${id}"]`);
+  expect(start >= 0, `font sheet has no rule for ${id}`);
+  const next = FONT_CSS.slice(start + 1).indexOf('html[lang="');
+  const rule = FONT_CSS.slice(start, next >= 0 ? start + 1 + next : FONT_CSS.length);
+  for (const face of spec.keep) expect(rule.includes(face), `${id} stack must keep ${face}`);
+  for (const face of spec.drop) expect(!rule.includes(face), `${id} stack must drop ${face}`);
+}
+expect(FONT_CSS.includes('--ds-font-family-code'), 'code stack needs the same correction');
+
+// 6. the sheet is attached once and survives a double load
+const attached = new Map();
+globalThis.document = {
+  head: { appendChild: (el) => attached.set(el.id, el) },
+  createElement: () => ({ id: '', textContent: '', remove() { attached.delete(this.id); } }),
+  getElementById: (id) => attached.get(id) ?? null,
+};
+apply(ctx);
+expect(attached.has('dsh-locale-pack-fonts'), 'font sheet was not attached');
+expect(attached.get('dsh-locale-pack-fonts').textContent.includes('html[lang="ja"]'), 'attached sheet lacks the ja rule');
+apply(ctx);
+expect(attached.size === 1, 'double load duplicated or dropped the font sheet');
+delete globalThis.document;
+console.log('font sheet OK (single attach, double-load safe)');
+
 console.log(`smoke OK — ${LANGS.length} languages verified`);

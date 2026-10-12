@@ -1,0 +1,34 @@
+/* Locale font corrections.
+ *
+ * The harness default stack lists Simplified-Chinese faces (PingFang SC,
+ * Hiragino Sans GB, Microsoft YaHei) before any other CJK face, and the same
+ * faces appear in the code/mono stack. Readers of Japanese and of Traditional
+ * Chinese then get Simplified-Chinese glyph forms for Han code points the
+ * standards draw differently (直 骨 令 海 真 争 for Japanese; 骨 令 尊 化 直 for
+ * Traditional Chinese). The characters are correct; the shapes are Simplified
+ * Chinese.
+ *
+ * The locale runtime keeps <html lang> pointed at the active locale id, so the
+ * fix is a scoped token override: put the right CJK face ahead of the Chinese
+ * ones while that locale is active. Latin text keeps the platform UI face, and
+ * every consumer that reads var(--dsw-font-family) or var(--ds-font-family-code)
+ * follows automatically, including the brand token, which resolves at use time.
+ */
+
+html[lang="ja"] {
+  --dsw-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic UI", "Yu Gothic", Meiryo, "Noto Sans JP", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --dsw-font-mono: "SF Mono", "JetBrains Mono", "Fira Code", Consolas, "Liberation Mono", Menlo, "Hiragino Sans", "Yu Gothic", Meiryo, "Noto Sans JP", monospace;
+  --ds-font-family-code: "SF Mono", "JetBrains Mono", "Fira Code", Consolas, "Liberation Mono", Menlo, "Hiragino Sans", "Yu Gothic", Meiryo, "Noto Sans JP", monospace;
+}
+
+html[lang="zh-tw"] {
+  --dsw-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang TC", "Microsoft JhengHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --dsw-font-mono: "SF Mono", "JetBrains Mono", "Fira Code", Consolas, "Liberation Mono", Menlo, "PingFang TC", "Microsoft JhengHei", monospace;
+  --ds-font-family-code: "SF Mono", "JetBrains Mono", "Fira Code", Consolas, "Liberation Mono", Menlo, "PingFang TC", "Microsoft JhengHei", monospace;
+}
+
+html[lang="zh-hk"] {
+  --dsw-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang HK", "PingFang TC", "Microsoft JhengHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --dsw-font-mono: "SF Mono", "JetBrains Mono", "Fira Code", Consolas, "Liberation Mono", Menlo, "PingFang HK", "PingFang TC", "Microsoft JhengHei", monospace;
+  --ds-font-family-code: "SF Mono", "JetBrains Mono", "Fira Code", Consolas, "Liberation Mono", Menlo, "PingFang HK", "PingFang TC", "Microsoft JhengHei", monospace;
+}
