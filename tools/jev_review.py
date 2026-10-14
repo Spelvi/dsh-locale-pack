@@ -19,8 +19,8 @@ from concurrent.futures import ThreadPoolExecutor
 BASE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 TSV = os.path.join(BASE, "검수용_원문대조")
 OUT = os.path.join(BASE, "검수_Jev")
-URL = "https://api.commandcode.ai/provider/v1/systemone"
-MODEL = "typesafe/jev"
+URL = "https://api.typesafe.ai/v1/systemone"
+MODEL = "jev-latest"
 BATCH = 10
 WORKERS = 8
 WARN = 0.6   # 이 아래는 사람이 다시 봄
@@ -60,9 +60,9 @@ def load_key():
     path = os.path.expanduser("~/.hermes/profiles/planner/.env")
     for line in open(path, encoding="utf-8"):
         line = line.strip()
-        if line.startswith("COMMANDCODE_API_KEY="):
+        if line.startswith("TYPESAFE_API_KEY="):
             return line.split("=", 1)[1].strip().strip('"').strip("'")
-    raise SystemExit("COMMANDCODE_API_KEY를 찾을 수 없습니다")
+    raise SystemExit("TYPESAFE_API_KEY를 찾을 수 없습니다")
 
 
 HEADERS = {
