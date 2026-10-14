@@ -79,6 +79,7 @@ The assistant runs the commands and stops only at the points that need your inpu
 
 ```text
 locale/<language>/*.json   Dictionary sources — edit here
+locale/<language>.json     Plugin display text per language (title/description)
 locale/_policy/            Terms kept in English
 lib/client.js              Generated bundle (from the dictionaries)
 styles/locale-fonts.css    Locale-scoped font corrections (inlined at build)

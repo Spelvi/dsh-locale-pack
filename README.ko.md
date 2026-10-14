@@ -79,6 +79,7 @@ dsh plugin --profile desktop add link:(Get-Location).Path
 
 ```text
 locale/<언어>/*.json   언어별 사전 원본 — 여기서 작업
+locale/<언어>.json     언어별 플러그인 표시 문구(제목/설명)
 locale/_policy/       영어로 두는 용어 목록
 lib/client.js              생성된 번들(사전에서 만들어짐)
 styles/locale-fonts.css    언어별 글꼴 보정(빌드 시 번들에 인라인됨)

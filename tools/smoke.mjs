@@ -1,7 +1,7 @@
 // Smoke test: load the built client bundle against a stub locale runtime
 // that mirrors the real LocaleRuntime contract (addLanguage/register/bind
 // with en fallback). Run: node tools/smoke.mjs
-import { readFileSync } from 'node:fs';
+import { readFileSync, readdirSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -113,5 +113,25 @@ apply(ctx);
 expect(attached.size === 1, 'double load duplicated or dropped the font sheet');
 delete globalThis.document;
 console.log('font sheet OK (single attach, double-load safe)');
+
+// 7. plugin display text: locale/<lang>.json carries a non-empty description per language
+const LANGUAGE_ID = /^[A-Za-z]{2,8}(?:-[A-Za-z0-9]{1,8})*$/;
+const metaDir = join(root, 'locale');
+const metaFiles = readdirSync(metaDir).filter((f) => f.endsWith('.json'));
+expect(metaFiles.includes('en.json'), 'locale/en.json anchors the plugin display text');
+for (const f of metaFiles) expect(LANGUAGE_ID.test(f.slice(0, -5)), `locale/${f} must use a language id as its filename`);
+for (const { id } of LANGS) {
+  const file = metaFiles.find((f) => f.slice(0, -5).toLowerCase() === id.toLowerCase());
+  expect(file, `locale/${id}.json is missing`);
+  const desc = JSON.parse(readFileSync(join(metaDir, file), 'utf8')).meta?.description;
+  expect(typeof desc === 'string' && desc.trim().length > 0, `locale/${file}: meta.description must be a non-empty string`);
+}
+console.log(`plugin description OK (${metaFiles.length} locale files)`);
+
+// 8. the manifest must export the display-text files, or the app silently falls
+// back to the package.json description for every language
+const manifest = JSON.parse(readFileSync(join(root, 'package.json'), 'utf8'));
+expect(manifest.exports?.['./locale/*.json'] === './locale/*.json', 'package.json must export ./locale/*.json or the display text is never read');
+expect(typeof manifest.description === 'string' && manifest.description.trim().length > 0, 'package.json description is the fallback display text');
 
 console.log(`smoke OK — ${LANGS.length} languages verified`);

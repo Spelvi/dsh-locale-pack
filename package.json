@@ -1,12 +1,13 @@
 {
   "name": "dsh-locale-pack",
-  "description": "DeepSeek Harness 29개 언어 로케일 팩: 언어 등록 + 사전 (버전업 유지형)",
-  "version": "0.3.0",
+  "description": "A locale pack for the DeepSeek Harness desktop app: registers 29 languages and ships a dictionary for each one.",
+  "version": "0.3.1",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
     ".": "./lib/index.js",
     "./client": "./lib/client.js",
+    "./locale/*.json": "./locale/*.json",
     "./package.json": "./package.json"
   },
   "dsh": {
