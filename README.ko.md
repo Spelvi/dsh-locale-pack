@@ -2,10 +2,10 @@
 
 <p align="right"><a href="README.md">English</a> | <strong>한국어</strong></p>
 
-<p align="center"><img src="docs/hero.jpg" alt="DeepSeek Harness Multilingual Pack, dsh-locale-pack 플러그인: 29개 언어, 73,312개 문구, 선택 가능한 31개" width="100%"></p>
+<p align="center"><img src="docs/hero.jpg" alt="DeepSeek Harness Multilingual Pack, dsh-locale-pack 플러그인: 29개 언어, 88,337개 문구, 선택 가능한 31개" width="100%"></p>
 <p align="center"><img src="docs/languages.jpg" alt="29개 언어와 언어 코드" width="100%"></p>
 
-DeepSeek Harness 데스크톱 앱을 위한 로케일 팩입니다. 언어 선택 목록에 29개 언어를 등록하고 각 언어의 사전을 함께 싣습니다. 번역이 아직 없는 문구는 영어로 표시되므로 화면을 읽을 수 있는 상태가 유지됩니다. DeepSeek Harness가 기본으로 싣는 영어와 간체 중국어까지 합치면 화면에서 고를 수 있는 언어는 31개입니다.
+DeepSeek Harness 데스크톱 앱을 위한 로케일 팩입니다. 언어 선택 목록에 29개 언어를 등록하고 각 언어의 사전을 함께 싣습니다. 번역이 아직 없는 문구는 영어로 표시되므로 화면을 읽을 수 있는 상태가 유지됩니다. DeepSeek Harness가 기본으로 싣는 영어와 간체 중국어까지 합치면 화면에서 고를 수 있는 언어는 31개입니다. DeepSeek Harness의 최신 버전에 맞춰 사전을 계속 갱신합니다.
 
 ## 만든 이유
 
@@ -33,7 +33,7 @@ DeepSeek Harness는 코딩 도구입니다. 할 일을 넘기면 에이전트가
 | Português (Portugal) | `pt` | Kiswahili | `sw` |
 | Yorùbá | `yo` | | |
 
-언어 29개, 키 3,046개, 문구 88,337개입니다. 사전은 DeepSeek Harness `0.2.1-rc.2` 기준으로 맞췄습니다.
+언어 29개, 키 3,046개, 문구 88,337개입니다. DeepSeek Harness가 새 버전을 낼 때마다 문구를 다시 맞추고 있고, 지금은 최신 버전 `0.2.1-rc.2`까지 대응합니다.
 
 ## 설치
 
