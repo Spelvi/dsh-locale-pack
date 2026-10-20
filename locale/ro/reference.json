@@ -1,6 +1,10 @@
 {
   "candidate.noCwd": "(fără cwd)",
   "crumb.root": "Spațiu de lucru",
+  "fileOpen.close": "Închide",
+  "fileOpen.failed": "Nu am putut deschide „{path}“. Încercați din nou sau închideți acest mesaj.",
+  "fileOpen.retry": "Reîncercați",
+  "fileOpen.title": "Nu am putut deschide fișierul",
   "section.files": "Fișiere și foldere",
   "section.sessions": "Sesiuni",
   "section.subagents": "Subagenți",

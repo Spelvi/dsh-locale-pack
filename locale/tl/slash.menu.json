@@ -1,8 +1,11 @@
 {
+  "command": "Mga utos",
   "crumbs.aria": "Nabigasyon ng folder",
   "drill.aria": "Mag-browse ng folder",
   "drill.hint": "Mag-browse ng folder",
   "drill.key": "Tab",
+  "loading": "Naglo-load…",
   "skill": "Mga Kasanayan",
+  "subagent": "Mga subahente",
   "suggestions.aria": "Paganahin ang mga mungkahi"
 }

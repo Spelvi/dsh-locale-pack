@@ -23,6 +23,7 @@
   "details.event": "تفاصيل الحدث",
   "details.failure.auth": "مفتاح API غير صالح",
   "details.hierarchy": "التسلسل الهرمي",
+  "details.lastAttemptError": "خطأ المحاولة الأخيرة",
   "details.model": "النموذج",
   "details.provider": "المزود",
   "details.purpose": "الغرض",

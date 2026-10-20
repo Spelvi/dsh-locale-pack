@@ -1,0 +1,192 @@
+{
+ "generated_at": "2026-10-21T06:08:29.347845+09:00",
+ "results": [
+  {
+   "lang": "bn",
+   "key": "frequency.weekly",
+   "en": "Weekly on {weekdays} at {time} ({timeZone})",
+   "current": "সাপ্তাহিক {weekdays} তারিখে {time} সময়ে ({timeZone})",
+   "suggested": "সাপ্তাহিক {weekdays} দিনে {time} সময়ে ({timeZone})",
+   "source": "Mozilla Pontoon(bn) — 'Weekly → সাপ্তাহিক'(addons-server django.po), 'গত {0} দিনে'(days usage) https://pontoon.mozilla.org/bn/all-projects/all-resources/?search=weekly&locale=bn",
+   "source_kind": "oss_localization",
+   "confidence": "medium",
+   "note": "Mozilla 공식 번역에서 'Weekly → সাপ্তাহিক', '~দিনে(on days)' 용례 확인. {weekdays}는 요일이므로 현행 'তারিখে(날짜)'는 어휘상 부적절, 번역가 제안('দিনে')이 공식 표현과 부합. Mozilla bn 스타일 가이드는 404로 미존재, Bangla Academy 사전(archive.org)은 OCR 텍스트가 벵갈어 숫자만 나온 라틴문자 0%라 사용 불가."
+  },
+  {
+   "lang": "bn",
+   "key": "modelReasoningHelp",
+   "en": "About reasoning levels",
+   "current": "রিজনিং স্তরসমূহ সম্পর্কে",
+   "suggested": "রিজনিং স্তর সম্পর্কে",
+   "source": "Mozilla Pontoon(bn) — 'About X → X সম্পর্কে' 다수, 'Protection Level → সুরক্ষা স্তর'; GNOME gnome-shell bn.po 'About Extensions → এক্সটেনশন সম্পর্কে'",
+   "source_kind": "oss_localization",
+   "confidence": "medium",
+   "note": "'সম্পর্কে(about)'와 'স্তর(level)'은 Mozilla·GNOME 공식 번역에서 확인. 복수 표기 'সমূহ' 대신 단수/집합형이 공식 번역 관행(예: 'ত্রুটিগুলি')에 가까워 번역가 제안을 채택. 'রিজনিং' 음역은 근거 없음(기존 번역 유지)."
+  },
+  {
+   "lang": "ur",
+   "key": "deepseekAccount",
+   "en": "DeepSeek Flash — Account (paid)",
+   "current": "ڈیپ سیک فلیش - اکاؤنٹ (ادا شدہ)",
+   "suggested": "ڈیپ سیک فلیش - اکاؤنٹ (ادا شدہ)",
+   "source": "Mozilla 스타일 가이드(ur) — Punctuation 절: 하이픈(hyphen) 절은 'This section does not apply to Urdu', em dash 규정 없음 https://mozilla-l10n.github.io/styleguides/ur/; CLE 용어집 — Account→اکاؤنٹ(NLA), Paid→اداشدہ(EXT)",
+   "source_kind": "cle_glossary",
+   "confidence": "low",
+   "note": "Mozilla ur 가이드에 em dash(—) 사용 근거가 없고 하이픈 절은 우르두어에 적용되지 않는다고 명시. 'Account → اکاؤنٹ'는 NLA 용어집 확인. 'paid'는 CLE(EXT) 'اداشدہ', Firefox 공식 번역(Pontoon ur)은 'ادائیگی شدہ'로 표기가 갈려 임의 변경 불가. 결론: 현행표기(하이픈+‘ادا شدہ’) 유지 권장."
+  },
+  {
+   "lang": "ur",
+   "key": "readOnly",
+   "en": "This deployment stores settings read-only.",
+   "current": "یہ تعیناتی ترتیبات صرف پڑھنے کے موڈ میں محفوظ کرتی ہے۔",
+   "suggested": "یہ ڈپلےمنٹ ترتیبات کو بطور فقط مطالعہ محفوظ کرتی ہے۔",
+   "source": "Firefox 공식 번역(Pontoon ur) — 'security library: read-only database. → سلامتی لائبریری: فقط مطالعہ کوائفیے۔' https://pontoon.mozilla.org/ur/all-projects/all-resources/?search=read-only&locale=ur; CLE 용어집 — 'Read-only → فقط مطالعہ', 'Open as read-only → بطور فقط مطالعہ کھولیں', 'Saved → محفوظ کردہ'",
+   "source_kind": "oss_localization",
+   "confidence": "medium",
+   "note": "'read-only'의 공식 번역은 Mozilla·CLE 모두 'فقط مطالعہ'(읽기 전용)이며 'صرف پڑھنے کے موڈ'는 어디에도 없음. 'بطور فقط مطالعہ' 구문은 CLE 예문 그대로 차용. 'deployment(ڈپلےمن트)'는 번역가 표현 유지(어휘 근거 없음)."
+  },
+  {
+   "lang": "ur",
+   "key": "cron.day.monthDays",
+   "en": "Day {days} of every month{months}",
+   "current": "ہر مہینے کا دن {days}{months}",
+   "suggested": "ہر مہینے کا دن {days}{months}",
+   "source": "CLE Urdu Localization Terminology Glossary(8,725항목) — 'Editable Text day / month → دن / مہینہ', 'Month(S) → مہینہ / مہینے', 'Schedule Task Monthly → ماہانہ کام میقات بندی' https://www.cle.org.pk/software/localization/OSS/ossGlossary.html",
+   "source_kind": "cle_glossary",
+   "confidence": "medium",
+   "note": "CLE 용어집이 day→'دن', month→'مہینہ'로 짝지어 사용(Outlook 계열 예문). 번역가 제안의 'تاریخ(date)'은 용어집·Mozilla 가이드 어디에도 근거 없음. 현행 유지 권장."
+  },
+  {
+   "lang": "ur",
+   "key": "cron.day.both",
+   "en": "Day {days} of every month or {weekdays}{months}",
+   "current": "ہر مہینے کا دن {days} یا {weekdays}{months}",
+   "suggested": "ہر مہینے کا دن {days} یا {weekdays}{months}",
+   "source": "CLE Urdu Localization Terminology Glossary — 'Editable Text day / month → دن / مہینہ', 'Every weekday → ہر ایک یوم ہفتہ', 'Monday~Sunday → سوموار/منگل/بدھ/جمعرات/جمعہ/ہفتہ/اتوار'",
+   "source_kind": "cle_glossary",
+   "confidence": "medium",
+   "note": "day/month 어휘는 CLE와 일치. 요일명 표기는 CLE가 Mozilla ur 가이드와 동일(جمعہ, ہفتہ 등)하여 현행 구조 유지. 'تاریخ' 치환 제안은 근거 없어 채택하지 않음."
+  },
+  {
+   "lang": "ur",
+   "key": "cron.day.bothStarred",
+   "en": "Day {days} of every month and {weekdays}{months}",
+   "current": "ہر مہینے کا دن {days} اور {weekdays}{months}",
+   "suggested": "ہر مہینے کا دن {days} اور {weekdays}{months}",
+   "source": "CLE Urdu Localization Terminology Glossary — 'Editable Text day / month → دن / مہینہ'; Mozilla ur 스타일 가이드 — 요일 표(پیر/منگل/بدھ/جمعرات/جمعہ/ہفتہ/اتوار) https://mozilla-l10n.github.io/styleguides/ur/",
+   "source_kind": "cle_glossary",
+   "confidence": "medium",
+   "note": "위 두 항목과 동일 근거. day→'دن', month→'مہینہ'가 공식 용어집 표기이므로 현행 유지. 'تاریخ' 변경 제안은 근거 미확인."
+  },
+  {
+   "lang": "ur",
+   "key": "relative.overdue",
+   "en": "{value} {unit} overdue",
+   "current": "{value} {unit} زائد المیعاد",
+   "suggested": null,
+   "source": "미확인 — Mozilla Pontoon(ur) 'overdue' 검색 결과 0건; CLE 용어집 8,725항목에 'overdue' 없음; Mozilla ur 스타일 가이드에 조항 없음; Urdu Word Bank(l10n.urduweb.org)은 DNS 해석 불가로 접속 불가",
+   "source_kind": "cle_glossary",
+   "confidence": "low",
+   "note": "1차 출처 어디에도 'overdue'의 우르두어 공식 번역을 찾지 못함. 'زائد المیعاد'(current)와 'میعاد سے گزشتہ'(번역가 제안) 모두 근거 확인 불가 → 제안 보류. 원어민 검토 또는 CLE 온라인 검색(cle.net.pk/glossary/searchGlossary.asp) 재시도 필요."
+  },
+  {
+   "lang": "yo",
+   "key": "delivery.label",
+   "en": "Saved delivery record",
+   "current": "Àkọ́sílẹ̀ ìfìjiṣẹ́ tí á pámọ́.",
+   "suggested": "Àkálẹ̀ ìfìjiṣẹ́ tí a fi pamọ́",
+   "source": "Firefox 공식 번역(Pontoon yo) — 'Saved → Ìwànípamọ́', 'Save → Fi pamọ́', 'Review could not be saved. → Àyẹ̀wò kò ṣe é fi pamọ́.', 'Record your voice → Ṣe àkálẹ̀ ohùn rẹ'",
+   "source_kind": "oss_localization",
+   "confidence": "medium",
+   "note": "'saved'는 Mozilla 공식 번역 기준 'fi pamọ́/ìwànípamọ́'(현행 'pámọ́' 축약형은 어미 불일치), 'record'는 공식 'àkálẹ̀'(현행 'Àkọ́sílẹ̀'는 미확인). 'delivery(ìfìjiṣẹ́)'는 1차 출처 미확인이라 번역가 표기 유지. 끝 마침표는 DSH 다른 문자열 관행상 제거."
+  },
+  {
+   "lang": "yo",
+   "key": "toast.deleteFailed",
+   "en": "Could not delete the task.",
+   "current": "À kò lè pà ìṣẹ́ náà rẹ́.",
+   "suggested": "A kò lè pa ìṣẹ́ náà jẹ.",
+   "source": "GNOME nautilus yo.po(공식) — 'Delete → _Pajẹ', 'Delete all items in the Trash → Pa gbogbo àwọn wúnrẹ̀n inú pàǹtí jẹ', 'Toplevel files cannot be renamed → A kò lè tún wúnrẹ̀n náà sọ lórúkọ' https://gitlab.gnome.org/GNOME/nautilus/-/blob/main/po/yo.po",
+   "source_kind": "oss_localization",
+   "confidence": "medium",
+   "note": "공식 번역에서 'delete' 동사는 'pa … jẹ'이고 'cannot'은 'A kò lè …' 구문. 번역가 제안의 'rẹ́(파괴)'는 공식 번역에서 delete 용례 없음. 'task=ìṣẹ́'는 근거 없어 현행 유지."
+  },
+  {
+   "lang": "yo",
+   "key": "systemMicrophoneNamed",
+   "en": "System default ({name})",
+   "current": "Àìpẹ́ ètò ({name})",
+   "suggested": "Ètò ìpéwọ̀n ({name})",
+   "source": "GNOME nautilus yo.po(공식) — 'Default sort order → Ètò ì̀ṣààtò ìpéwọ̀n', 'Default folder viewer → Awòye fódà ìpéwọ̀n', 'Set as default → _Lo Ìpéwọ̀n', 'Default View → …Òye Ìpéwọ̀n…'",
+   "source_kind": "oss_localization",
+   "confidence": "medium",
+   "note": "GNOME 공식 요루바어 번역에서 'default'는 항상 'ìpéwọ̀n'(현행 'Àìpẹ́', 제안 'Àkọ́kọ́' 모두 미사용). 관행대로 '명사 + ìpéwọ̀n'으로 'Ètò ìpéwọ̀n' 조합. Mozilla yo 스타일 가이드에는 어휘 규정 없음(문법·복수 규칙만 존재)."
+  },
+  {
+   "lang": "sw",
+   "key": "settings.collapse.title",
+   "en": "When to Collapse Work Details",
+   "current": "Lini maelezo ya kazi yakunjwe",
+   "suggested": "Wakati wa kukunja maelezo ya kazi",
+   "source": "Firefox 공식 번역(Pontoon sw) — 'Collapse → Kunja'(다수 문자열), GNOME gnome-shell sw.po — 'Error Details → Maelezo ya Hitilafu', 'Time for a Break → Wakati wa Mapumziko'",
+   "source_kind": "oss_localization",
+   "confidence": "medium",
+   "note": "'collapse → kunja'는 Firefox 공식 번역으로 확인. 'maelezo(details)', 'kazi(work)', 'Wakati wa …(…할 때)' 패턴 모두 GNOME 공식 번역 확인. 제목형에는 'Wakati wa …'가 공식 관행에 부합."
+  },
+  {
+   "lang": "sw",
+   "key": "restartReasonHostModule",
+   "en": "The change reaches modules DSH itself loaded.",
+   "current": "Mabadiliko yanafikia sehemu ambazo DSH yenyewe ilipakia.",
+   "suggested": "Mabadiliko yanafikia moduli ambazo DSH yenyewe ilipakia.",
+   "source": "Firefox 공식 번역(Pontoon sw) — 'Invalid module name. → Jina la moduli batili.' https://pontoon.mozilla.org/sw/all-projects/all-resources/?search=moduli&locale=sw",
+   "source_kind": "oss_localization",
+   "confidence": "medium",
+   "note": "'module → moduli'는 Firefox 공식 번역에서 확인되어 번역가 제안의 'moduli'를 채택(현행 'sehemu(부분)'는 부적절). 문장 구조('yanafikia … ambazo … ilipakia')는 근거 없으므로 현행 유지, 어휘만 교체."
+  },
+  {
+   "lang": "sw",
+   "key": "basicTitle",
+   "en": "Built-in plugin settings",
+   "current": "Mipangilio ya programu jalizi zilizojengewa ndani",
+   "suggested": "Mipangilio ya viendelezi vilivyojengwa ndani",
+   "source": "GNOME gnome-shell sw.po(공식) — 'Built-in Only → Iliyojengwa Pekee', 'Install Extension → Sakinisha Kiendelezi', 'No extensions installed → Hakuna viendelezi vilivyosakinishwa', 'Settings → Mipangilio' https://gitlab.gnome.org/GNOME/gnome-shell/-/blob/main/po/sw.po",
+   "source_kind": "oss_localization",
+   "confidence": "medium",
+   "note": "GNOME 공식 스와힐리어 번역에서 extension/plugin은 'kiendelezi/viendelezi', built-in은 'iliyojengwa' 계열. 현행 'programu jalizi'·'zilizojengewa'는 미사용. 상대형 'vilivyojengwa'는 공식 번역의 'vilivyosakinishwa' 패턴을 따른 파생."
+  },
+  {
+   "lang": "sw",
+   "key": "previewAlt",
+   "en": "{name} feature preview",
+   "current": "{name} onyesho la awali la kipengele",
+   "suggested": "Kihakiki cha kipengele {name}",
+   "source": "Firefox 공식 번역(Pontoon sw) — 'Print Preview → Kihakiki Uchapishaji / Kihakiki cha Chapisha', 'Print Preview Error → Kosa la Kihakiki Uchapishaji' https://pontoon.mozilla.org/sw/all-projects/all-resources/?search=kihakiki&locale=sw; GNOME gnome-shell sw.po — 'Display Settings → Mipangilio ya Onyesho'",
+   "source_kind": "oss_localization",
+   "confidence": "medium",
+   "note": "Mozilla 공식 번역에서 'preview'는 'hakiki/kihakiki'(체크·미리보기), 'onyesho'는 'display(화면 표시)' 의미(GNOME 'Mipangilio ya Onyesho'). 현행·번역가 제안 모두 'onyesho'를 써서 의미가 display 쪽으로 흐름. 'kipengele(feature)'는 GNOME 공식 번역 확인."
+  },
+  {
+   "lang": "sw",
+   "key": "timing.invalidInterval.second",
+   "en": "Enter an interval of at least 60 seconds.",
+   "current": "Weka muda wa angalau sekunde 60.",
+   "suggested": "Weka muda wa angalau sekunde 60.",
+   "source": "GNOME gnome-shell sw.po(공식) — 'Enter extension information interactively → Weka taarifa za kiendelezi kwa njia shirikishi', 'for 8 seconds → kwa sekunde 8'; Firefox 공식 번역(Pontoon sw) — 'Session → Kipindi'",
+   "source_kind": "oss_localization",
+   "confidence": "medium",
+   "note": "'Enter'는 GNOME 공식 번역이 'Weka'(번역가 제안의 'Ingiza'는 미확인). 'seconds' 어순('sekunde 8')도 공식 번역과 일치. 'kipindi'는 Firefox·GNOME 공식 번역에서 'session(회기)'이므로 'interval'에 쓰면 충돌 → 현행 'muda' 유지 권장."
+  },
+  {
+   "lang": "sw",
+   "key": "baseUrlConfigured",
+   "en": "Provider-configured endpoint",
+   "current": "Ncha ya muunganisho iliyosanidiwa na mtoa huduma",
+   "suggested": null,
+   "source": "미확인 — Firefox 공식 번역(Pontoon sw)에서 'endpoint'(Model endpoint, Push Endpoint, Client Endpoint)는 전부 미번역; 'service provider → mtoa huduma'만 확인. BAKITA(bakita.go.tz)는 'Kamusi Kuu ya Kiswahili' 인쇄본 판매만 있고 온라인 검색 없음, kamusi.org 검색 API/페이지 404",
+   "source_kind": "oss_localization",
+   "confidence": "low",
+   "note": "'provider → mtoa huduma'는 공식 번역으로 확인되나 'endpoint'의 공식 스와힐리어 표현은 Mozilla 번역에 존재하지 않고 BAKITA·Kamusi에서도 찾지 못함. 현행 'Ncha ya muunganisho(연결 끝점)'와 제안 'Enzi' 모두 근거 확인 불가 → 제안 보류."
+  }
+ ]
+}

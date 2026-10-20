@@ -3,5 +3,11 @@
   "loading": "Renderar dokument...",
   "preview": "Bildförhandsvisning: {name}",
   "title": "Bild",
-  "unsupported": "Bildförhandsvisning kräver det fullständiga filinnehållet."
+  "unsupported": "Bildförhandsvisning kräver det fullständiga filinnehållet.",
+  "zoomControls": "Zoomkontroller",
+  "zoomFitWidth": "Anpassa till bredd",
+  "zoomIn": "Zooma in",
+  "zoomMenu": "Välj zoomnivå",
+  "zoomOut": "Minska zoomen",
+  "zoomValue": "{percent}%"
 }

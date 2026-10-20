@@ -1,6 +1,10 @@
 {
   "candidate.noCwd": "(אין תיקיית עבודה)",
   "crumb.root": "סביבת עבודה",
+  "fileOpen.close": "סגור",
+  "fileOpen.failed": "לא ניתן היה לפתוח את “{path}”. נסו שוב או סגרו את ההודעה הזו.",
+  "fileOpen.retry": "נסו שוב",
+  "fileOpen.title": "לא ניתן היה לפתוח את הקובץ",
   "section.files": "קבצים ותיקיות",
   "section.sessions": "הפעלות",
   "section.subagents": "סוכני משנה",

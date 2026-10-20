@@ -23,6 +23,7 @@
   "details.event": "イベント詳細",
   "details.failure.auth": "APIキーが無効です",
   "details.hierarchy": "階層",
+  "details.lastAttemptError": "最後の試行で発生したエラー",
   "details.model": "モデル",
   "details.provider": "プロバイダー",
   "details.purpose": "目的",

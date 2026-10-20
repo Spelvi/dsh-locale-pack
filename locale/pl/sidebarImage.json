@@ -3,5 +3,11 @@
   "loading": "Renderowanie dokumentu...",
   "preview": "Podgląd obrazu: {name}",
   "title": "Obraz",
-  "unsupported": "Podgląd obrazu wymaga pełnej zawartości pliku."
+  "unsupported": "Podgląd obrazu wymaga pełnej zawartości pliku.",
+  "zoomControls": "Kontrola powiększania",
+  "zoomFitWidth": "Dostosuj do szerokości",
+  "zoomIn": "Zwiększ powiększenie",
+  "zoomMenu": "Wybierz stopień powiększania",
+  "zoomOut": "Zmniejsz powiększenie",
+  "zoomValue": "{percent}%"
 }

@@ -3,5 +3,11 @@
   "loading": "Se randează documentul...",
   "preview": "Previzualizare imagine: {name}",
   "title": "Imagine",
-  "unsupported": "Previzualizarea imaginii necesită conținutul complet al fișierului."
+  "unsupported": "Previzualizarea imaginii necesită conținutul complet al fișierului.",
+  "zoomControls": "Controale de zoom",
+  "zoomFitWidth": "Adaptează lățimea",
+  "zoomIn": "Mărește zoomul",
+  "zoomMenu": "Alegeți zoomul",
+  "zoomOut": "Redu zoomul",
+  "zoomValue": "{percent}%"
 }

@@ -1,6 +1,10 @@
 {
   "candidate.noCwd": "(ingen cwd)",
   "crumb.root": "Arbetsyta",
+  "fileOpen.close": "Stäng",
+  "fileOpen.failed": "Kunde inte öppna “{path}”. Försök igen eller stäng det här meddelandet.",
+  "fileOpen.retry": "Försök igen",
+  "fileOpen.title": "Kunde inte öppna filen",
   "section.files": "Filer & mappar",
   "section.sessions": "Sessioner",
   "section.subagents": "Subagenter",

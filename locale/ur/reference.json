@@ -1,6 +1,10 @@
 {
   "candidate.noCwd": "(cwd نہیں)",
   "crumb.root": "ورک اسپیس",
+  "fileOpen.close": "بند کریں",
+  "fileOpen.failed": "“{path}” کو کھولنے میں ناکامی ہوئی۔ دوبارہ کوشش کریں یا یہ پیغام بند کریں۔",
+  "fileOpen.retry": "دوبارہ کوشش کریں",
+  "fileOpen.title": "فائل کھولی نہیں جا سکی",
   "section.files": "فائلیں اور فولڈرز",
   "section.sessions": "سیشنز",
   "section.subagents": "ذیلی ایجنٹس",

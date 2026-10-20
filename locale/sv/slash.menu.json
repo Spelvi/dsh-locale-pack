@@ -1,8 +1,11 @@
 {
+  "command": "Kommandon",
   "crumbs.aria": "Mappnavigering",
   "drill.aria": "Bläddra i mapp",
   "drill.hint": "Bläddra i mapp",
   "drill.key": "Tab",
+  "loading": "Laddar…",
   "skill": "Färdigheter",
+  "subagent": "Underagenter",
   "suggestions.aria": "Utlös förslag"
 }

@@ -7,5 +7,11 @@
   "retry": "تلاش مجدد",
   "title": "PDF",
   "unsupported": "پیش‌نمایش PDF به محتوای کامل فایل نیاز دارد.",
-  "workerFailed": "فرایند نمایش PDF ادامه پیدا نکرد. لطفاً دوباره تلاش کنید."
+  "workerFailed": "فرایند نمایش PDF ادامه پیدا نکرد. لطفاً دوباره تلاش کنید.",
+  "zoomControls": "کنترل‌های زوم",
+  "zoomFitWidth": "تطبیق با عرض",
+  "zoomIn": "بزرگ‌نمایی",
+  "zoomMenu": "انتخاب زوم",
+  "zoomOut": "کوچک‌نمایی",
+  "zoomValue": "{percent}%"
 }

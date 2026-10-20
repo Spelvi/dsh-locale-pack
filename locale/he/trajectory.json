@@ -23,6 +23,7 @@
   "details.event": "פרטי אירוע",
   "details.failure.auth": "מפתח API לא תקין",
   "details.hierarchy": "היררכיה",
+  "details.lastAttemptError": "שגיאת הניסיון האחרון",
   "details.model": "מודל",
   "details.provider": "ספק",
   "details.purpose": "מטרה",

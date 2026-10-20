@@ -23,6 +23,7 @@
   "details.event": "Olay ayrıntıları",
   "details.failure.auth": "API anahtarı geçersiz",
   "details.hierarchy": "Hiyerarşi",
+  "details.lastAttemptError": "Son deneme hatası",
   "details.model": "Model",
   "details.provider": "Sağlayıcı",
   "details.purpose": "Amaç",

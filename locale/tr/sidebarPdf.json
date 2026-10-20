@@ -7,5 +7,11 @@
   "retry": "Yeniden dene",
   "title": "PDF",
   "unsupported": "PDF önizlemesi dosyanın tüm içeriğini gerektirir.",
-  "workerFailed": "PDF oluşturma işlemi devam edemedi. Lütfen yeniden deneyin."
+  "workerFailed": "PDF oluşturma işlemi devam edemedi. Lütfen yeniden deneyin.",
+  "zoomControls": "Zum kontrolü",
+  "zoomFitWidth": "Genişliğe uyum",
+  "zoomIn": "Zum artır",
+  "zoomMenu": "Yakınlaştırma seç",
+  "zoomOut": "Uzaklaştır",
+  "zoomValue": "{percent}%"
 }

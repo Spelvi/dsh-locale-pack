@@ -23,6 +23,7 @@
   "details.event": "इवेंट विवरण",
   "details.failure.auth": "API कुंजी अमान्य है",
   "details.hierarchy": "पदानुक्रम",
+  "details.lastAttemptError": "अंतिम प्रयास में त्रुटि",
   "details.model": "मॉडल",
   "details.provider": "प्रदाता",
   "details.purpose": "उद्देश्य",

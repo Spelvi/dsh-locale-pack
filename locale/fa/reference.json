@@ -1,6 +1,10 @@
 {
   "candidate.noCwd": "(بدون cwd)",
   "crumb.root": "فضای کاری",
+  "fileOpen.close": "ببندید",
+  "fileOpen.failed": "نتوانستیم «{path}» را باز کنیم. لطفاً دوباره امتحان کنید یا این پیام را ببندید.",
+  "fileOpen.retry": "دوباره امتحان کنید",
+  "fileOpen.title": "نتوانستیم فایل را باز کنیم",
   "section.files": "فایل‌ها و پوشه‌ها",
   "section.sessions": "نشست‌ها",
   "section.subagents": "زیرعامل‌ها",

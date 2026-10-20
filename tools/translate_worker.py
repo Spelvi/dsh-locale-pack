@@ -101,6 +101,13 @@ CHAIN = [
 ]
 
 BATCH = 25  # --batch 로 바꿀 수 있다
+
+# 로컬 Hy-MT2 (Tencent Hunyuan-MT2 7B, Q4_K_M) — llama-server 를 18081 포트로
+# 띄워 두고 쓴다. 서버 기동:
+#   llama-server -m ~/models/Hy-MT2/Hy-MT2-7B-Q4_K_M.gguf \
+#                --port 18081 --host 127.0.0.1 -c 8192 -ngl 999 --alias hy-mt2-7b
+LOCAL_CHAIN = ("local-hy-mt2", "http://127.0.0.1:18081/v1/chat/completions",
+               "", "hy-mt2-7b", "chat")
 # OpenCode Go는 x-opencode-session 헤더가 없으면 라우팅을 거부한다(MissingSessionID).
 # 안정적인 값 하나를 써서 프롬프트 캐시를 타게 한다.
 SESSION_ID = "5f0d2c1a-7b3e-4c62-9a15-8d4b2f6e7c30"
@@ -153,8 +160,8 @@ def load_env_keys() -> None:
 
 def call_model(provider: str, url: str, key_env: str, model: str, protocol: str, prompt: str) -> tuple[str | None, str | None, int]:
     """(본문, 실패 유형, HTTP 상태)를 돌려준다."""
-    key = os.environ.get(key_env, "")
-    if not key:
+    key = os.environ.get(key_env, "") if key_env else ""
+    if key_env and not key:
         return None, f"missing key {key_env}", 0
     system = "You translate desktop app UI strings. You output JSON only."
     if protocol == "responses":
@@ -175,15 +182,18 @@ def call_model(provider: str, url: str, key_env: str, model: str, protocol: str,
             "temperature": 0.2,
             "max_tokens": 16000,
         }).encode("utf-8")
-    req = urlrequest.Request(url, data=body, method="POST", headers={
-        "Authorization": f"Bearer {key}",
+    headers = {
         "Content-Type": "application/json",
         "Accept": "application/json",
         "User-Agent": UA,
-        "x-opencode-session": SESSION_ID,
-    })
+    }
+    if key:
+        headers["Authorization"] = f"Bearer {key}"
+    if "opencode" in url:
+        headers["x-opencode-session"] = SESSION_ID
+    req = urlrequest.Request(url, data=body, method="POST", headers=headers)
     try:
-        with urlrequest.urlopen(req, timeout=120) as resp:
+        with urlrequest.urlopen(req, timeout=600) as resp:
             payload = json.loads(resp.read().decode("utf-8"))
     except urlerror.HTTPError as exc:
         detail = exc.read().decode("utf-8", "replace")[:200]
@@ -364,10 +374,15 @@ def main() -> int:
     ap.add_argument("--limit", type=int, help="언어당 배치 수 상한(시험용)")
     ap.add_argument("--all", action="store_true", help="대상 언어 전부")
     ap.add_argument("--workers", type=int, default=4)
+    ap.add_argument("--local", action="store_true",
+                    help="로컬 Hy-MT2만 쓴다(사슬 1단계 고정, llama-server 18081 필요)")
     ap.add_argument("--batch", type=int, help="배치 크기(기본 25). 여러 줄 값이 섞이면 줄여서 쓴다")
     args = ap.parse_args()
 
     load_env_keys()
+    if args.local:
+        CHAIN[:] = [LOCAL_CHAIN]
+        print(f"[{now_iso()}] 로컬 Hy-MT2만 사용: {LOCAL_CHAIN[1]}", flush=True)
     if args.batch:
         BATCH = args.batch
     if args.langs:

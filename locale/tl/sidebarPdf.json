@@ -7,5 +7,11 @@
   "retry": "Subukang muli",
   "title": "PDF",
   "unsupported": "Nangangailangan ng kumpletong nilalaman ng file ang PDF preview.",
-  "workerFailed": "Hindi maipagpatuloy ang proseso ng pag-render ng PDF. Pakisubukang muli."
+  "workerFailed": "Hindi maipagpatuloy ang proseso ng pag-render ng PDF. Pakisubukang muli.",
+  "zoomControls": "Mga kontrol sa zoom",
+  "zoomFitWidth": "Iangkop sa lapad",
+  "zoomIn": "Palakihin",
+  "zoomMenu": "Pumili ng antas ng zoom",
+  "zoomOut": "Paliitin",
+  "zoomValue": "{percent}%"
 }

@@ -23,6 +23,7 @@
   "details.event": "ایونٹ کی تفصیلات",
   "details.failure.auth": "API کلید غلط ہے",
   "details.hierarchy": "درجہ بندی",
+  "details.lastAttemptError": "آخری کوشش کی خرابی",
   "details.model": "ماڈل",
   "details.provider": "فراہم کنندہ",
   "details.purpose": "مقصد",

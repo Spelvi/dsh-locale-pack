@@ -7,5 +7,11 @@
   "retry": "Reintentar",
   "title": "PDF",
   "unsupported": "La vista previa de PDF requiere el contenido completo del archivo.",
-  "workerFailed": "El proceso de renderizado de PDF no pudo continuar. Vuelve a intentarlo."
+  "workerFailed": "El proceso de renderizado de PDF no pudo continuar. Vuelve a intentarlo.",
+  "zoomControls": "Controles de zoom",
+  "zoomFitWidth": "Ajustar a ancho",
+  "zoomIn": "Aumentar zoom",
+  "zoomMenu": "Elegir zoom",
+  "zoomOut": "Reducir zoom",
+  "zoomValue": "{percent}%"
 }

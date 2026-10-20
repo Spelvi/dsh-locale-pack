@@ -23,6 +23,7 @@
   "details.event": "Händelsedetaljer",
   "details.failure.auth": "API-nyckeln är ogiltig",
   "details.hierarchy": "Hierarki",
+  "details.lastAttemptError": "Fel vid den senaste försöket",
   "details.model": "Modell",
   "details.provider": "Leverantör",
   "details.purpose": "Syfte",

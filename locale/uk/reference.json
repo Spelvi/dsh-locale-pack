@@ -1,6 +1,10 @@
 {
   "candidate.noCwd": "(без cwd)",
   "crumb.root": "Робоча область",
+  "fileOpen.close": "Закрити",
+  "fileOpen.failed": "Не вдалося відкрити “{path}”. Спробуйте ще раз або закрийте це повідомлення.",
+  "fileOpen.retry": "Спробувати знову",
+  "fileOpen.title": "Не вдалося відкрити файл",
   "section.files": "Файли й папки",
   "section.sessions": "Сесії",
   "section.subagents": "Субагенти",

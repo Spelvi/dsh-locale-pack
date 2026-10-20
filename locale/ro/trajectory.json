@@ -23,6 +23,7 @@
   "details.event": "Detalii eveniment",
   "details.failure.auth": "Cheia API este nevalidă",
   "details.hierarchy": "Ierarhie",
+  "details.lastAttemptError": "Eroarea ultimei încercări",
   "details.model": "Model",
   "details.provider": "Furnizor",
   "details.purpose": "Scop",

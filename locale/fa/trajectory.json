@@ -23,6 +23,7 @@
   "details.event": "جزئیات رویداد",
   "details.failure.auth": "کلید API نامعتبر است",
   "details.hierarchy": "سلسله‌مراتب",
+  "details.lastAttemptError": "خطا در آخرین تلاش",
   "details.model": "مدل",
   "details.provider": "ارائه‌دهنده",
   "details.purpose": "هدف",

@@ -1,8 +1,11 @@
 {
+  "command": "Команди",
   "crumbs.aria": "Навігація папками",
   "drill.aria": "Перегляд папки",
   "drill.hint": "Перегляд папки",
   "drill.key": "Tab",
+  "loading": "Завантаження…",
   "skill": "Навички",
+  "subagent": "Підагенти",
   "suggestions.aria": "Викликати пропозиції"
 }

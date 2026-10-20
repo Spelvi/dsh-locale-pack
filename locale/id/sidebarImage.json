@@ -3,5 +3,11 @@
   "loading": "Merender dokumen...",
   "preview": "Pratinjau gambar: {name}",
   "title": "Gambar",
-  "unsupported": "Pratinjau gambar memerlukan isi file yang lengkap."
+  "unsupported": "Pratinjau gambar memerlukan isi file yang lengkap.",
+  "zoomControls": "Kontrol zoom",
+  "zoomFitWidth": "Sesuaikan lebar",
+  "zoomIn": "Zoom masuk",
+  "zoomMenu": "Pilih tingkat zoom",
+  "zoomOut": "Zoom keluar",
+  "zoomValue": "{percent}%"
 }

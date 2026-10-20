@@ -1,6 +1,10 @@
 {
   "candidate.noCwd": "(cwd yok)",
   "crumb.root": "Çalışma alanı",
+  "fileOpen.close": "Kapat",
+  "fileOpen.failed": "“{path}” dosyası açılamadı. Tekrar deneyin veya bu mesajı kapatın.",
+  "fileOpen.retry": "Yeniden deneyin",
+  "fileOpen.title": "Dosya açılamadı",
   "section.files": "Dosyalar ve klasörler",
   "section.sessions": "Oturumlar",
   "section.subagents": "Alt ajanlar",

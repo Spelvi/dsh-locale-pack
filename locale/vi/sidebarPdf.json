@@ -7,5 +7,11 @@
   "retry": "Thử lại",
   "title": "PDF",
   "unsupported": "Xem trước PDF yêu cầu toàn bộ nội dung tệp.",
-  "workerFailed": "Quá trình hiển thị PDF không thể tiếp tục. Vui lòng thử lại."
+  "workerFailed": "Quá trình hiển thị PDF không thể tiếp tục. Vui lòng thử lại.",
+  "zoomControls": "Điều khiển thu phóng",
+  "zoomFitWidth": "Điều chỉnh cho vừa chiều rộng",
+  "zoomIn": "Tăng mức phóng to",
+  "zoomMenu": "Chọn mức phóng to",
+  "zoomOut": "Giảm mức phóng to",
+  "zoomValue": "{percent}%"
 }

@@ -23,6 +23,7 @@
   "details.event": "Szczegóły zdarzenia",
   "details.failure.auth": "Klucz API jest nieprawidłowy",
   "details.hierarchy": "Hierarchia",
+  "details.lastAttemptError": "Błąd ostatniej próby",
   "details.model": "Model",
   "details.provider": "Dostawca",
   "details.purpose": "Cel",

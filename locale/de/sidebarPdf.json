@@ -7,5 +7,11 @@
   "retry": "Wiederholen",
   "title": "PDF",
   "unsupported": "PDF-Vorschau erfordert den vollständigen Dateiinhalt.",
-  "workerFailed": "Der PDF-Renderprozess konnte nicht fortgesetzt werden. Bitte erneut versuchen."
+  "workerFailed": "Der PDF-Renderprozess konnte nicht fortgesetzt werden. Bitte erneut versuchen.",
+  "zoomControls": "Zoomsteuerung",
+  "zoomFitWidth": "Breite anpassen",
+  "zoomIn": "Zoom vergrößern",
+  "zoomMenu": "Zoom wählen",
+  "zoomOut": "Verkleinern",
+  "zoomValue": "{percent}%"
 }

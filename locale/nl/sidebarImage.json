@@ -3,5 +3,11 @@
   "loading": "Document wordt weergegeven...",
   "preview": "Afbeeldingsvoorbeeld: {name}",
   "title": "Afbeelding",
-  "unsupported": "Afbeeldingsvoorbeeld vereist de volledige bestandsinhoud."
+  "unsupported": "Afbeeldingsvoorbeeld vereist de volledige bestandsinhoud.",
+  "zoomControls": "Zoomcontrole",
+  "zoomFitWidth": "Breedte aanpassen",
+  "zoomIn": "Zoom vergroten",
+  "zoomMenu": "Zoom kiezen",
+  "zoomOut": "Zoom verkleinen",
+  "zoomValue": "{percent}%"
 }

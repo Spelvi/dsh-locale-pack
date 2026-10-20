@@ -1,5 +1,14 @@
 # 변경 이력
 
+## 0.4.0 (2026-10-21)
+- DeepSeek Harness `0.2.1-rc.2`에 맞췄다. 기준선을 57개 네임스페이스·2,528키에서 63개 네임스페이스·3,046키로 늘렸다. 새로 생긴 네임스페이스는 `schedule.manager`(188키), `pluginMarket`(78키), `cotTranslation`(32키), `secretMask`(2키), `shortcuts.layout`(1키), `deepseek-model-label-1017`(1키)이고, 기존 네임스페이스에도 216키가 새로 생기고 15키의 원문이 바뀌었다
+- 업데이트로 바뀐 키 533개를 언어 29개에 채웠다. 로컬 Hy-MT2 7B로 돌리고, 게이트가 거부한 것은 클라우드 사슬(muse-spark-1.3-contributor → meta/muse-spark-1.3-contributor → muse-spark-1.2-contributor → mimo-v2.6-pro)로 넘겼다
+- 기준선 추출기 `tools/extract-en.mjs`를 고쳤다. `--root`로 설치 위치를 지정할 수 있게 하고, 한 호출이 여러 네임스페이스를 등록하는 번들을 함께 읽도록 했다. 설치 폴더의 `package.json`이 기준선을 가로채 `en.unknown.json`이 생기던 버그도 없앴다
+- Jev(typesafe)로 채점해 자연스러움 0.6 이하 3,575건을 다시 번역했다. 같은 키로 재채점한 결과 의미 0.6 미만은 652건에서 87건으로, 자연스러움 0.6 미만은 3,426건에서 1,854건으로 줄었다
+- 공식 표현을 대조해 확인된 문구 25건을 적용했다. 근거는 Apple·Microsoft·Google 문서, Firefox(Pontoon)·GNOME 현지화 문자열, CLE 우르두어 용어집이다. 적용 뒤 재채점에서 0.15 이상 점수가 내려간 8건은 되돌렸다
+- 공식 표현을 못 찾은 2건(`ur relative.overdue`, `sw baseUrlConfigured`)은 미확인으로 남겼고, 추측으로 채우지 않았다
+- 게이트 `check-keep`·`build-client`·`smoke`가 모두 통과한다
+
 ## 0.3.1 (2026-10-12)
 - 플러그인 목록의 설명을 언어별로 표시되도록 했다. 지금까지 `package.json`의 설명이 한국어 고정이라 어떤 언어로 바꿔도 한국어가 떠 있었다. 이제 `locale/<언어>.json`의 `meta.description`이 언어에 따라 보인다
 - 설명 파일 31개를 넣었다(지원 29개 언어 + 중국어 간체 + 영어). 지원하지 않는 언어는 영어로 보인다

@@ -7,5 +7,11 @@
   "retry": "Riprova",
   "title": "PDF",
   "unsupported": "L'anteprima PDF richiede il contenuto completo del file.",
-  "workerFailed": "Il processo di rendering del PDF non può continuare. Riprova."
+  "workerFailed": "Il processo di rendering del PDF non può continuare. Riprova.",
+  "zoomControls": "Controlli di zoom",
+  "zoomFitWidth": "Adatta larghezza",
+  "zoomIn": "Aumenta zoom",
+  "zoomMenu": "Scegli zoom",
+  "zoomOut": "Riduci zoom",
+  "zoomValue": "{percent}%"
 }

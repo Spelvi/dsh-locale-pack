@@ -7,5 +7,11 @@
   "retry": "إعادة المحاولة",
   "title": "PDF",
   "unsupported": "تتطلب معاينة PDF محتويات الملف الكاملة.",
-  "workerFailed": "تعذر متابعة عملية عرض PDF. يرجى إعادة المحاولة."
+  "workerFailed": "تعذر متابعة عملية عرض PDF. يرجى إعادة المحاولة.",
+  "zoomControls": "أدوات التكبير",
+  "zoomFitWidth": "تكييف العرض",
+  "zoomIn": "زيادة التكبير",
+  "zoomMenu": "اختر مستوى التكبير",
+  "zoomOut": "تقليل التكبير",
+  "zoomValue": "{percent}%"
 }

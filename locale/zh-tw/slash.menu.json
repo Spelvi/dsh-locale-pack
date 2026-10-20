@@ -1,8 +1,11 @@
 {
+  "command": "指令",
   "crumbs.aria": "資料夾導覽",
   "drill.aria": "瀏覽資料夾",
   "drill.hint": "瀏覽資料夾",
   "drill.key": "Tab",
+  "loading": "正在載入中…",
   "skill": "技能",
+  "subagent": "子代理",
   "suggestions.aria": "觸發建議"
 }

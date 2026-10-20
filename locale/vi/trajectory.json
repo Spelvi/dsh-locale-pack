@@ -23,6 +23,7 @@
   "details.event": "Chi tiết sự kiện",
   "details.failure.auth": "Khóa API không hợp lệ",
   "details.hierarchy": "Phân cấp",
+  "details.lastAttemptError": "Lỗi lần thử cuối cùng",
   "details.model": "Mô hình",
   "details.provider": "Nhà cung cấp",
   "details.purpose": "Mục đích",

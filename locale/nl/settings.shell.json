@@ -4,7 +4,7 @@
   "maxOutputBytes": "Uitvoerlimiet per stream (bytes)",
   "maxOutputBytesHint": "Uitvoer boven deze limiet wordt naar een tijdelijk bestand geschreven in plaats van verloren te gaan.",
   "overridden": "Overschreven",
-  "readOnly": "Deze implementatie slaat instellingen alleen-lezen op.",
+  "readOnly": "Deze implementatie bewaart de instellingen als alleen-lezen.",
   "reset": "Terugzetten naar standaard",
   "save": "Opslaan",
   "saveFailed": "De implementatie heeft deze waarden niet geaccepteerd; ze zijn blijven staan zodat u ze kunt corrigeren.",

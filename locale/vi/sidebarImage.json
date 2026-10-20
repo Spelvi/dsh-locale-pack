@@ -3,5 +3,11 @@
   "loading": "Đang hiển thị tài liệu...",
   "preview": "Xem trước hình ảnh: {name}",
   "title": "Hình ảnh",
-  "unsupported": "Xem trước hình ảnh yêu cầu đầy đủ nội dung tệp."
+  "unsupported": "Xem trước hình ảnh yêu cầu đầy đủ nội dung tệp.",
+  "zoomControls": "Các nút điều khiển phóng to",
+  "zoomFitWidth": "Điều chỉnh cho vừa chiều rộng",
+  "zoomIn": "Phóng to tăng",
+  "zoomMenu": "Chọn mức phóng to",
+  "zoomOut": "Phóng to giảm",
+  "zoomValue": "{percent}%"
 }

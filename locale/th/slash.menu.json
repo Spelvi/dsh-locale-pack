@@ -1,8 +1,11 @@
 {
+  "command": "คำสั่ง",
   "crumbs.aria": "การนำทางโฟลเดอร์",
   "drill.aria": "เรียกดูโฟลเดอร์",
   "drill.hint": "เรียกดูโฟลเดอร์",
   "drill.key": "Tab",
+  "loading": "กำลังโหลด…",
   "skill": "ทักษะ",
+  "subagent": "เอเจนต์ย่อย",
   "suggestions.aria": "เรียกใช้คำแนะนำ"
 }

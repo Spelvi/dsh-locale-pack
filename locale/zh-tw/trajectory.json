@@ -23,6 +23,7 @@
   "details.event": "事件詳細資訊",
   "details.failure.auth": "API 金鑰無效",
   "details.hierarchy": "階層",
+  "details.lastAttemptError": "最後一次嘗試的錯誤",
   "details.model": "模型",
   "details.provider": "提供者",
   "details.purpose": "用途",

@@ -23,6 +23,7 @@
   "details.event": "Maelezo ya tukio",
   "details.failure.auth": "Ufunguo wa API si sahihi",
   "details.hierarchy": "Ngazi",
+  "details.lastAttemptError": "Hitilafu ya jaribio la mwisho",
   "details.model": "Modeli",
   "details.provider": "Mtoa huduma",
   "details.purpose": "Kusudi",

@@ -1,6 +1,10 @@
 {
   "candidate.noCwd": "(kò sí cwd)",
   "crumb.root": "Ààyè iṣẹ́",
+  "fileOpen.close": "Tì",
+  "fileOpen.failed": "Kò lè ṣí “{path}”. Tún gbìyànjú tàbí tì ìránṣẹ́ yìí.",
+  "fileOpen.retry": "Tún gbìyànjú",
+  "fileOpen.title": "Kò lè ṣí fáìlì",
   "section.files": "Files àti fóldà",
   "section.sessions": "Àwọn ìpàdé",
   "section.subagents": "Àwọn òṣìṣẹ́ ìrànlọ́wọ́",

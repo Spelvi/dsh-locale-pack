@@ -7,5 +7,11 @@
   "retry": "Opnieuw proberen",
   "title": "PDF",
   "unsupported": "PDF-voorbeeld vereist de volledige inhoud van het bestand.",
-  "workerFailed": "Het PDF-renderproces kon niet doorgaan. Probeer het opnieuw."
+  "workerFailed": "Het PDF-renderproces kon niet doorgaan. Probeer het opnieuw.",
+  "zoomControls": "Zoombediening",
+  "zoomFitWidth": "Breedte aanpassen",
+  "zoomIn": "Zoom in",
+  "zoomMenu": "Kies zoom",
+  "zoomOut": "Zoom uit",
+  "zoomValue": "{percent}%"
 }

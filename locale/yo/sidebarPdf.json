@@ -7,5 +7,11 @@
   "retry": "Tún gbìyànjú",
   "title": "PDF",
   "unsupported": "Àwòrán kíákíá PDF nílò gbògbó àkóónú fáìlì náà.",
-  "workerFailed": "Ìlànà ṣíṣé àwòrán PDF kò lè tẹ̀síwájú. Jọ̀wọ́ gbìyànjú lẹ́ẹ̀kán síí."
+  "workerFailed": "Ìlànà ṣíṣé àwòrán PDF kò lè tẹ̀síwájú. Jọ̀wọ́ gbìyànjú lẹ́ẹ̀kán síí.",
+  "zoomControls": "Àwọn ìṣàkóso ìtóbi",
+  "zoomFitWidth": "Bá ìbú mu",
+  "zoomIn": "Mú ìtóbi pọ̀",
+  "zoomMenu": "Yàn ìtóbi",
+  "zoomOut": "Dín ìtóbi kù",
+  "zoomValue": "{percent}%"
 }

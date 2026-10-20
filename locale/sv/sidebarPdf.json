@@ -7,5 +7,11 @@
   "retry": "Försök igen",
   "title": "PDF",
   "unsupported": "Förhandsvisning av PDF kräver hela filinnehållet.",
-  "workerFailed": "PDF-renderingen kunde inte fortsätta. Försök igen."
+  "workerFailed": "PDF-renderingen kunde inte fortsätta. Försök igen.",
+  "zoomControls": "Zoomkontroller",
+  "zoomFitWidth": "Anpassa till bredd",
+  "zoomIn": "Zooma in",
+  "zoomMenu": "Välj zoomnivå",
+  "zoomOut": "Minska zoomen",
+  "zoomValue": "{percent}%"
 }

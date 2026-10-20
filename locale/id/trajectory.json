@@ -23,6 +23,7 @@
   "details.event": "Detail peristiwa",
   "details.failure.auth": "Kunci API tidak valid",
   "details.hierarchy": "Hierarki",
+  "details.lastAttemptError": "Kesalahan pada percobaan terakhir",
   "details.model": "Model",
   "details.provider": "Penyedia",
   "details.purpose": "Tujuan",

@@ -1,6 +1,10 @@
 {
   "candidate.noCwd": "(بدون مجلد عمل)",
   "crumb.root": "مساحة العمل",
+  "fileOpen.close": "إغلاق",
+  "fileOpen.failed": "لم يتسن فتح “{path}”. جرب مرة أخرى أو أغلق هذه الرسالة.",
+  "fileOpen.retry": "إعادة المحاولة",
+  "fileOpen.title": "لم يتسن فتح الملف",
   "section.files": "الملفات والمجلدات",
   "section.sessions": "الجلسات",
   "section.subagents": "الوكلاء الفرعيون",

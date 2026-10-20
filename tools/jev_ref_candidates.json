@@ -1,0 +1,2578 @@
+[
+ {
+  "lang": "ar",
+  "key": "restartReasonUnmanagedPlugin",
+  "en": "The change reaches a plugin running outside the plugin list.",
+  "tr": "يصل التغيير إلى مكون إضافي يعمل خارج قائمة المكونات الإضافية.",
+  "natural": 0.59,
+  "meaning": 0.86
+ },
+ {
+  "lang": "ar",
+  "key": "exempted",
+  "en": "This version is not compatible with the running DSH, but you set a compatibility exemption for it.",
+  "tr": "هذا الإصدار غير متوافق مع DSH قيد التشغيل، ولكنك عيّنت له استثناء للتوافق.",
+  "natural": 0.49,
+  "meaning": 0.88
+ },
+ {
+  "lang": "ar",
+  "key": "cron.day.both",
+  "en": "Day {days} of every month or {weekdays}{months}",
+  "tr": "اليوم {days} من كل شهر أو {weekdays}{months}",
+  "natural": 0.59,
+  "meaning": 0.89
+ },
+ {
+  "lang": "ar",
+  "key": "guideMinimalExplanation",
+  "en": "### What is included  One persistent shell tool, read_image, and a fixed system prompt. Image reading requires an image-capable model. Older history is compacted automatically under context pressure; use /compact while the agent is idle to compact it manually. The built-in preset does not load Skills, planning, or the standard runtime context.  ### When to choose it  Use it as a baseline for experiments and comparisons. It can still read files and execute scripts through shell commands, but offers fewer built-in ways to manage a long task. Fewer tools does not necessarily make it easier for a beginner.",
+  "tr": "### ما المشمول  أداة واحدة دائمة لسطر الأوامر، وread_image، وموجه نظام ثابت. تتطلب قراءة الصور نموذجا قادرا على معالجة الصور. يتم ضغط السجل القديم تلقائيا عند ضغط السياق؛ استخدم /compact عندما يكون الوكيل خاملا لضغطه يدويا. لا يقوم الإعداد المسبق المدمج بتحميل Skills أو التخطيط أو سياق التشغيل القياسي.  ### متى تختاره  استخدمه كخط أساس للتجارب والمقارنات. لا يزال بإمكانه قراءة الملفات وتنفيذ البرامج النصية عبر أوامر سطر الأوامر، لكنه يوفر طرقا مدمجة أقل لإدارة مهمة طويلة. قلة الأدوات لا تجعله بالضرورة أسهل للمبتدئ.",
+  "natural": 0.5,
+  "meaning": 0.91
+ },
+ {
+  "lang": "ar",
+  "key": "useSearchApiHint",
+  "en": "Off by default: search runs through DeepSeek Messages. For the new Web Search API's features and pricing, see the",
+  "tr": "معطل افتراضيا: يتم تشغيل البحث عبر DeepSeek Messages. للاطلاع على ميزات Web Search API الجديدة وأسعارها، راجع",
+  "natural": 0.48,
+  "meaning": 0.7
+ },
+ {
+  "lang": "bn",
+  "key": "message.failure.interrupted",
+  "en": "The DSH process exited before this turn finished (for example, it was killed, crashed, or timed out while shutting down), so the turn was closed when DSH restarted. Unfinished tool calls have unknown outcomes.",
+  "tr": "এই টার্ন শেষ হওয়ার আগেই DSH প্রক্রিয়াটি বন্ধ হয়ে গেছে (উদাহরণস্বরূপ, বন্ধ হওয়ার সময় এটি জোর করে বন্ধ করা হয়েছিল, ক্র্যাশ করেছিল বা সময় শেষ হয়ে গিয়েছিল), তাই DSH পুনরায় চালু হলে টার্নটি বন্ধ করে দেওয়া হয়েছে। অসমাপ্ত টুল কলের ফলাফল অজানা।",
+  "natural": 0.51,
+  "meaning": 0.93
+ },
+ {
+  "lang": "bn",
+  "key": "readOnly",
+  "en": "This deployment stores settings read-only.",
+  "tr": "এই ডিপ্লয়মেন্ট সেটিংস শুধুমাত্র পড়ার জন্য সংরক্ষণ করে।",
+  "natural": 0.57,
+  "meaning": 0.87
+ },
+ {
+  "lang": "bn",
+  "key": "saveFailed",
+  "en": "The deployment did not accept these values; they were left for you to correct.",
+  "tr": "ডিপ্লয়মেন্ট এই মানগুলো গ্রহণ করেনি; সেগুলো আপনার সংশোধনের জন্য রেখে দেওয়া হয়েছে।",
+  "natural": 0.57,
+  "meaning": 0.9
+ },
+ {
+  "lang": "bn",
+  "key": "restartReasonUnmanagedPlugin",
+  "en": "The change reaches a plugin running outside the plugin list.",
+  "tr": "পরিবর্তনটি প্লাগইন তালিকার বাইরে চলমান একটি প্লাগইনে পৌঁছেছে।",
+  "natural": 0.58,
+  "meaning": 0.9
+ },
+ {
+  "lang": "bn",
+  "key": "frequency.weekly",
+  "en": "Weekly on {weekdays} at {time} ({timeZone})",
+  "tr": "সাপ্তাহিক {weekdays} তারিখে {time} সময়ে ({timeZone})",
+  "natural": 0.52,
+  "meaning": 0.88
+ },
+ {
+  "lang": "bn",
+  "key": "frequency.cron",
+  "en": "Cron {expression} ({timeZone})",
+  "tr": "ক্রন {expression} ({timeZone})",
+  "natural": 0.56,
+  "meaning": 0.92
+ },
+ {
+  "lang": "bn",
+  "key": "cron.day.monthDays",
+  "en": "Day {days} of every month{months}",
+  "tr": "প্রতি মাসের {days} তারিখে{months}",
+  "natural": 0.57,
+  "meaning": 0.85
+ },
+ {
+  "lang": "bn",
+  "key": "cron.day.both",
+  "en": "Day {days} of every month or {weekdays}{months}",
+  "tr": "প্রতি মাসের {days} তারিখে অথবা {weekdays}{months}",
+  "natural": 0.55,
+  "meaning": 0.86
+ },
+ {
+  "lang": "bn",
+  "key": "cron.day.bothStarred",
+  "en": "Day {days} of every month and {weekdays}{months}",
+  "tr": "প্রতি মাসের {days} তারিখে এবং {weekdays}{months}",
+  "natural": 0.59,
+  "meaning": 0.92
+ },
+ {
+  "lang": "bn",
+  "key": "relative.overdue",
+  "en": "{value} {unit} overdue",
+  "tr": "{value} {unit} বকেয়া",
+  "natural": 0.57,
+  "meaning": 0.78
+ },
+ {
+  "lang": "bn",
+  "key": "timing.subagentSession",
+  "en": "This session belongs to a sub-agent, which never receives delivered reminders.",
+  "tr": "এই অধিবেশনটি একটি উপ এজেন্টের অন্তর্গত, যা কখনো বিতরণকৃত অনুস্মারক পায় না।",
+  "natural": 0.49,
+  "meaning": 0.86
+ },
+ {
+  "lang": "bn",
+  "key": "delete.close",
+  "en": "Close deletion confirmation",
+  "tr": "মোছার নিশ্চিতকরণ বন্ধ করুন",
+  "natural": 0.36,
+  "meaning": 0.51
+ },
+ {
+  "lang": "bn",
+  "key": "guideMinimalExplanation",
+  "en": "### What is included  One persistent shell tool, read_image, and a fixed system prompt. Image reading requires an image-capable model. Older history is compacted automatically under context pressure; use /compact while the agent is idle to compact it manually. The built-in preset does not load Skills, planning, or the standard runtime context.  ### When to choose it  Use it as a baseline for experiments and comparisons. It can still read files and execute scripts through shell commands, but offers fewer built-in ways to manage a long task. Fewer tools does not necessarily make it easier for a beginner.",
+  "tr": "### কী কী অন্তর্ভুক্ত আছে  একটি স্থায়ী শেল টুল, read_image, এবং একটি নির্দিষ্ট সিস্টেম প্রম্পট। ছবি পড়ার জন্য ছবি পড়তে সক্ষম মডেল প্রয়োজন। প্রসঙ্গ চাপের মধ্যে পুরোনো ইতিহাস স্বয়ংক্রিয়ভাবে সংকুচিত হয়; এজেন্ট নিষ্ক্রিয় থাকা অবস্থায় ম্যানুয়ালি সংকুচিত করতে /compact ব্যবহার করুন। বিল্ট-ইন প্রিসেট স্কিলস, পরিকল্পনা বা স্ট্যান্ডার্ড রানটাইম প্রসঙ্গ লোড করে না।  ### কখন এটি বেছে নেবেন  পরীক্ষা ও তুলনার জন্য এটিকে ভিত্তি হিসেবে ব্যবহার করুন। এটি এখনও শেল কমান্ডের মাধ্যমে ফাইল পড়তে এবং স্ক্রিপ্ট চালাতে পারে, তবে দীর্ঘ কাজ পরিচালনার জন্য কম বিল্ট-ইন উপায় দেয়। কম টুল থাকা নতুন ব্যবহারকারীর জন্য অগত্যা সহজ করে না।",
+  "natural": 0.45,
+  "meaning": 0.92
+ },
+ {
+  "lang": "bn",
+  "key": "presetMinimalDescription",
+  "en": "The agent uses a terminal and image reading, with context compaction. Useful for testing and comparing its basic performance.",
+  "tr": "এজেন্ট প্রসঙ্গ সংকোচন সহ একটি টার্মিনাল এবং ছবি পড়া ব্যবহার করে। এর মৌলিক কর্মক্ষমতা পরীক্ষা ও তুলনা করার জন্য উপযোগী।",
+  "natural": 0.46,
+  "meaning": 0.91
+ },
+ {
+  "lang": "bn",
+  "key": "modelReasoningHelp",
+  "en": "About reasoning levels",
+  "tr": "রিজনিং স্তরসমূহ সম্পর্কে",
+  "natural": 0.51,
+  "meaning": 0.8
+ },
+ {
+  "lang": "bn",
+  "key": "modelReasoningHelpText",
+  "en": "The API value is sent in the request's reasoning-effort field, such as OpenAI's reasoning_effort. It defaults to the level name; where the model provider's API documentation specifies a different value, follow it. Off turns reasoning off and needs no value; a value already written in the configuration is kept and sent.",
+  "tr": "API মানটি অনুরোধের reasoning-effort ফিল্ডে পাঠানো হয়, যেমন OpenAI এর reasoning_effort। এটি ডিফল্টভাবে স্তরের নাম হয়; যেখানে মডেল প্রদানকারীর API ডকুমেন্টেশন একটি ভিন্ন মান নির্দিষ্ট করে, সেটি অনুসরণ করুন। Off রিজনিং বন্ধ করে দেয় এবং কোনো মানের প্রয়োজন হয় না; কনফিগারেশনে ইতিমধ্যে লেখা মান রাখা হয় এবং পাঠানো হয়।",
+  "natural": 0.51,
+  "meaning": 0.89
+ },
+ {
+  "lang": "bn",
+  "key": "deepSeekBaseUrl",
+  "en": "https://api.deepseek.com/anthropic (Default to use DEEPSEEK_BASE_URL)",
+  "tr": "https://api.deepseek.com/anthropic (ডিফল্ট হিসেবে DEEPSEEK_BASE_URL ব্যবহার করুন)",
+  "natural": 0.57,
+  "meaning": 0.9
+ },
+ {
+  "lang": "bn",
+  "key": "useSearchApiHint",
+  "en": "Off by default: search runs through DeepSeek Messages. For the new Web Search API's features and pricing, see the",
+  "tr": "ডিফল্টভাবে বন্ধ: অনুসন্ধান DeepSeek Messages এর মাধ্যমে চলে। নতুন Web Search API এর বৈশিষ্ট্য এবং মূল্য জানতে দেখুন",
+  "natural": 0.47,
+  "meaning": 0.78
+ },
+ {
+  "lang": "bn",
+  "key": "countHint",
+  "en": "Results returned per query: an integer from 1 to 50, default 10. This controls result count, not search calls. web_search keeps no more sources than its own result limit.",
+  "tr": "প্রতি কোয়েরিতে ফেরত দেওয়া ফলাফল: 1 থেকে 50 এর মধ্যে একটি পূর্ণসংখ্যা, ডিফল্ট 10। এটি ফলাফলের সংখ্যা নিয়ন্ত্রণ করে, অনুসন্ধান কলের সংখ্যা নয়। web_search তার নিজস্ব ফলাফল সীমার চেয়ে বেশি উৎস রাখে না।",
+  "natural": 0.59,
+  "meaning": 0.86
+ },
+ {
+  "lang": "de",
+  "key": "paidNotice",
+  "en": "Each uncached fragment sends a separate paid DeepSeek Flash request through the selected account or Official API credentials. Reopening reasoning reuses saved results; changing the provider, language, source text, or request settings may send a new paid request.",
+  "tr": "Jedes nicht zwischengespeicherte Fragment sendet eine separate kostenpflichtige DeepSeek Flash Anfrage über das ausgewählte Konto oder die Official API Anmeldedaten. Erneutes Öffnen der Begründung verwendet gespeicherte Ergebnisse wieder; das Ändern von Anbieter, Sprache, Ausgangstext oder Anfrageeinstellungen kann eine neue kostenpflichtige Anfrage senden.",
+  "natural": 0.44,
+  "meaning": 0.85
+ },
+ {
+  "lang": "de",
+  "key": "saveFailed",
+  "en": "The deployment did not accept these values; they were left for you to correct.",
+  "tr": "Die Bereitstellung hat diese Werte nicht akzeptiert; sie wurden Ihnen zur Korrektur belassen.",
+  "natural": 0.55,
+  "meaning": 0.89
+ },
+ {
+  "lang": "de",
+  "key": "restartReasonUnmanagedPlugin",
+  "en": "The change reaches a plugin running outside the plugin list.",
+  "tr": "Die Änderung betrifft ein Plugin, das außerhalb der Pluginliste ausgeführt wird.",
+  "natural": 0.54,
+  "meaning": 0.84
+ },
+ {
+  "lang": "de",
+  "key": "installUpgradeNotice",
+  "en": "On-demand Official plugins offer Update when their version differs from DSH. To update other plugins, uninstall and reinstall them.",
+  "tr": "Offizielle Plugins auf Abruf bieten eine Aktualisierung an, wenn ihre Version von DSH abweicht. Um andere Plugins zu aktualisieren, deinstallieren Sie sie und installieren Sie sie erneut.",
+  "natural": 0.57,
+  "meaning": 0.9
+ },
+ {
+  "lang": "de",
+  "key": "emptyDescription",
+  "en": "Add a plugin market index to browse and install its plugins here.",
+  "tr": "Fügen Sie einen Plugin-Markt-Index hinzu, um dessen Plugins hier zu durchsuchen und zu installieren.",
+  "natural": 0.58,
+  "meaning": 0.94
+ },
+ {
+  "lang": "de",
+  "key": "cron.day.monthDays",
+  "en": "Day {days} of every month{months}",
+  "tr": "Tag {days} jedes Monats{months}",
+  "natural": 0.56,
+  "meaning": 0.85
+ },
+ {
+  "lang": "de",
+  "key": "cron.day.both",
+  "en": "Day {days} of every month or {weekdays}{months}",
+  "tr": "Tag {days} jedes Monats oder {weekdays}{months}",
+  "natural": 0.42,
+  "meaning": 0.73
+ },
+ {
+  "lang": "de",
+  "key": "cron.day.bothStarred",
+  "en": "Day {days} of every month and {weekdays}{months}",
+  "tr": "Tag {days} jedes Monats und {weekdays}{months}",
+  "natural": 0.47,
+  "meaning": 0.8
+ },
+ {
+  "lang": "de",
+  "key": "timing.subagentSession",
+  "en": "This session belongs to a sub-agent, which never receives delivered reminders.",
+  "tr": "Diese Sitzung gehört zu einem Unteragenten, der niemals zugestellte Erinnerungen erhält.",
+  "natural": 0.56,
+  "meaning": 0.94
+ },
+ {
+  "lang": "de",
+  "key": "delete.close",
+  "en": "Close deletion confirmation",
+  "tr": "Löschbestätigung schließen",
+  "natural": 0.52,
+  "meaning": 0.88
+ },
+ {
+  "lang": "de",
+  "key": "guideMinimalExplanation",
+  "en": "### What is included  One persistent shell tool, read_image, and a fixed system prompt. Image reading requires an image-capable model. Older history is compacted automatically under context pressure; use /compact while the agent is idle to compact it manually. The built-in preset does not load Skills, planning, or the standard runtime context.  ### When to choose it  Use it as a baseline for experiments and comparisons. It can still read files and execute scripts through shell commands, but offers fewer built-in ways to manage a long task. Fewer tools does not necessarily make it easier for a beginner.",
+  "tr": "### Was enthalten ist  Ein persistentes Shell-Werkzeug, read_image und ein fester Systemprompt. Das Lesen von Bildern erfordert ein bildfähiges Modell. Älterer Verlauf wird bei Kontextdruck automatisch komprimiert; verwende /compact, während der Agent untätig ist, um ihn manuell zu komprimieren. Die integrierte Voreinstellung lädt keine Fähigkeiten, Planung oder den Standard-Laufzeitkontext.  ### Wann man es wählen sollte  Verwende es als Basislinie für Experimente und Vergleiche. Es kann weiterhin Dateien lesen und Skripte über Shell-Befehle ausführen, bietet aber weniger integrierte Möglichkeiten zur Verwaltung einer langen Aufgabe. Weniger Werkzeuge machen es für einen Anfänger nicht unbedingt einfacher.",
+  "natural": 0.59,
+  "meaning": 0.94
+ },
+ {
+  "lang": "de",
+  "key": "presetMinimalDescription",
+  "en": "The agent uses a terminal and image reading, with context compaction. Useful for testing and comparing its basic performance.",
+  "tr": "Der Agent verwendet ein Terminal und das Lesen von Bildern, mit Kontextkomprimierung. Nützlich zum Testen und Vergleichen seiner Grundleistung.",
+  "natural": 0.51,
+  "meaning": 0.95
+ },
+ {
+  "lang": "de",
+  "key": "modelReasoningHelp",
+  "en": "About reasoning levels",
+  "tr": "Über Denkstufen",
+  "natural": 0.59,
+  "meaning": 0.92
+ },
+ {
+  "lang": "de",
+  "key": "useSearchApiHint",
+  "en": "Off by default: search runs through DeepSeek Messages. For the new Web Search API's features and pricing, see the",
+  "tr": "Standardmäßig deaktiviert: Die Suche läuft über DeepSeek Messages. Funktionen und Preise der neuen Web Search API finden Sie unter",
+  "natural": 0.53,
+  "meaning": 0.82
+ },
+ {
+  "lang": "de",
+  "key": "maxUsesHint",
+  "en": "How many searches the auxiliary model may run within one Messages request. Applies only to the Messages API.",
+  "tr": "Wie viele Suchvorgänge das Hilfsmodell innerhalb einer Messages-Anfrage ausführen darf. Gilt nur für die Messages API.",
+  "natural": 0.54,
+  "meaning": 0.93
+ },
+ {
+  "lang": "es",
+  "key": "cron.time.hoursEveryMinute",
+  "en": "every minute during hours {hours}",
+  "tr": "cada minuto durante las horas {hours}",
+  "natural": 0.54,
+  "meaning": 0.88
+ },
+ {
+  "lang": "es",
+  "key": "cron.time.hoursAt",
+  "en": "at minute {minutes} of hours {hours}",
+  "tr": "en el minuto {minutes} de las horas {hours}",
+  "natural": 0.57,
+  "meaning": 0.92
+ },
+ {
+  "lang": "fa",
+  "key": "settings.collapse.title",
+  "en": "When to Collapse Work Details",
+  "tr": "زمان جمع شدن جزئیات کار",
+  "natural": 0.5,
+  "meaning": 0.91
+ },
+ {
+  "lang": "fa",
+  "key": "message.failure.interrupted",
+  "en": "The DSH process exited before this turn finished (for example, it was killed, crashed, or timed out while shutting down), so the turn was closed when DSH restarted. Unfinished tool calls have unknown outcomes.",
+  "tr": "فرایند DSH پیش از پایان این نوبت خارج شد (برای مثال، هنگام خاموش شدن کشته شد، از کار افتاد یا زمانش تمام شد)، بنابراین نوبت هنگام راه‌اندازی مجدد DSH بسته شد. نتیجه فراخوانی‌های ابزار ناتمام نامشخص است.",
+  "natural": 0.56,
+  "meaning": 0.93
+ },
+ {
+  "lang": "fa",
+  "key": "timing.conflict",
+  "en": "This task changed while you were editing. Your draft is retained. Cancel and reopen after refresh to edit the latest rule.",
+  "tr": "این وظیفه هنگام ویرایش شما تغییر کرد. پیشنویس شما حفظ شده است. برای ویرایش آخرین قانون، پس از بهروزرسانی لغو کنید و دوباره باز کنید.",
+  "natural": 0.59,
+  "meaning": 0.9
+ },
+ {
+  "lang": "fa",
+  "key": "detail.openSessionTitle",
+  "en": "Linked session {title}: open original session",
+  "tr": "نشست پیوندشده {title}: باز کردن نشست اصلی",
+  "natural": 0.59,
+  "meaning": 0.9
+ },
+ {
+  "lang": "fa",
+  "key": "delivery.label",
+  "en": "Saved delivery record",
+  "tr": "رکورد تحویل ذخیرهشده",
+  "natural": 0.58,
+  "meaning": 0.88
+ },
+ {
+  "lang": "fa",
+  "key": "frequency.cron",
+  "en": "Cron {expression} ({timeZone})",
+  "tr": "کرون {expression} ({timeZone})",
+  "natural": 0.59,
+  "meaning": 0.91
+ },
+ {
+  "lang": "fa",
+  "key": "cron.day.bothStarred",
+  "en": "Day {days} of every month and {weekdays}{months}",
+  "tr": "روز {days} از هر ماه و {weekdays}{months}",
+  "natural": 0.52,
+  "meaning": 0.81
+ },
+ {
+  "lang": "fa",
+  "key": "timing.subagentSession",
+  "en": "This session belongs to a sub-agent, which never receives delivered reminders.",
+  "tr": "این نشست به یک زیرعامل تعلق دارد که هرگز یادآورهای تحویلشده را دریافت نمیکند.",
+  "natural": 0.54,
+  "meaning": 0.86
+ },
+ {
+  "lang": "fa",
+  "key": "rule.error.conflict",
+  "en": "This task changed before the update was saved. The row shows the saved rule; try again.",
+  "tr": "این وظیفه قبل از ذخیره به‌روزرسانی تغییر کرد. ردیف قانون ذخیره‌شده را نشان می‌دهد؛ دوباره تلاش کنید.",
+  "natural": 0.56,
+  "meaning": 0.89
+ },
+ {
+  "lang": "fa",
+  "key": "hostRelease.reload",
+  "en": "Reload to load the new version",
+  "tr": "برای بارگذاری نسخه جدید، بارگذاری مجدد کنید",
+  "natural": 0.55,
+  "meaning": 0.92
+ },
+ {
+  "lang": "fa",
+  "key": "guideMinimalExplanation",
+  "en": "### What is included  One persistent shell tool, read_image, and a fixed system prompt. Image reading requires an image-capable model. Older history is compacted automatically under context pressure; use /compact while the agent is idle to compact it manually. The built-in preset does not load Skills, planning, or the standard runtime context.  ### When to choose it  Use it as a baseline for experiments and comparisons. It can still read files and execute scripts through shell commands, but offers fewer built-in ways to manage a long task. Fewer tools does not necessarily make it easier for a beginner.",
+  "tr": "### چه چیزهایی شامل می‌شود  یک ابزار پوسته ماندگار، read_image و یک پرامپت سیستمی ثابت. خواندن تصویر به مدلی با قابلیت کار با تصویر نیاز دارد. تاریخچه قدیمی‌تر تحت فشار زمینه به‌طور خودکار فشرده می‌شود؛ برای فشرده‌سازی دستی آن وقتی عامل بیکار است از /compact استفاده کنید. پیش‌تنظیم توکار، مهارت‌ها، برنامه‌ریزی یا زمینه استاندارد زمان اجرا را بارگذاری نمی‌کند.  ### چه زمانی آن را انتخاب کنید  از آن به‌عنوان مبنایی برای آزمایش‌ها و مقایسه‌ها استفاده کنید. همچنان می‌تواند فایل‌ها را بخواند و اسکریپت‌ها را از طریق دستورهای پوسته اجرا کند، اما راه‌های توکار کمتری برای مدیریت یک کار طولانی ارائه می‌دهد. ابزارهای کمتر لزوما آن را برای یک مبتدی آسان‌تر نمی‌کند.",
+  "natural": 0.57,
+  "meaning": 0.92
+ },
+ {
+  "lang": "fa",
+  "key": "countHint",
+  "en": "Results returned per query: an integer from 1 to 50, default 10. This controls result count, not search calls. web_search keeps no more sources than its own result limit.",
+  "tr": "نتایج برگردانده شده در هر پرسش: یک عدد صحیح از 1 تا 50، پیش فرض 10. این تعداد نتایج را کنترل می کند، نه تعداد فراخوانی های جستجو. web_search بیشتر از حد نتایج خودش منبع نگه نمی دارد.",
+  "natural": 0.53,
+  "meaning": 0.88
+ },
+ {
+  "lang": "fa",
+  "key": "unsupportedNotice",
+  "en": "This preview does not support {features} in this workbook. Open it in a system application for the full experience.",
+  "tr": "این پیش‌نمایش از {features} در این کتاب کار پشتیبانی نمی‌کند. برای تجربه کامل، آن را در یک برنامه سیستمی باز کنید.",
+  "natural": 0.59,
+  "meaning": 0.93
+ },
+ {
+  "lang": "fr",
+  "key": "settings.collapse.title",
+  "en": "When to Collapse Work Details",
+  "tr": "Quand réduire les détails du travail",
+  "natural": 0.53,
+  "meaning": 0.92
+ },
+ {
+  "lang": "fr",
+  "key": "saveFailed",
+  "en": "The deployment did not accept these values; they were left for you to correct.",
+  "tr": "Le déploiement n'a pas accepté ces valeurs ; elles ont été conservées pour que vous puissiez les corriger.",
+  "natural": 0.58,
+  "meaning": 0.91
+ },
+ {
+  "lang": "fr",
+  "key": "restartReasonUnmanagedPlugin",
+  "en": "The change reaches a plugin running outside the plugin list.",
+  "tr": "La modification concerne un plugin exécuté en dehors de la liste des plugins.",
+  "natural": 0.57,
+  "meaning": 0.9
+ },
+ {
+  "lang": "fr",
+  "key": "cron.time.hoursEveryMinute",
+  "en": "every minute during hours {hours}",
+  "tr": "chaque minute pendant les heures {hours}",
+  "natural": 0.56,
+  "meaning": 0.92
+ },
+ {
+  "lang": "fr",
+  "key": "cron.time.hoursAt",
+  "en": "at minute {minutes} of hours {hours}",
+  "tr": "à la minute {minutes} des heures {hours}",
+  "natural": 0.58,
+  "meaning": 0.92
+ },
+ {
+  "lang": "fr",
+  "key": "relative.overdue",
+  "en": "{value} {unit} overdue",
+  "tr": "{value} {unit} en retard",
+  "natural": 0.58,
+  "meaning": 0.9
+ },
+ {
+  "lang": "fr",
+  "key": "delete.close",
+  "en": "Close deletion confirmation",
+  "tr": "Fermer la confirmation de suppression",
+  "natural": 0.56,
+  "meaning": 0.93
+ },
+ {
+  "lang": "he",
+  "key": "translating",
+  "en": "Translating reasoning",
+  "tr": "מתרגם את ההנמקה",
+  "natural": 0.55,
+  "meaning": 0.9
+ },
+ {
+  "lang": "he",
+  "key": "detail.sessionLoading",
+  "en": "Loading original session information.",
+  "tr": "טוען את פרטי ההפעלה המקורית.",
+  "natural": 0.55,
+  "meaning": 0.87
+ },
+ {
+  "lang": "he",
+  "key": "frequency.cron",
+  "en": "Cron {expression} ({timeZone})",
+  "tr": "קרון {expression} ({timeZone})",
+  "natural": 0.5,
+  "meaning": 0.86
+ },
+ {
+  "lang": "he",
+  "key": "cron.day.monthDays",
+  "en": "Day {days} of every month{months}",
+  "tr": "יום {days} בכל חודש{months}",
+  "natural": 0.52,
+  "meaning": 0.88
+ },
+ {
+  "lang": "he",
+  "key": "cron.day.both",
+  "en": "Day {days} of every month or {weekdays}{months}",
+  "tr": "יום {days} בכל חודש או {weekdays}{months}",
+  "natural": 0.5,
+  "meaning": 0.85
+ },
+ {
+  "lang": "he",
+  "key": "cron.day.bothStarred",
+  "en": "Day {days} of every month and {weekdays}{months}",
+  "tr": "יום {days} בכל חודש וגם {weekdays}{months}",
+  "natural": 0.5,
+  "meaning": 0.84
+ },
+ {
+  "lang": "he",
+  "key": "cron.time.hoursAt",
+  "en": "at minute {minutes} of hours {hours}",
+  "tr": "בדקה {minutes} של השעות {hours}",
+  "natural": 0.46,
+  "meaning": 0.88
+ },
+ {
+  "lang": "he",
+  "key": "delete.close",
+  "en": "Close deletion confirmation",
+  "tr": "סגור את אישור המחיקה",
+  "natural": 0.58,
+  "meaning": 0.84
+ },
+ {
+  "lang": "he",
+  "key": "deepSeekBaseUrl",
+  "en": "https://api.deepseek.com/anthropic (Default to use DEEPSEEK_BASE_URL)",
+  "tr": "https://api.deepseek.com/anthropic (ברירת מחדל לשימוש ב-DEEPSEEK_BASE_URL)",
+  "natural": 0.55,
+  "meaning": 0.82
+ },
+ {
+  "lang": "he",
+  "key": "useSearchApiHint",
+  "en": "Off by default: search runs through DeepSeek Messages. For the new Web Search API's features and pricing, see the",
+  "tr": "כבוי כברירת מחדל: החיפוש פועל דרך DeepSeek Messages. למידע על התכונות והתמחור של Web Search API החדש, ראו את",
+  "natural": 0.52,
+  "meaning": 0.82
+ },
+ {
+  "lang": "he",
+  "key": "toast.openForkSource",
+  "en": "Open original session",
+  "tr": "פתח את הסשן המקורי",
+  "natural": 0.55,
+  "meaning": 0.94
+ },
+ {
+  "lang": "hi",
+  "key": "message.failure.interrupted",
+  "en": "The DSH process exited before this turn finished (for example, it was killed, crashed, or timed out while shutting down), so the turn was closed when DSH restarted. Unfinished tool calls have unknown outcomes.",
+  "tr": "DSH प्रक्रिया इस बारी के समाप्त होने से पहले बाहर निकल गई (उदाहरण के लिए, इसे बंद करते समय समाप्त किया गया, क्रैश हुआ, या समय समाप्त हो गया), इसलिए DSH के पुनः आरंभ होने पर बारी बंद कर दी गई। अधूरे टूल कॉल के परिणाम अज्ञात हैं।",
+  "natural": 0.52,
+  "meaning": 0.94
+ },
+ {
+  "lang": "hi",
+  "key": "paidNotice",
+  "en": "Each uncached fragment sends a separate paid DeepSeek Flash request through the selected account or Official API credentials. Reopening reasoning reuses saved results; changing the provider, language, source text, or request settings may send a new paid request.",
+  "tr": "प्रत्येक बिना कैश वाला अंश चयनित खाते या आधिकारिक API क्रेडेंशियल के माध्यम से अलग भुगतान वाला डीपसीक फ्लैश अनुरोध भेजता है। रीजनिंग को फिर से खोलने पर सहेजे गए परिणाम पुनः उपयोग होते हैं; प्रदाता, भाषा, स्रोत पाठ या अनुरोध सेटिंग बदलने पर नया भुगतान वाला अनुरोध भेजा जा सकता है।",
+  "natural": 0.58,
+  "meaning": 0.91
+ },
+ {
+  "lang": "hi",
+  "key": "emptyDescription",
+  "en": "Add a plugin market index to browse and install its plugins here.",
+  "tr": "इसके प्लगइन ब्राउज़ और इंस्टॉल करने के लिए यहां प्लगइन मार्केट इंडेक्स जोड़ें।",
+  "natural": 0.33,
+  "meaning": 0.7
+ },
+ {
+  "lang": "hi",
+  "key": "detail.sessionArchived",
+  "en": "The original session is archived.",
+  "tr": "मूल सत्र संग्रहीत है।",
+  "natural": 0.55,
+  "meaning": 0.6
+ },
+ {
+  "lang": "hi",
+  "key": "frequency.cron",
+  "en": "Cron {expression} ({timeZone})",
+  "tr": "क्रॉन {expression} ({timeZone})",
+  "natural": 0.57,
+  "meaning": 0.91
+ },
+ {
+  "lang": "hi",
+  "key": "cron.day.both",
+  "en": "Day {days} of every month or {weekdays}{months}",
+  "tr": "हर महीने का दिन {days} या {weekdays}{months}",
+  "natural": 0.54,
+  "meaning": 0.85
+ },
+ {
+  "lang": "hi",
+  "key": "cron.time.hoursEveryMinute",
+  "en": "every minute during hours {hours}",
+  "tr": "घंटों {hours} के दौरान हर मिनट",
+  "natural": 0.56,
+  "meaning": 0.87
+ },
+ {
+  "lang": "hi",
+  "key": "rule.error.conflict",
+  "en": "This task changed before the update was saved. The row shows the saved rule; try again.",
+  "tr": "अपडेट सहेजे जाने से पहले यह कार्य बदल गया। पंक्ति में सहेजा गया नियम दिख रहा है; पुनः प्रयास करें।",
+  "natural": 0.54,
+  "meaning": 0.91
+ },
+ {
+  "lang": "hi",
+  "key": "delete.close",
+  "en": "Close deletion confirmation",
+  "tr": "हटाने की पुष्टि बंद करें",
+  "natural": 0.54,
+  "meaning": 0.88
+ },
+ {
+  "lang": "hi",
+  "key": "guideMinimalExplanation",
+  "en": "### What is included  One persistent shell tool, read_image, and a fixed system prompt. Image reading requires an image-capable model. Older history is compacted automatically under context pressure; use /compact while the agent is idle to compact it manually. The built-in preset does not load Skills, planning, or the standard runtime context.  ### When to choose it  Use it as a baseline for experiments and comparisons. It can still read files and execute scripts through shell commands, but offers fewer built-in ways to manage a long task. Fewer tools does not necessarily make it easier for a beginner.",
+  "tr": "### क्या शामिल है  एक स्थायी शेल टूल, read_image, और एक निश्चित सिस्टम प्रॉम्प्ट। छवि पढ़ने के लिए छवि सक्षम मॉडल आवश्यक है। संदर्भ दबाव में पुराना इतिहास स्वचालित रूप से संकुचित हो जाता है; एजेंट के निष्क्रिय रहने पर इसे मैन्युअल रूप से संकुचित करने के लिए /compact का उपयोग करें। अंतर्निहित प्रीसेट कौशल, योजना, या मानक रनटाइम संदर्भ लोड नहीं करता है।  ### इसे कब चुनें  इसे प्रयोगों और तुलनाओं के लिए आधार रेखा के रूप में उपयोग करें। यह अभी भी शेल कमांड के माध्यम से फाइलें पढ़ सकता है और स्क्रिप्ट निष्पादित कर सकता है, लेकिन लंबे कार्य को प्रबंधित करने के लिए कम अंतर्निहित तरीके प्रदान करता है। कम टूल का होना शुरुआती के लिए आवश्यक रूप से आसान नहीं बनाता है।",
+  "natural": 0.51,
+  "meaning": 0.92
+ },
+ {
+  "lang": "hi",
+  "key": "modelReasoningHelpText",
+  "en": "The API value is sent in the request's reasoning-effort field, such as OpenAI's reasoning_effort. It defaults to the level name; where the model provider's API documentation specifies a different value, follow it. Off turns reasoning off and needs no value; a value already written in the configuration is kept and sent.",
+  "tr": "API मान अनुरोध के reasoning-effort फ़ील्ड में भेजा जाता है, जैसे OpenAI का reasoning_effort। यह डिफ़ॉल्ट रूप से स्तर के नाम पर होता है; जहां मॉडल प्रदाता का API दस्तावेज़ कोई भिन्न मान निर्दिष्ट करता है, उसका पालन करें। Off तर्क को बंद कर देता है और उसे किसी मान की आवश्यकता नहीं होती; कॉन्फ़िगरेशन में पहले से लिखा गया मान रखा जाता है और भेजा जाता है।",
+  "natural": 0.56,
+  "meaning": 0.93
+ },
+ {
+  "lang": "hi",
+  "key": "useSearchApiHint",
+  "en": "Off by default: search runs through DeepSeek Messages. For the new Web Search API's features and pricing, see the",
+  "tr": "डिफ़ॉल्ट रूप से बंद: खोज DeepSeek Messages के माध्यम से चलती है। नए Web Search API की सुविधाओं और मूल्य निर्धारण के लिए, देखें",
+  "natural": 0.51,
+  "meaning": 0.8
+ },
+ {
+  "lang": "hi",
+  "key": "searchGuide",
+  "en": "Search & Fetch guide",
+  "tr": "Search & Fetch मार्गदर्शिका",
+  "natural": 0.47,
+  "meaning": 0.9
+ },
+ {
+  "lang": "id",
+  "key": "settings.collapse.title",
+  "en": "When to Collapse Work Details",
+  "tr": "Kapan Detail Pekerjaan Diciutkan",
+  "natural": 0.48,
+  "meaning": 0.95
+ },
+ {
+  "lang": "id",
+  "key": "message.failure.interrupted",
+  "en": "The DSH process exited before this turn finished (for example, it was killed, crashed, or timed out while shutting down), so the turn was closed when DSH restarted. Unfinished tool calls have unknown outcomes.",
+  "tr": "Proses DSH keluar sebelum giliran ini selesai (misalnya, dihentikan, mogok, atau kehabisan waktu saat dimatikan), sehingga giliran ditutup saat DSH dimulai ulang. Panggilan alat yang belum selesai memiliki hasil yang tidak diketahui.",
+  "natural": 0.51,
+  "meaning": 0.94
+ },
+ {
+  "lang": "id",
+  "key": "paidNotice",
+  "en": "Each uncached fragment sends a separate paid DeepSeek Flash request through the selected account or Official API credentials. Reopening reasoning reuses saved results; changing the provider, language, source text, or request settings may send a new paid request.",
+  "tr": "Setiap fragmen yang tidak di-cache mengirimkan permintaan DeepSeek Flash berbayar terpisah melalui akun yang dipilih atau kredensial Official API. Membuka ulang penalaran menggunakan kembali hasil yang tersimpan; mengubah penyedia, bahasa, teks sumber, atau pengaturan permintaan dapat mengirimkan permintaan berbayar baru.",
+  "natural": 0.56,
+  "meaning": 0.9
+ },
+ {
+  "lang": "id",
+  "key": "anonymousNotice",
+  "en": "Bing and Google need no translation login or API key. Their anonymous endpoints may reject or limit requests.",
+  "tr": "Bing dan Google tidak memerlukan log masuk atau kunci API terjemahan. Endpoint anonim mereka dapat menolak atau membatasi permintaan.",
+  "natural": 0.59,
+  "meaning": 0.81
+ },
+ {
+  "lang": "id",
+  "key": "translating",
+  "en": "Translating reasoning",
+  "tr": "Menerjemahkan penalaran",
+  "natural": 0.4,
+  "meaning": 0.89
+ },
+ {
+  "lang": "id",
+  "key": "readOnly",
+  "en": "This deployment stores settings read-only.",
+  "tr": "Penerapan ini menyimpan pengaturan dalam mode hanya baca.",
+  "natural": 0.59,
+  "meaning": 0.85
+ },
+ {
+  "lang": "id",
+  "key": "saveFailed",
+  "en": "The deployment did not accept these values; they were left for you to correct.",
+  "tr": "Penerapan tidak menerima nilai-nilai ini; nilai tersebut dibiarkan untuk Anda perbaiki.",
+  "natural": 0.52,
+  "meaning": 0.88
+ },
+ {
+  "lang": "id",
+  "key": "count.idle.other",
+  "en": "{count} background jobs",
+  "tr": "{count} pekerjaan latar belakang",
+  "natural": 0.59,
+  "meaning": 0.9
+ },
+ {
+  "lang": "id",
+  "key": "restartReasonUnmanagedPlugin",
+  "en": "The change reaches a plugin running outside the plugin list.",
+  "tr": "Perubahan menjangkau plugin yang berjalan di luar daftar plugin.",
+  "natural": 0.43,
+  "meaning": 0.78
+ },
+ {
+  "lang": "id",
+  "key": "cron.time.hoursAt",
+  "en": "at minute {minutes} of hours {hours}",
+  "tr": "pada menit {minutes} dari jam {hours}",
+  "natural": 0.5,
+  "meaning": 0.92
+ },
+ {
+  "lang": "id",
+  "key": "timing.subagentSession",
+  "en": "This session belongs to a sub-agent, which never receives delivered reminders.",
+  "tr": "Sesi ini milik sub-agen, yang tidak pernah menerima pengingat terkirim.",
+  "natural": 0.49,
+  "meaning": 0.9
+ },
+ {
+  "lang": "id",
+  "key": "delete.close",
+  "en": "Close deletion confirmation",
+  "tr": "Tutup konfirmasi penghapusan",
+  "natural": 0.58,
+  "meaning": 0.92
+ },
+ {
+  "lang": "id",
+  "key": "guideMinimalExplanation",
+  "en": "### What is included  One persistent shell tool, read_image, and a fixed system prompt. Image reading requires an image-capable model. Older history is compacted automatically under context pressure; use /compact while the agent is idle to compact it manually. The built-in preset does not load Skills, planning, or the standard runtime context.  ### When to choose it  Use it as a baseline for experiments and comparisons. It can still read files and execute scripts through shell commands, but offers fewer built-in ways to manage a long task. Fewer tools does not necessarily make it easier for a beginner.",
+  "tr": "### Yang disertakan  Satu alat shell persisten, read_image, dan prompt sistem tetap. Pembacaan gambar memerlukan model yang mampu membaca gambar. Riwayat yang lebih lama dipadatkan secara otomatis saat ada tekanan konteks; gunakan /compact saat agen tidak aktif untuk memadatkannya secara manual. Preset bawaan tidak memuat Skills, perencanaan, atau konteks runtime standar.  ### Kapan memilihnya  Gunakan sebagai dasar untuk eksperimen dan perbandingan. Ia masih dapat membaca file dan menjalankan skrip melalui perintah shell, tetapi menawarkan lebih sedikit cara bawaan untuk mengelola tugas yang panjang. Alat yang lebih sedikit tidak selalu membuatnya lebih mudah bagi pemula.",
+  "natural": 0.5,
+  "meaning": 0.92
+ },
+ {
+  "lang": "id",
+  "key": "timeout",
+  "en": "Opening this workbook timed out. Try a smaller file.",
+  "tr": "Membuka buku kerja ini kehabisan waktu. Coba file yang lebih kecil.",
+  "natural": 0.58,
+  "meaning": 0.94
+ },
+ {
+  "lang": "it",
+  "key": "row.imageSize",
+  "en": "{width}x{height}px, {bytes} bytes",
+  "tr": "{width}x{height}px, {bytes} byte",
+  "natural": 0.59,
+  "meaning": 0.82
+ },
+ {
+  "lang": "it",
+  "key": "translating",
+  "en": "Translating reasoning",
+  "tr": "Traduzione del ragionamento",
+  "natural": 0.54,
+  "meaning": 0.87
+ },
+ {
+  "lang": "it",
+  "key": "saveFailed",
+  "en": "The deployment did not accept these values; they were left for you to correct.",
+  "tr": "La distribuzione non ha accettato questi valori; sono stati conservati per la correzione.",
+  "natural": 0.54,
+  "meaning": 0.86
+ },
+ {
+  "lang": "it",
+  "key": "guideMinimalExplanation",
+  "en": "### What is included  One persistent shell tool, read_image, and a fixed system prompt. Image reading requires an image-capable model. Older history is compacted automatically under context pressure; use /compact while the agent is idle to compact it manually. The built-in preset does not load Skills, planning, or the standard runtime context.  ### When to choose it  Use it as a baseline for experiments and comparisons. It can still read files and execute scripts through shell commands, but offers fewer built-in ways to manage a long task. Fewer tools does not necessarily make it easier for a beginner.",
+  "tr": "### Cosa è incluso  Uno strumento shell persistente, read_image e un prompt di sistema fisso. La lettura delle immagini richiede un modello in grado di elaborare immagini. La cronologia meno recente viene compattata automaticamente in caso di pressione sul contesto; usa /compact mentre l'agente è inattivo per compattarla manualmente. La preimpostazione integrata non carica Skills, la pianificazione o il contesto di runtime standard.  ### Quando sceglierlo  Usalo come base di riferimento per esperimenti e confronti. Può comunque leggere file ed eseguire script tramite comandi shell, ma offre meno funzioni integrate per gestire un'attività lunga. Un numero minore di strumenti non lo rende necessariamente più semplice per un principiante.",
+  "natural": 0.59,
+  "meaning": 0.94
+ },
+ {
+  "lang": "ja",
+  "key": "marketMenu",
+  "en": "Switch plugin market, currently {market}",
+  "tr": "プラグインマーケットを切り替えます、現在は{market}です",
+  "natural": 0.54,
+  "meaning": 0.9
+ },
+ {
+  "lang": "ja",
+  "key": "cron.time.hoursEveryMinute",
+  "en": "every minute during hours {hours}",
+  "tr": "{hours}時台は毎分",
+  "natural": 0.55,
+  "meaning": 0.83
+ },
+ {
+  "lang": "ja",
+  "key": "relative.overdue",
+  "en": "{value} {unit} overdue",
+  "tr": "{value}{unit}超過",
+  "natural": 0.52,
+  "meaning": 0.81
+ },
+ {
+  "lang": "ko",
+  "key": "message.failure.interrupted",
+  "en": "The DSH process exited before this turn finished (for example, it was killed, crashed, or timed out while shutting down), so the turn was closed when DSH restarted. Unfinished tool calls have unknown outcomes.",
+  "tr": "DSH 프로세스가 이번 턴이 끝나기 전에 종료되었으므로(예를 들어 종료 중 강제 종료, 충돌 또는 시간 초과된 경우), DSH가 다시 시작될 때 해당 턴이 닫혔습니다. 완료되지 않은 도구 호출의 결과는 알 수 없습니다.",
+  "natural": 0.59,
+  "meaning": 0.94
+ },
+ {
+  "lang": "nl",
+  "key": "readOnly",
+  "en": "This deployment stores settings read-only.",
+  "tr": "Deze implementatie slaat instellingen alleen-lezen op.",
+  "natural": 0.57,
+  "meaning": 0.77
+ },
+ {
+  "lang": "nl",
+  "key": "saveFailed",
+  "en": "The deployment did not accept these values; they were left for you to correct.",
+  "tr": "De implementatie heeft deze waarden niet geaccepteerd; ze zijn blijven staan zodat je ze kunt corrigeren.",
+  "natural": 0.56,
+  "meaning": 0.87
+ },
+ {
+  "lang": "nl",
+  "key": "previewAlt",
+  "en": "{name} feature preview",
+  "tr": "{name} functiepreview",
+  "natural": 0.51,
+  "meaning": 0.9
+ },
+ {
+  "lang": "nl",
+  "key": "installUpgradeNotice",
+  "en": "On-demand Official plugins offer Update when their version differs from DSH. To update other plugins, uninstall and reinstall them.",
+  "tr": "On-demand officiële plug-ins bieden Bijwerken aan wanneer hun versie verschilt van DSH. Verwijder andere plug-ins en installeer ze opnieuw om ze bij te werken.",
+  "natural": 0.58,
+  "meaning": 0.85
+ },
+ {
+  "lang": "nl",
+  "key": "cron.time.hoursAt",
+  "en": "at minute {minutes} of hours {hours}",
+  "tr": "op minuut {minutes} van uren {hours}",
+  "natural": 0.55,
+  "meaning": 0.94
+ },
+ {
+  "lang": "nl",
+  "key": "delete.close",
+  "en": "Close deletion confirmation",
+  "tr": "Bevestiging voor verwijderen sluiten",
+  "natural": 0.55,
+  "meaning": 0.81
+ },
+ {
+  "lang": "nl",
+  "key": "keyFallbackUnchecked",
+  "en": "Environment credential status has not been confirmed.",
+  "tr": "De status van de omgevingsreferentie is niet bevestigd.",
+  "natural": 0.46,
+  "meaning": 0.74
+ },
+ {
+  "lang": "pl",
+  "key": "paidNotice",
+  "en": "Each uncached fragment sends a separate paid DeepSeek Flash request through the selected account or Official API credentials. Reopening reasoning reuses saved results; changing the provider, language, source text, or request settings may send a new paid request.",
+  "tr": "Każdy fragment bez pamięci podręcznej wysyła osobne płatne żądanie DeepSeek Flash za pośrednictwem wybranego konta lub danych uwierzytelniających Official API. Ponowne otwarcie rozumowania wykorzystuje zapisane wyniki; zmiana dostawcy, języka, tekstu źródłowego lub ustawień żądania może wysłać nowe płatne żądanie.",
+  "natural": 0.58,
+  "meaning": 0.91
+ },
+ {
+  "lang": "pl",
+  "key": "restartReasonUnmanagedPlugin",
+  "en": "The change reaches a plugin running outside the plugin list.",
+  "tr": "Zmiana dotyczy wtyczki działającej poza listą wtyczek.",
+  "natural": 0.57,
+  "meaning": 0.86
+ },
+ {
+  "lang": "pl",
+  "key": "sourcesDescription",
+  "en": "A plugin market is published as the URL of one index file. Discover browses the indexes listed here.",
+  "tr": "Rynek wtyczek jest publikowany jako URL jednego pliku indeksu. Odkrywanie przegląda indeksy wymienione tutaj.",
+  "natural": 0.57,
+  "meaning": 0.9
+ },
+ {
+  "lang": "pl",
+  "key": "delivery.label",
+  "en": "Saved delivery record",
+  "tr": "Zapisany rekord dostarczenia",
+  "natural": 0.59,
+  "meaning": 0.91
+ },
+ {
+  "lang": "pl",
+  "key": "cron.time.hoursAt",
+  "en": "at minute {minutes} of hours {hours}",
+  "tr": "w minucie {minutes} w godzinach {hours}",
+  "natural": 0.51,
+  "meaning": 0.83
+ },
+ {
+  "lang": "pl",
+  "key": "timing.subagentSession",
+  "en": "This session belongs to a sub-agent, which never receives delivered reminders.",
+  "tr": "Ta sesja należy do subagenta, który nigdy nie otrzymuje dostarczonych przypomnień.",
+  "natural": 0.56,
+  "meaning": 0.89
+ },
+ {
+  "lang": "pl",
+  "key": "delete.close",
+  "en": "Close deletion confirmation",
+  "tr": "Zamknij potwierdzenie usunięcia",
+  "natural": 0.55,
+  "meaning": 0.92
+ },
+ {
+  "lang": "pt",
+  "key": "saveFailed",
+  "en": "The deployment did not accept these values; they were left for you to correct.",
+  "tr": "A implementação não aceitou estes valores; foram deixados para corrigires.",
+  "natural": 0.45,
+  "meaning": 0.79
+ },
+ {
+  "lang": "pt",
+  "key": "restartReasonUnmanagedPlugin",
+  "en": "The change reaches a plugin running outside the plugin list.",
+  "tr": "A alteração chega a um plugin em execução fora da lista de plugins.",
+  "natural": 0.51,
+  "meaning": 0.81
+ },
+ {
+  "lang": "pt",
+  "key": "exempted",
+  "en": "This version is not compatible with the running DSH, but you set a compatibility exemption for it.",
+  "tr": "Esta versão não é compatível com o DSH em execução, mas definiste uma isenção de compatibilidade para a mesma.",
+  "natural": 0.54,
+  "meaning": 0.91
+ },
+ {
+  "lang": "pt",
+  "key": "cron.time.hoursAt",
+  "en": "at minute {minutes} of hours {hours}",
+  "tr": "ao minuto {minutes} das horas {hours}",
+  "natural": 0.5,
+  "meaning": 0.89
+ },
+ {
+  "lang": "pt",
+  "key": "presetMinimalDescription",
+  "en": "The agent uses a terminal and image reading, with context compaction. Useful for testing and comparing its basic performance.",
+  "tr": "O agente utiliza o Terminal e a leitura de imagens, com compactação de contexto. Útil para testar e comparar o seu desempenho básico.",
+  "natural": 0.59,
+  "meaning": 0.91
+ },
+ {
+  "lang": "pt",
+  "key": "useSearchApi",
+  "en": "Use the new Web Search API",
+  "tr": "Utiliza a nova Web Search API",
+  "natural": 0.55,
+  "meaning": 0.94
+ },
+ {
+  "lang": "pt",
+  "key": "useSearchApiHint",
+  "en": "Off by default: search runs through DeepSeek Messages. For the new Web Search API's features and pricing, see the",
+  "tr": "Desactivado por predefinição: a pesquisa é executada através de DeepSeek Messages. Para as funcionalidades e preços da nova Web Search API, consulta",
+  "natural": 0.57,
+  "meaning": 0.71
+ },
+ {
+  "lang": "pt",
+  "key": "searchGuide",
+  "en": "Search & Fetch guide",
+  "tr": "Guia de Search & Fetch",
+  "natural": 0.54,
+  "meaning": 0.92
+ },
+ {
+  "lang": "pt-br",
+  "key": "saveFailed",
+  "en": "The deployment did not accept these values; they were left for you to correct.",
+  "tr": "A implantação não aceitou esses valores; eles foram deixados para você corrigir.",
+  "natural": 0.59,
+  "meaning": 0.91
+ },
+ {
+  "lang": "pt-br",
+  "key": "cron.time.hoursAt",
+  "en": "at minute {minutes} of hours {hours}",
+  "tr": "no minuto {minutes} das horas {hours}",
+  "natural": 0.52,
+  "meaning": 0.83
+ },
+ {
+  "lang": "ro",
+  "key": "settings.collapse.title",
+  "en": "When to Collapse Work Details",
+  "tr": "Când se restrâng detaliile activității",
+  "natural": 0.57,
+  "meaning": 0.93
+ },
+ {
+  "lang": "ro",
+  "key": "translating",
+  "en": "Translating reasoning",
+  "tr": "Se traduce raționamentul",
+  "natural": 0.34,
+  "meaning": 0.76
+ },
+ {
+  "lang": "ro",
+  "key": "readOnly",
+  "en": "This deployment stores settings read-only.",
+  "tr": "Această implementare stochează setările doar în citire.",
+  "natural": 0.56,
+  "meaning": 0.87
+ },
+ {
+  "lang": "ro",
+  "key": "saveFailed",
+  "en": "The deployment did not accept these values; they were left for you to correct.",
+  "tr": "Implementarea nu a acceptat aceste valori; acestea au rămas pentru a le corecta.",
+  "natural": 0.44,
+  "meaning": 0.79
+ },
+ {
+  "lang": "ro",
+  "key": "restartReasonHostModule",
+  "en": "The change reaches modules DSH itself loaded.",
+  "tr": "Modificarea afectează modulele încărcate chiar de DSH.",
+  "natural": 0.49,
+  "meaning": 0.75
+ },
+ {
+  "lang": "ro",
+  "key": "delete.close",
+  "en": "Close deletion confirmation",
+  "tr": "Închide confirmarea ștergerii",
+  "natural": 0.59,
+  "meaning": 0.92
+ },
+ {
+  "lang": "ru",
+  "key": "cron.time.hoursAt",
+  "en": "at minute {minutes} of hours {hours}",
+  "tr": "в минуту {minutes} часов {hours}",
+  "natural": 0.57,
+  "meaning": 0.89
+ },
+ {
+  "lang": "ru",
+  "key": "delete.close",
+  "en": "Close deletion confirmation",
+  "tr": "Закрыть подтверждение удаления",
+  "natural": 0.55,
+  "meaning": 0.88
+ },
+ {
+  "lang": "ru",
+  "key": "presetMinimalDescription",
+  "en": "The agent uses a terminal and image reading, with context compaction. Useful for testing and comparing its basic performance.",
+  "tr": "Агент использует Terminal и чтение изображений с уплотнением контекста. Полезно для тестирования и сравнения базовой производительности.",
+  "natural": 0.51,
+  "meaning": 0.87
+ },
+ {
+  "lang": "ru",
+  "key": "useSearchApiHint",
+  "en": "Off by default: search runs through DeepSeek Messages. For the new Web Search API's features and pricing, see the",
+  "tr": "По умолчанию отключено: поиск выполняется через DeepSeek Messages. О функциях и ценах нового API веб-поиска см.",
+  "natural": 0.57,
+  "meaning": 0.81
+ },
+ {
+  "lang": "sv",
+  "key": "row.imageSize",
+  "en": "{width}x{height}px, {bytes} bytes",
+  "tr": "{width}x{height}px, {bytes} byte",
+  "natural": 0.58,
+  "meaning": 0.73
+ },
+ {
+  "lang": "sv",
+  "key": "previewAlt",
+  "en": "{name} feature preview",
+  "tr": "{name} förhandsvisning av funktion",
+  "natural": 0.55,
+  "meaning": 0.91
+ },
+ {
+  "lang": "sv",
+  "key": "installUpgradeNotice",
+  "en": "On-demand Official plugins offer Update when their version differs from DSH. To update other plugins, uninstall and reinstall them.",
+  "tr": "Officiella plugin på begäran erbjuder Uppdatera när deras version skiljer sig från DSH. För att uppdatera andra plugin, avinstallera och installera om dem.",
+  "natural": 0.5,
+  "meaning": 0.81
+ },
+ {
+  "lang": "sv",
+  "key": "emptyDescription",
+  "en": "Add a plugin market index to browse and install its plugins here.",
+  "tr": "Lägg till ett pluginmarknadsindex för att bläddra bland och installera dess plugin här.",
+  "natural": 0.42,
+  "meaning": 0.78
+ },
+ {
+  "lang": "sv",
+  "key": "emptyIndex",
+  "en": "This index lists no plugins.",
+  "tr": "Detta index listar inga plugin.",
+  "natural": 0.51,
+  "meaning": 0.81
+ },
+ {
+  "lang": "sv",
+  "key": "cron.day.bothStarred",
+  "en": "Day {days} of every month and {weekdays}{months}",
+  "tr": "Dag {days} i varje månad och {weekdays}{months}",
+  "natural": 0.44,
+  "meaning": 0.82
+ },
+ {
+  "lang": "sv",
+  "key": "cron.time.hoursAt",
+  "en": "at minute {minutes} of hours {hours}",
+  "tr": "vid minut {minutes} under timmarna {hours}",
+  "natural": 0.54,
+  "meaning": 0.87
+ },
+ {
+  "lang": "sw",
+  "key": "settings.collapse.title",
+  "en": "When to Collapse Work Details",
+  "tr": "Lini maelezo ya kazi yakunjwe",
+  "natural": 0.55,
+  "meaning": 0.93
+ },
+ {
+  "lang": "sw",
+  "key": "message.failure.interrupted",
+  "en": "The DSH process exited before this turn finished (for example, it was killed, crashed, or timed out while shutting down), so the turn was closed when DSH restarted. Unfinished tool calls have unknown outcomes.",
+  "tr": "Mchakato wa DSH ulikoma kabla zamu hii haijakamilika (kwa mfano, uliuawa, uliporomoka, au muda uliisha wakati wa kufunga), kwa hivyo zamu ilifungwa DSH ilipoanzishwa upya. Miito ya zana ambayo haikukamilika ina matokeo yasiyojulikana.",
+  "natural": 0.5,
+  "meaning": 0.94
+ },
+ {
+  "lang": "sw",
+  "key": "translating",
+  "en": "Translating reasoning",
+  "tr": "Inatafsiri hoja",
+  "natural": 0.54,
+  "meaning": 0.93
+ },
+ {
+  "lang": "sw",
+  "key": "saveFailed",
+  "en": "The deployment did not accept these values; they were left for you to correct.",
+  "tr": "Upelekaji haukukubali thamani hizi; zimeachwa ili uzirekebishe.",
+  "natural": 0.55,
+  "meaning": 0.92
+ },
+ {
+  "lang": "sw",
+  "key": "count.idle.other",
+  "en": "{count} background jobs",
+  "tr": "{count} kazi za nyuma",
+  "natural": 0.58,
+  "meaning": 0.88
+ },
+ {
+  "lang": "sw",
+  "key": "restartReasonPackageMoved",
+  "en": "An installed package now resolves to another directory, or the change replaces a package the DSH installation provides. Uninstall a package before installing it from another location.",
+  "tr": "Kifurushi kilichosakinishwa sasa kinaelekea kwenye saraka nyingine, au mabadiliko yanachukua nafasi ya kifurushi ambacho usakinishaji wa DSH hutoa. Ondoa kifurushi kabla ya kukisakinisha kutoka mahali pengine.",
+  "natural": 0.54,
+  "meaning": 0.89
+ },
+ {
+  "lang": "sw",
+  "key": "restartReasonHostModule",
+  "en": "The change reaches modules DSH itself loaded.",
+  "tr": "Mabadiliko yanafikia sehemu ambazo DSH yenyewe ilipakia.",
+  "natural": 0.56,
+  "meaning": 0.85
+ },
+ {
+  "lang": "sw",
+  "key": "restartReasonUnmanagedPlugin",
+  "en": "The change reaches a plugin running outside the plugin list.",
+  "tr": "Mabadiliko yanafikia programu jalizi inayofanya kazi nje ya orodha ya programu jalizi.",
+  "natural": 0.51,
+  "meaning": 0.85
+ },
+ {
+  "lang": "sw",
+  "key": "basicTitle",
+  "en": "Built-in plugin settings",
+  "tr": "Mipangilio ya programu jalizi zilizojengewa ndani",
+  "natural": 0.59,
+  "meaning": 0.9
+ },
+ {
+  "lang": "sw",
+  "key": "previewAlt",
+  "en": "{name} feature preview",
+  "tr": "{name} onyesho la awali la kipengele",
+  "natural": 0.57,
+  "meaning": 0.93
+ },
+ {
+  "lang": "sw",
+  "key": "installUpgradeNotice",
+  "en": "On-demand Official plugins offer Update when their version differs from DSH. To update other plugins, uninstall and reinstall them.",
+  "tr": "Programu jalizi Rasmi za mahitaji hutoa Sasisha toleo lao linapotofautiana na DSH. Ili kusasisha programu jalizi nyingine, ziondoe kisha zisakinishe tena.",
+  "natural": 0.5,
+  "meaning": 0.82
+ },
+ {
+  "lang": "sw",
+  "key": "installDoneRestart",
+  "en": "Installed; restart DSH to load it. {reason}",
+  "tr": "Imesakinishwa; anzisha DSH upya ili kuipakia. {reason}",
+  "natural": 0.55,
+  "meaning": 0.92
+ },
+ {
+  "lang": "sw",
+  "key": "loading",
+  "en": "Loading recognition services…",
+  "tr": "Inapakia huduma za utambuzi…",
+  "natural": 0.49,
+  "meaning": 0.89
+ },
+ {
+  "lang": "sw",
+  "key": "emptyTitle",
+  "en": "No plugin markets yet",
+  "tr": "Hakuna masoko ya vijalizi bado",
+  "natural": 0.53,
+  "meaning": 0.89
+ },
+ {
+  "lang": "sw",
+  "key": "sourcesDescription",
+  "en": "A plugin market is published as the URL of one index file. Discover browses the indexes listed here.",
+  "tr": "Soko la vijalizi huchapishwa kama URL ya faili moja ya faharasa. Gundua huvinjari faharasa zilizoorodheshwa hapa.",
+  "natural": 0.48,
+  "meaning": 0.83
+ },
+ {
+  "lang": "sw",
+  "key": "emptyIndex",
+  "en": "This index lists no plugins.",
+  "tr": "Faharasa hii haiorodheshi vijalizi vyovyote.",
+  "natural": 0.58,
+  "meaning": 0.9
+ },
+ {
+  "lang": "sw",
+  "key": "exempted",
+  "en": "This version is not compatible with the running DSH, but you set a compatibility exemption for it.",
+  "tr": "Toleo hili haliendani na DSH inayoendesha, lakini umeweka msamaha wa uendano kwa ajili yake.",
+  "natural": 0.55,
+  "meaning": 0.9
+ },
+ {
+  "lang": "sw",
+  "key": "timing.conflict",
+  "en": "This task changed while you were editing. Your draft is retained. Cancel and reopen after refresh to edit the latest rule.",
+  "tr": "Kazi hii imebadilika ulipokuwa ukihariri. Rasimu yako imehifadhiwa. Ghairi na ufungue tena baada ya kuonyesha upya ili uhariri kanuni ya hivi punde.",
+  "natural": 0.54,
+  "meaning": 0.91
+ },
+ {
+  "lang": "sw",
+  "key": "detail.sessionArchived",
+  "en": "The original session is archived.",
+  "tr": "Kipindi asili kimewekwa kwenye kumbukumbu.",
+  "natural": 0.51,
+  "meaning": 0.69
+ },
+ {
+  "lang": "sw",
+  "key": "cron.time.hourlyAt",
+  "en": "Every hour at minute {minutes}",
+  "tr": "Kila saa katika dakika {minutes}",
+  "natural": 0.59,
+  "meaning": 0.94
+ },
+ {
+  "lang": "sw",
+  "key": "cron.time.joinedHourlyAt",
+  "en": "every hour at minute {minutes}",
+  "tr": "kila saa katika dakika {minutes}",
+  "natural": 0.52,
+  "meaning": 0.96
+ },
+ {
+  "lang": "sw",
+  "key": "cron.time.hoursAt",
+  "en": "at minute {minutes} of hours {hours}",
+  "tr": "katika dakika {minutes} ya saa {hours}",
+  "natural": 0.43,
+  "meaning": 0.84
+ },
+ {
+  "lang": "sw",
+  "key": "timing.subagentSession",
+  "en": "This session belongs to a sub-agent, which never receives delivered reminders.",
+  "tr": "Kipindi hiki ni cha wakala mdogo, ambaye kamwe hapokei vikumbusho vilivyowasilishwa.",
+  "natural": 0.59,
+  "meaning": 0.93
+ },
+ {
+  "lang": "sw",
+  "key": "timing.invalidInterval.second",
+  "en": "Enter an interval of at least 60 seconds.",
+  "tr": "Weka muda wa angalau sekunde 60.",
+  "natural": 0.58,
+  "meaning": 0.95
+ },
+ {
+  "lang": "sw",
+  "key": "rule.error.conflict",
+  "en": "This task changed before the update was saved. The row shows the saved rule; try again.",
+  "tr": "Kazi hii imebadilika kabla sasisho halijahifadhiwa. Mstari unaonyesha kanuni iliyohifadhiwa; jaribu tena.",
+  "natural": 0.58,
+  "meaning": 0.92
+ },
+ {
+  "lang": "sw",
+  "key": "rule.error.unknown",
+  "en": "Could not confirm the rule update. The row shows the saved rule.",
+  "tr": "Imeshindikana kuthibitisha sasisho la kanuni. Mstari unaonyesha kanuni iliyohifadhiwa.",
+  "natural": 0.57,
+  "meaning": 0.9
+ },
+ {
+  "lang": "sw",
+  "key": "guideMinimalExplanation",
+  "en": "### What is included  One persistent shell tool, read_image, and a fixed system prompt. Image reading requires an image-capable model. Older history is compacted automatically under context pressure; use /compact while the agent is idle to compact it manually. The built-in preset does not load Skills, planning, or the standard runtime context.  ### When to choose it  Use it as a baseline for experiments and comparisons. It can still read files and execute scripts through shell commands, but offers fewer built-in ways to manage a long task. Fewer tools does not necessarily make it easier for a beginner.",
+  "tr": "### Yaliyomo  Zana moja endelevu ya shell, read_image, na maelekezo thabiti ya mfumo. Kusoma picha kunahitaji kielelezo chenye uwezo wa kusoma picha. Kumbukumbu za zamani hubanwa yenyewe shinikizo la muktadha linapoongezeka; tumia /compact wakala akiwa hana kazi ili kuibana mwenyewe. Mpangilio tayari uliojengwa ndani haupakii ujuzi, upangaji, au muktadha wa kawaida wa uendeshaji.  ### Wakati wa kuichagua  Itumie kama msingi wa majaribio na ulinganishi. Bado inaweza kusoma faili na kutekeleza hati za amri kupitia maagizo ya shell, lakini ina njia chache zilizojengwa ndani za kusimamia kazi ndefu. Zana chache haimaanishi kuwa ni nyepesi zaidi kwa mwanzilishi.",
+  "natural": 0.48,
+  "meaning": 0.92
+ },
+ {
+  "lang": "sw",
+  "key": "keyPlaceholderFallback",
+  "en": "Leave blank to use env as auth ({hint})",
+  "tr": "Acha wazi ili kutumia mazingira kwa uthibitisho ({hint})",
+  "natural": 0.59,
+  "meaning": 0.89
+ },
+ {
+  "lang": "sw",
+  "key": "keyFallbackUnchecked",
+  "en": "Environment credential status has not been confirmed.",
+  "tr": "Hali ya uthibitisho wa mazingira haijathibitishwa.",
+  "natural": 0.5,
+  "meaning": 0.81
+ },
+ {
+  "lang": "sw",
+  "key": "keyHelp",
+  "en": "Saved credentials are used first. Environment fallbacks shown here, in order: {env}. Sources are launch environment, $cwd/.env, then $DSH_HOME/.env.",
+  "tr": "Vitambulisho vilivyohifadhiwa hutumika kwanza. Mbadala za mazingira zimeonyeshwa hapa, kwa mpangilio: {env}. Vyanzo ni mazingira ya uzinduzi, $cwd/.env, kisha $DSH_HOME/.env.",
+  "natural": 0.59,
+  "meaning": 0.91
+ },
+ {
+  "lang": "sw",
+  "key": "baseUrlConfigured",
+  "en": "Provider-configured endpoint",
+  "tr": "Ncha ya muunganisho iliyosanidiwa na mtoa huduma",
+  "natural": 0.59,
+  "meaning": 0.93
+ },
+ {
+  "lang": "sw",
+  "key": "modelReasoningHelpText",
+  "en": "The API value is sent in the request's reasoning-effort field, such as OpenAI's reasoning_effort. It defaults to the level name; where the model provider's API documentation specifies a different value, follow it. Off turns reasoning off and needs no value; a value already written in the configuration is kept and sent.",
+  "tr": "Thamani ya API hutumwa katika sehemu ya reasoning-effort ya ombi, kama vile reasoning_effort ya OpenAI. Huchukua jina la kiwango kama chaguo-msingi; pale ambapo nyaraka za API za mtoa huduma zinaeleza thamani tofauti, fuata maelekezo hayo. Off huzima kufikiri na haihitaji thamani; thamani iliyoandikwa tayari kwenye usanidi huhifadhiwa na kutumwa.",
+  "natural": 0.52,
+  "meaning": 0.89
+ },
+ {
+  "lang": "sw",
+  "key": "modelReasoningNeedsLevel",
+  "en": "Add at least one level besides Off, or turn reasoning levels off.",
+  "tr": "Ongeza angalau kiwango kimoja zaidi ya Off, au zima viwango vya kufikiri.",
+  "natural": 0.58,
+  "meaning": 0.9
+ },
+ {
+  "lang": "sw",
+  "key": "modelReasoningValueRequired",
+  "en": "Every level besides Off needs an API value, and no value can be empty.",
+  "tr": "Kila kiwango zaidi ya Off kinahitaji thamani ya API, na hakuna thamani inayoweza kuwa tupu.",
+  "natural": 0.59,
+  "meaning": 0.92
+ },
+ {
+  "lang": "sw",
+  "key": "deepSeekBaseUrl",
+  "en": "https://api.deepseek.com/anthropic (Default to use DEEPSEEK_BASE_URL)",
+  "tr": "https://api.deepseek.com/anthropic (Chaguo-msingi kutumia DEEPSEEK_BASE_URL)",
+  "natural": 0.56,
+  "meaning": 0.9
+ },
+ {
+  "lang": "sw",
+  "key": "fontFamily.terminal.description",
+  "en": "Used for the sidebar terminal. Separate fonts with commas; leave empty for the default",
+  "tr": "Hutumika kwa Terminal ya upau wa kando. Tenganisha herufi kwa koma; acha wazi kwa chaguo msingi",
+  "natural": 0.56,
+  "meaning": 0.83
+ },
+ {
+  "lang": "sw",
+  "key": "countHint",
+  "en": "Results returned per query: an integer from 1 to 50, default 10. This controls result count, not search calls. web_search keeps no more sources than its own result limit.",
+  "tr": "Matokeo yanayorejeshwa kwa swali: idadi kamili kuanzia 1 hadi 50, chaguo msingi 10. Hii hudhibiti idadi ya matokeo, si miito ya utafutaji. web_search haweki vyanzo zaidi kuliko kikomo chake cha matokeo.",
+  "natural": 0.55,
+  "meaning": 0.91
+ },
+ {
+  "lang": "sw",
+  "key": "maxUsesHint",
+  "en": "How many searches the auxiliary model may run within one Messages request. Applies only to the Messages API.",
+  "tr": "Idadi ya utafutaji ambayo kielelezo saidizi kinaweza kuendesha ndani ya ombi moja la Messages. Inatumika kwa Messages API pekee.",
+  "natural": 0.59,
+  "meaning": 0.93
+ },
+ {
+  "lang": "th",
+  "key": "translating",
+  "en": "Translating reasoning",
+  "tr": "กำลังแปลการให้เหตุผล",
+  "natural": 0.47,
+  "meaning": 0.9
+ },
+ {
+  "lang": "th",
+  "key": "delivery.label",
+  "en": "Saved delivery record",
+  "tr": "ระเบียนการจัดส่งที่บันทึกไว้",
+  "natural": 0.51,
+  "meaning": 0.88
+ },
+ {
+  "lang": "th",
+  "key": "frequency.cron",
+  "en": "Cron {expression} ({timeZone})",
+  "tr": "ครอน {expression} ({timeZone})",
+  "natural": 0.59,
+  "meaning": 0.83
+ },
+ {
+  "lang": "th",
+  "key": "cron.day.both",
+  "en": "Day {days} of every month or {weekdays}{months}",
+  "tr": "วันที่ {days} ของทุกเดือน หรือ {weekdays}{months}",
+  "natural": 0.57,
+  "meaning": 0.89
+ },
+ {
+  "lang": "th",
+  "key": "cron.day.bothStarred",
+  "en": "Day {days} of every month and {weekdays}{months}",
+  "tr": "วันที่ {days} ของทุกเดือน และ {weekdays}{months}",
+  "natural": 0.59,
+  "meaning": 0.85
+ },
+ {
+  "lang": "th",
+  "key": "cron.time.hoursEveryMinute",
+  "en": "every minute during hours {hours}",
+  "tr": "ทุกนาทีในช่วงชั่วโมง {hours}",
+  "natural": 0.59,
+  "meaning": 0.89
+ },
+ {
+  "lang": "th",
+  "key": "delete.close",
+  "en": "Close deletion confirmation",
+  "tr": "ปิดการยืนยันการลบ",
+  "natural": 0.57,
+  "meaning": 0.91
+ },
+ {
+  "lang": "th",
+  "key": "useSearchApiHint",
+  "en": "Off by default: search runs through DeepSeek Messages. For the new Web Search API's features and pricing, see the",
+  "tr": "ปิดใช้งานโดยค่าเริ่มต้น: การค้นหาจะทำงานผ่าน DeepSeek Messages สำหรับคุณสมบัติและราคาของ API การค้นหาเว็บใหม่ โปรดดูที่",
+  "natural": 0.58,
+  "meaning": 0.83
+ },
+ {
+  "lang": "tl",
+  "key": "settings.collapse.title",
+  "en": "When to Collapse Work Details",
+  "tr": "Kailan Ititiklop ang mga Detalye ng Trabaho",
+  "natural": 0.57,
+  "meaning": 0.94
+ },
+ {
+  "lang": "tl",
+  "key": "message.failure.interrupted",
+  "en": "The DSH process exited before this turn finished (for example, it was killed, crashed, or timed out while shutting down), so the turn was closed when DSH restarted. Unfinished tool calls have unknown outcomes.",
+  "tr": "Lumabas ang proseso ng DSH bago matapos ang turn na ito (halimbawa, pinatay ito, bumagsak, o naubusan ng oras habang isinasara), kaya isinara ang turn nang muling magsimula ang DSH. Hindi alam ang kinalabasan ng mga hindi natapos na tool call.",
+  "natural": 0.53,
+  "meaning": 0.94
+ },
+ {
+  "lang": "tl",
+  "key": "providerUnavailable",
+  "en": "This provider is unavailable. Configure your DeepSeek account or Official API provider, or choose an available service.",
+  "tr": "Hindi magagamit ang provider na ito. I-configure ang iyong DeepSeek account o Official API provider, o pumili ng ibang magagamit na serbisyo.",
+  "natural": 0.57,
+  "meaning": 0.94
+ },
+ {
+  "lang": "tl",
+  "key": "paidNotice",
+  "en": "Each uncached fragment sends a separate paid DeepSeek Flash request through the selected account or Official API credentials. Reopening reasoning reuses saved results; changing the provider, language, source text, or request settings may send a new paid request.",
+  "tr": "Bawat hindi naka-cache na fragment ay nagpapadala ng hiwalay na may bayad na DeepSeek Flash request sa pamamagitan ng napiling account o mga kredensyal ng Official API. Ang muling pagbubukas ng reasoning ay muling gumagamit ng mga naka-save na resulta; ang pagpapalit ng provider, wika, source text, o mga setting ng request ay maaaring magpadala ng bagong may bayad na request.",
+  "natural": 0.45,
+  "meaning": 0.93
+ },
+ {
+  "lang": "tl",
+  "key": "anonymousNotice",
+  "en": "Bing and Google need no translation login or API key. Their anonymous endpoints may reject or limit requests.",
+  "tr": "Ang Bing at Google ay hindi nangangailangan ng login sa pagsasalin o API key. Ang kanilang mga anonymous na endpoint ay maaaring tumanggi o maglimita ng mga request.",
+  "natural": 0.53,
+  "meaning": 0.91
+ },
+ {
+  "lang": "tl",
+  "key": "translating",
+  "en": "Translating reasoning",
+  "tr": "Isinasalin ang pangangatwiran",
+  "natural": 0.45,
+  "meaning": 0.94
+ },
+ {
+  "lang": "tl",
+  "key": "invalidLanguage",
+  "en": "Enter auto or a language code, such as zh, en, or ja.",
+  "tr": "Ilagay ang auto o isang code ng wika, tulad ng zh, en, o ja.",
+  "natural": 0.55,
+  "meaning": 0.94
+ },
+ {
+  "lang": "tl",
+  "key": "unavailable",
+  "en": "Translation preferences are unavailable.",
+  "tr": "Hindi magagamit ang mga kagustuhan sa pagsasalin.",
+  "natural": 0.48,
+  "meaning": 0.95
+ },
+ {
+  "lang": "tl",
+  "key": "readOnly",
+  "en": "This deployment stores settings read-only.",
+  "tr": "Iniimbak ng deployment na ito ang mga setting bilang read-only.",
+  "natural": 0.57,
+  "meaning": 0.88
+ },
+ {
+  "lang": "tl",
+  "key": "saveFailed",
+  "en": "The deployment did not accept these values; they were left for you to correct.",
+  "tr": "Hindi tinanggap ng deployment ang mga value na ito; naiwan ang mga ito para maitama mo.",
+  "natural": 0.46,
+  "meaning": 0.92
+ },
+ {
+  "lang": "tl",
+  "key": "restartReasonPackageMoved",
+  "en": "An installed package now resolves to another directory, or the change replaces a package the DSH installation provides. Uninstall a package before installing it from another location.",
+  "tr": "Ang isang naka-install na package ay tumuturo na ngayon sa ibang direktoryo, o pinapalitan ng pagbabago ang isang package na ibinibigay ng pag-install ng DSH. I-uninstall ang isang package bago ito i-install mula sa ibang lokasyon.",
+  "natural": 0.55,
+  "meaning": 0.9
+ },
+ {
+  "lang": "tl",
+  "key": "restartReasonUnmanagedPlugin",
+  "en": "The change reaches a plugin running outside the plugin list.",
+  "tr": "Naaapektuhan ng pagbabago ang isang plugin na tumatakbo sa labas ng listahan ng plugin.",
+  "natural": 0.52,
+  "meaning": 0.8
+ },
+ {
+  "lang": "tl",
+  "key": "previewAlt",
+  "en": "{name} feature preview",
+  "tr": "{name} preview ng feature",
+  "natural": 0.55,
+  "meaning": 0.9
+ },
+ {
+  "lang": "tl",
+  "key": "sourceTargetVersion",
+  "en": "Version for this DSH",
+  "tr": "Bersyon para sa DSH na ito",
+  "natural": 0.59,
+  "meaning": 0.95
+ },
+ {
+  "lang": "tl",
+  "key": "installUpgradeNotice",
+  "en": "On-demand Official plugins offer Update when their version differs from DSH. To update other plugins, uninstall and reinstall them.",
+  "tr": "Nag-aalok ng pag-update ang mga on-demand na opisyal na plugin kapag naiiba ang bersyon nila sa DSH. Para i-update ang ibang plugin, i-uninstall at muling i-install ang mga ito.",
+  "natural": 0.58,
+  "meaning": 0.9
+ },
+ {
+  "lang": "tl",
+  "key": "exempted",
+  "en": "This version is not compatible with the running DSH, but you set a compatibility exemption for it.",
+  "tr": "Hindi tugma ang bersyong ito sa tumatakbong DSH, pero nagtakda ka ng exemption sa compatibility para dito.",
+  "natural": 0.57,
+  "meaning": 0.89
+ },
+ {
+  "lang": "tl",
+  "key": "detail.sessionUnavailable",
+  "en": "The original session is unavailable.",
+  "tr": "Hindi available ang orihinal na sesyon.",
+  "natural": 0.53,
+  "meaning": 0.82
+ },
+ {
+  "lang": "tl",
+  "key": "cron.time.hourlyAt",
+  "en": "Every hour at minute {minutes}",
+  "tr": "Bawat oras sa minuto {minutes}",
+  "natural": 0.56,
+  "meaning": 0.91
+ },
+ {
+  "lang": "tl",
+  "key": "cron.time.hoursEveryMinute",
+  "en": "every minute during hours {hours}",
+  "tr": "bawat minuto sa mga oras na {hours}",
+  "natural": 0.55,
+  "meaning": 0.95
+ },
+ {
+  "lang": "tl",
+  "key": "cron.time.hoursEveryMinutes",
+  "en": "every {step} minutes during hours {hours}",
+  "tr": "bawat {step} minuto sa mga oras na {hours}",
+  "natural": 0.56,
+  "meaning": 0.93
+ },
+ {
+  "lang": "tl",
+  "key": "cron.time.hoursAt",
+  "en": "at minute {minutes} of hours {hours}",
+  "tr": "sa minuto {minutes} ng mga oras na {hours}",
+  "natural": 0.44,
+  "meaning": 0.87
+ },
+ {
+  "lang": "tl",
+  "key": "relative.overdue",
+  "en": "{value} {unit} overdue",
+  "tr": "{value} {unit} nang lumampas sa takda",
+  "natural": 0.57,
+  "meaning": 0.9
+ },
+ {
+  "lang": "tl",
+  "key": "timing.subagentSession",
+  "en": "This session belongs to a sub-agent, which never receives delivered reminders.",
+  "tr": "Ang session na ito ay kabilang sa isang sub-agent, na hindi kailanman tumatanggap ng mga naihatid na paalala.",
+  "natural": 0.58,
+  "meaning": 0.94
+ },
+ {
+  "lang": "tl",
+  "key": "timing.invalidInterval.second",
+  "en": "Enter an interval of at least 60 seconds.",
+  "tr": "Maglagay ng pagitan na hindi bababa sa 60 segundo.",
+  "natural": 0.56,
+  "meaning": 0.94
+ },
+ {
+  "lang": "tl",
+  "key": "rule.cronInvalid",
+  "en": "Enter a five-field cron expression, for example 0 9 * * 1-5.",
+  "tr": "Maglagay ng ekspresyon ng Cron na may limang field, halimbawa 0 9 * * 1-5.",
+  "natural": 0.59,
+  "meaning": 0.92
+ },
+ {
+  "lang": "tl",
+  "key": "hostRelease.reload",
+  "en": "Reload to load the new version",
+  "tr": "I-reload para i-load ang bagong bersyon",
+  "natural": 0.43,
+  "meaning": 0.91
+ },
+ {
+  "lang": "tl",
+  "key": "guideMinimalExplanation",
+  "en": "### What is included  One persistent shell tool, read_image, and a fixed system prompt. Image reading requires an image-capable model. Older history is compacted automatically under context pressure; use /compact while the agent is idle to compact it manually. The built-in preset does not load Skills, planning, or the standard runtime context.  ### When to choose it  Use it as a baseline for experiments and comparisons. It can still read files and execute scripts through shell commands, but offers fewer built-in ways to manage a long task. Fewer tools does not necessarily make it easier for a beginner.",
+  "tr": "### Ano ang kasama  Isang persistent na shell tool, read_image, at isang nakatakdang system prompt. Ang pagbasa ng imahe ay nangangailangan ng modelong kayang magbasa ng imahe. Ang mas lumang kasaysayan ay awtomatikong kino-compact kapag may pressure sa context; gamitin ang /compact habang hindi aktibo ang agent upang i-compact ito nang manu-mano. Ang built-in na preset ay hindi naglo-load ng Skills, pagpaplano, o ng karaniwang runtime context.  ### Kailan ito pipiliin  Gamitin ito bilang baseline para sa mga eksperimento at paghahambing. Nakakabasa pa rin ito ng mga file at nakakapagpatakbo ng mga script sa pamamagitan ng mga shell command, ngunit may mas kaunting built-in na paraan upang pamahalaan ang mahabang gawain. Ang mas kaunting tool ay hindi nangangahulugang mas madali ito para sa isang baguhan.",
+  "natural": 0.37,
+  "meaning": 0.9
+ },
+ {
+  "lang": "tl",
+  "key": "presetMinimalDescription",
+  "en": "The agent uses a terminal and image reading, with context compaction. Useful for testing and comparing its basic performance.",
+  "tr": "Gumagamit ang agent ng Terminal at pagbasa ng imahe, na may context compaction. Kapaki-pakinabang para sa pagsubok at paghahambing ng pangunahing performance nito.",
+  "natural": 0.45,
+  "meaning": 0.89
+ },
+ {
+  "lang": "tl",
+  "key": "baseUrlConfigured",
+  "en": "Provider-configured endpoint",
+  "tr": "Endpoint na isinaayos ng provider",
+  "natural": 0.52,
+  "meaning": 0.87
+ },
+ {
+  "lang": "tl",
+  "key": "modelReasoningHelp",
+  "en": "About reasoning levels",
+  "tr": "Tungkol sa mga antas ng pangangatuwiran",
+  "natural": 0.54,
+  "meaning": 0.96
+ },
+ {
+  "lang": "tl",
+  "key": "modelReasoningHelpText",
+  "en": "The API value is sent in the request's reasoning-effort field, such as OpenAI's reasoning_effort. It defaults to the level name; where the model provider's API documentation specifies a different value, follow it. Off turns reasoning off and needs no value; a value already written in the configuration is kept and sent.",
+  "tr": "Ang halaga ng API ay ipinapadala sa field na reasoning-effort ng kahilingan, tulad ng reasoning_effort ng OpenAI. Bilang default, ito ang pangalan ng antas; kung nagtatakda ang dokumentasyon ng API ng provider ng modelo ng ibang halaga, sundin ito. Pinapatay ng Off ang pangangatuwiran at hindi nangangailangan ng halaga; ang halaga na nakasulat na sa pagsasaayos ay pinapanatili at ipinapadala.",
+  "natural": 0.46,
+  "meaning": 0.86
+ },
+ {
+  "lang": "tl",
+  "key": "modelReasoningValueRequired",
+  "en": "Every level besides Off needs an API value, and no value can be empty.",
+  "tr": "Bawat antas maliban sa Off ay nangangailangan ng halaga ng API, at walang halaga ang maaaring walang laman.",
+  "natural": 0.54,
+  "meaning": 0.84
+ },
+ {
+  "lang": "tl",
+  "key": "useSearchApiHint",
+  "en": "Off by default: search runs through DeepSeek Messages. For the new Web Search API's features and pricing, see the",
+  "tr": "Naka-off bilang default: tumatakbo ang paghahanap sa pamamagitan ng DeepSeek Messages. Para sa mga feature at pagpepresyo ng bagong Web Search API, tingnan ang",
+  "natural": 0.43,
+  "meaning": 0.78
+ },
+ {
+  "lang": "tl",
+  "key": "searchGuide",
+  "en": "Search & Fetch guide",
+  "tr": "Gabay sa Search & Fetch",
+  "natural": 0.47,
+  "meaning": 0.91
+ },
+ {
+  "lang": "tl",
+  "key": "searchApiBaseUrl",
+  "en": "Search / Fetch API base URL",
+  "tr": "Base URL ng Search / Fetch API",
+  "natural": 0.59,
+  "meaning": 0.94
+ },
+ {
+  "lang": "tl",
+  "key": "searchApiBaseUrlHint",
+  "en": "Include the API prefix, such as https://api.deepseek.com/v1/tools. The provider appends /search or /fetch. Leave blank to restore the default.",
+  "tr": "Isama ang prefix ng API, tulad ng https://api.deepseek.com/v1/tools. Idinaragdag ng provider ang /search o /fetch. Iwanan itong blangko upang ibalik ang default.",
+  "natural": 0.59,
+  "meaning": 0.91
+ },
+ {
+  "lang": "tl",
+  "key": "countHint",
+  "en": "Results returned per query: an integer from 1 to 50, default 10. This controls result count, not search calls. web_search keeps no more sources than its own result limit.",
+  "tr": "Mga resultang ibinalik bawat query: isang integer mula 1 hanggang 50, default 10. Kinokontrol nito ang bilang ng resulta, hindi ang mga tawag sa paghahanap. Ang web_search ay hindi nagpapanatili ng mas maraming pinagmulan kaysa sa sarili nitong limit sa resulta.",
+  "natural": 0.56,
+  "meaning": 0.9
+ },
+ {
+  "lang": "tl",
+  "key": "invalidCount",
+  "en": "Enter an integer from 1 to 50, or leave blank to use the default.",
+  "tr": "Maglagay ng integer mula 1 hanggang 50, o iwanan itong blangko upang gamitin ang default.",
+  "natural": 0.53,
+  "meaning": 0.93
+ },
+ {
+  "lang": "tl",
+  "key": "systemMicrophoneNamed",
+  "en": "System default ({name})",
+  "tr": "Default ng sistema ({name})",
+  "natural": 0.57,
+  "meaning": 0.94
+ },
+ {
+  "lang": "tr",
+  "key": "saveFailed",
+  "en": "The deployment did not accept these values; they were left for you to correct.",
+  "tr": "Dağıtım bu değerleri kabul etmedi; düzeltmeniz için bırakıldı.",
+  "natural": 0.55,
+  "meaning": 0.9
+ },
+ {
+  "lang": "tr",
+  "key": "count.idle.other",
+  "en": "{count} background jobs",
+  "tr": "{count} arka plan işi",
+  "natural": 0.59,
+  "meaning": 0.7
+ },
+ {
+  "lang": "tr",
+  "key": "cron.day.monthDays",
+  "en": "Day {days} of every month{months}",
+  "tr": "Her ayın {days}. günü{months}",
+  "natural": 0.34,
+  "meaning": 0.61
+ },
+ {
+  "lang": "tr",
+  "key": "cron.day.both",
+  "en": "Day {days} of every month or {weekdays}{months}",
+  "tr": "Her ayın {days}. günü veya {weekdays}{months}",
+  "natural": 0.3,
+  "meaning": 0.57
+ },
+ {
+  "lang": "tr",
+  "key": "timing.invalidInterval.second",
+  "en": "Enter an interval of at least 60 seconds.",
+  "tr": "En az 60 saniyelik bir aralık girin.",
+  "natural": 0.55,
+  "meaning": 0.95
+ },
+ {
+  "lang": "tr",
+  "key": "guideMinimalExplanation",
+  "en": "### What is included  One persistent shell tool, read_image, and a fixed system prompt. Image reading requires an image-capable model. Older history is compacted automatically under context pressure; use /compact while the agent is idle to compact it manually. The built-in preset does not load Skills, planning, or the standard runtime context.  ### When to choose it  Use it as a baseline for experiments and comparisons. It can still read files and execute scripts through shell commands, but offers fewer built-in ways to manage a long task. Fewer tools does not necessarily make it easier for a beginner.",
+  "tr": "### Neler dahil  Tek bir kalıcı shell aracı, read_image ve sabit bir sistem istemi. Görüntü okuma, görüntü işleyebilen bir model gerektirir. Eski geçmiş, bağlam baskısı altında otomatik olarak sıkıştırılır; aracı boşta iken manuel olarak sıkıştırmak için /compact kullanın. Yerleşik hazır ayar, Skills, planlama veya standart çalışma zamanı bağlamını yüklemez.  ### Ne zaman seçilmeli  Deneyler ve karşılaştırmalar için temel olarak kullanın. Shell komutları aracılığıyla dosya okuyabilir ve betik çalıştırabilir, ancak uzun bir görevi yönetmek için daha az yerleşik yol sunar. Daha az araç, yeni başlayan biri için mutlaka daha kolay olduğu anlamına gelmez.",
+  "natural": 0.57,
+  "meaning": 0.94
+ },
+ {
+  "lang": "tr",
+  "key": "useSearchApiHint",
+  "en": "Off by default: search runs through DeepSeek Messages. For the new Web Search API's features and pricing, see the",
+  "tr": "Varsayılan olarak kapalı: arama DeepSeek Messages üzerinden çalışır. Yeni Web Search API özellikleri ve fiyatlandırması için şuna bakın:",
+  "natural": 0.58,
+  "meaning": 0.83
+ },
+ {
+  "lang": "uk",
+  "key": "timing.conflict",
+  "en": "This task changed while you were editing. Your draft is retained. Cancel and reopen after refresh to edit the latest rule.",
+  "tr": "Це завдання змінилося, поки ви його редагували. Вашу чернетку збережено. Скасуйте та відкрийте повторно після оновлення, щоб редагувати найновіше правило.",
+  "natural": 0.59,
+  "meaning": 0.81
+ },
+ {
+  "lang": "uk",
+  "key": "cron.time.hoursAt",
+  "en": "at minute {minutes} of hours {hours}",
+  "tr": "о хвилині {minutes} годин {hours}",
+  "natural": 0.55,
+  "meaning": 0.9
+ },
+ {
+  "lang": "uk",
+  "key": "delete.close",
+  "en": "Close deletion confirmation",
+  "tr": "Закрити підтвердження видалення",
+  "natural": 0.59,
+  "meaning": 0.93
+ },
+ {
+  "lang": "ur",
+  "key": "message.failure.interrupted",
+  "en": "The DSH process exited before this turn finished (for example, it was killed, crashed, or timed out while shutting down), so the turn was closed when DSH restarted. Unfinished tool calls have unknown outcomes.",
+  "tr": "DSH پروسیس اس باری کے مکمل ہونے سے پہلے ختم ہو گیا (مثال کے طور پر، اسے ختم کیا گیا، کریش ہو گیا، یا بند ہوتے وقت ٹائم آؤٹ ہو گیا)، اس لیے جب DSH دوبارہ شروع ہوا تو باری بند کر دی گئی۔ نامکمل ٹول کالز کے نتائج نامعلوم ہیں۔",
+  "natural": 0.49,
+  "meaning": 0.94
+ },
+ {
+  "lang": "ur",
+  "key": "deepseekAccount",
+  "en": "DeepSeek Flash — Account (paid)",
+  "tr": "ڈیپ سیک فلیش - اکاؤنٹ (ادا شدہ)",
+  "natural": 0.49,
+  "meaning": 0.87
+ },
+ {
+  "lang": "ur",
+  "key": "paidNotice",
+  "en": "Each uncached fragment sends a separate paid DeepSeek Flash request through the selected account or Official API credentials. Reopening reasoning reuses saved results; changing the provider, language, source text, or request settings may send a new paid request.",
+  "tr": "ہر غیر محفوظ شدہ ٹکڑا منتخب اکاؤنٹ یا سرکاری API اسناد کے ذریعے ڈیپ سیک فلیش کی الگ ادا شدہ درخواست بھیجتا ہے۔ استدلال دوبارہ کھولنے پر محفوظ شدہ نتائج دوبارہ استعمال ہوتے ہیں؛ فراہم کنندہ، زبان، ماخذ متن یا درخواست کی ترتیبات تبدیل کرنے سے نئی ادا شدہ درخواست بھیجی جا سکتی ہے۔",
+  "natural": 0.53,
+  "meaning": 0.89
+ },
+ {
+  "lang": "ur",
+  "key": "readOnly",
+  "en": "This deployment stores settings read-only.",
+  "tr": "یہ تعیناتی ترتیبات صرف پڑھنے کے موڈ میں محفوظ کرتی ہے۔",
+  "natural": 0.49,
+  "meaning": 0.77
+ },
+ {
+  "lang": "ur",
+  "key": "saveFailed",
+  "en": "The deployment did not accept these values; they were left for you to correct.",
+  "tr": "تعیناتی نے ان اقدار کو قبول نہیں کیا؛ انہیں آپ کی تصحیح کے لیے چھوڑ دیا گیا ہے۔",
+  "natural": 0.52,
+  "meaning": 0.86
+ },
+ {
+  "lang": "ur",
+  "key": "restartReasonPackageMoved",
+  "en": "An installed package now resolves to another directory, or the change replaces a package the DSH installation provides. Uninstall a package before installing it from another location.",
+  "tr": "ایک انسٹال شدہ پیکج اب کسی دوسری ڈائریکٹری کی طرف اشارہ کرتا ہے، یا یہ تبدیلی اس پیکج کی جگہ لیتی ہے جو DSH انسٹالیشن فراہم کرتی ہے۔ اسے کسی دوسری جگہ سے انسٹال کرنے سے پہلے پیکج کو ان انسٹال کریں۔",
+  "natural": 0.58,
+  "meaning": 0.88
+ },
+ {
+  "lang": "ur",
+  "key": "installUpgradeNotice",
+  "en": "On-demand Official plugins offer Update when their version differs from DSH. To update other plugins, uninstall and reinstall them.",
+  "tr": "آن ڈیمانڈ آفیشل پلگ انز اپ ڈیٹ پیش کرتے ہیں جب ان کا ورژن DSH سے مختلف ہو۔ دیگر پلگ انز کو اپ ڈیٹ کرنے کے لیے انہیں ان انسٹال کریں اور دوبارہ انسٹال کریں۔",
+  "natural": 0.58,
+  "meaning": 0.89
+ },
+ {
+  "lang": "ur",
+  "key": "cron.day.monthDays",
+  "en": "Day {days} of every month{months}",
+  "tr": "ہر مہینے کا دن {days}{months}",
+  "natural": 0.53,
+  "meaning": 0.89
+ },
+ {
+  "lang": "ur",
+  "key": "cron.day.both",
+  "en": "Day {days} of every month or {weekdays}{months}",
+  "tr": "ہر مہینے کا دن {days} یا {weekdays}{months}",
+  "natural": 0.47,
+  "meaning": 0.87
+ },
+ {
+  "lang": "ur",
+  "key": "cron.day.bothStarred",
+  "en": "Day {days} of every month and {weekdays}{months}",
+  "tr": "ہر مہینے کا دن {days} اور {weekdays}{months}",
+  "natural": 0.5,
+  "meaning": 0.85
+ },
+ {
+  "lang": "ur",
+  "key": "relative.overdue",
+  "en": "{value} {unit} overdue",
+  "tr": "{value} {unit} زائد المیعاد",
+  "natural": 0.5,
+  "meaning": 0.9
+ },
+ {
+  "lang": "ur",
+  "key": "guideMinimalExplanation",
+  "en": "### What is included  One persistent shell tool, read_image, and a fixed system prompt. Image reading requires an image-capable model. Older history is compacted automatically under context pressure; use /compact while the agent is idle to compact it manually. The built-in preset does not load Skills, planning, or the standard runtime context.  ### When to choose it  Use it as a baseline for experiments and comparisons. It can still read files and execute scripts through shell commands, but offers fewer built-in ways to manage a long task. Fewer tools does not necessarily make it easier for a beginner.",
+  "tr": "### اس میں کیا شامل ہے  ایک مستقل شیل ٹول، read_image، اور ایک طے شدہ سسٹم پرامپٹ۔ تصویر پڑھنے کے لیے تصویر کی صلاحیت رکھنے والا ماڈل درکار ہے۔ پرانی ہسٹری سیاق کے دباؤ کے تحت خودکار طور پر کمپیکٹ ہو جاتی ہے؛ ایجنٹ کے فارغ ہونے پر اسے دستی طور پر کمپیکٹ کرنے کے لیے /compact استعمال کریں۔ بلٹ ان پری سیٹ اسکلز، منصوبہ بندی، یا معیاری رن ٹائم سیاق کو لوڈ نہیں کرتا۔  ### اسے کب منتخب کریں  اسے تجربات اور تقابل کے لیے بنیاد کے طور پر استعمال کریں۔ یہ اب بھی شیل کمانڈز کے ذریعے فائلیں پڑھ سکتا ہے اور اسکرپٹس چلا سکتا ہے، لیکن طویل کام کو سنبھالنے کے لیے کم بلٹ ان طریقے فراہم کرتا ہے۔ کم ٹولز کا ہونا کسی ابتدائی صارف کے لیے اسے لازمی طور پر آسان نہیں بناتا۔",
+  "natural": 0.49,
+  "meaning": 0.91
+ },
+ {
+  "lang": "ur",
+  "key": "modelReasoningHelpText",
+  "en": "The API value is sent in the request's reasoning-effort field, such as OpenAI's reasoning_effort. It defaults to the level name; where the model provider's API documentation specifies a different value, follow it. Off turns reasoning off and needs no value; a value already written in the configuration is kept and sent.",
+  "tr": "API قدر درخواست کے reasoning-effort فیلڈ میں بھیجی جاتی ہے، جیسے OpenAI کا reasoning_effort۔ یہ بطور پیش فرض درجے کے نام پر ہوتی ہے؛ جہاں ماڈل فراہم کنندہ کی API دستاویزات کوئی مختلف قدر بتائیں، اسی پر عمل کریں۔ Off استدلال کو بند کر دیتا ہے اور اسے کسی قدر کی ضرورت نہیں ہوتی؛ ترتیب میں پہلے سے لکھی ہوئی قدر برقرار رکھی جاتی ہے اور بھیجی جاتی ہے۔",
+  "natural": 0.55,
+  "meaning": 0.89
+ },
+ {
+  "lang": "ur",
+  "key": "useSearchApiHint",
+  "en": "Off by default: search runs through DeepSeek Messages. For the new Web Search API's features and pricing, see the",
+  "tr": "بطور ڈیفالٹ آف: تلاش DeepSeek Messages کے ذریعے چلتی ہے۔ نئے Web Search API کی خصوصیات اور قیمتوں کے لیے، دیکھیں",
+  "natural": 0.43,
+  "meaning": 0.7
+ },
+ {
+  "lang": "ur",
+  "key": "searchGuide",
+  "en": "Search & Fetch guide",
+  "tr": "تلاش اور فیچ گائیڈ",
+  "natural": 0.54,
+  "meaning": 0.93
+ },
+ {
+  "lang": "ur",
+  "key": "searchApiBaseUrl",
+  "en": "Search / Fetch API base URL",
+  "tr": "تلاش / فیچ API بنیادی URL",
+  "natural": 0.49,
+  "meaning": 0.86
+ },
+ {
+  "lang": "ur",
+  "key": "searchApiBaseUrlHint",
+  "en": "Include the API prefix, such as https://api.deepseek.com/v1/tools. The provider appends /search or /fetch. Leave blank to restore the default.",
+  "tr": "API پریفکس شامل کریں، جیسے https://api.deepseek.com/v1/tools۔ فراہم کنندہ /search یا /fetch جوڑتا ہے۔ ڈیفالٹ بحال کرنے کے لیے خالی چھوڑ دیں۔",
+  "natural": 0.57,
+  "meaning": 0.89
+ },
+ {
+  "lang": "vi",
+  "key": "row.imageSize",
+  "en": "{width}x{height}px, {bytes} bytes",
+  "tr": "{width}x{height}px, {bytes} byte",
+  "natural": 0.54,
+  "meaning": 0.71
+ },
+ {
+  "lang": "vi",
+  "key": "cron.day.bothStarred",
+  "en": "Day {days} of every month and {weekdays}{months}",
+  "tr": "Ngày {days} của mọi tháng và {weekdays}{months}",
+  "natural": 0.47,
+  "meaning": 0.81
+ },
+ {
+  "lang": "yo",
+  "key": "settings.collapse.title",
+  "en": "When to Collapse Work Details",
+  "tr": "Ìgbà Tí Àwọn Àlàyé Ìṣẹ́ Yóò Fàrà Pàmọ́",
+  "natural": 0.54,
+  "meaning": 0.92
+ },
+ {
+  "lang": "yo",
+  "key": "settings.collapse.description",
+  "en": "Choose when to automatically collapse work details",
+  "tr": "Yàn ìgbà tí àwọn àlàyé ìṣẹ́ yóò fàrà pàmọ́ fúnrárẹ̀",
+  "natural": 0.57,
+  "meaning": 0.92
+ },
+ {
+  "lang": "yo",
+  "key": "message.failure.interrupted",
+  "en": "The DSH process exited before this turn finished (for example, it was killed, crashed, or timed out while shutting down), so the turn was closed when DSH restarted. Unfinished tool calls have unknown outcomes.",
+  "tr": "Ìlànà DSH jáde kí ìyípádà yìí tó párí (fún àpẹẹrẹ, wọ́n pá á, ó bàjẹ́, tàbí ó kọjá àkókò nígbà tí ó ń ti pà), nítorí náà, wọ́n ti ìyípádà náà nígbà tí DSH tún bẹ̀rẹ̀. Àwọn ìpè irinṣẹ́ tí kò párí ní àbájáde àìmọ̀.",
+  "natural": 0.36,
+  "meaning": 0.88
+ },
+ {
+  "lang": "yo",
+  "key": "paidNotice",
+  "en": "Each uncached fragment sends a separate paid DeepSeek Flash request through the selected account or Official API credentials. Reopening reasoning reuses saved results; changing the provider, language, source text, or request settings may send a new paid request.",
+  "tr": "Olúkúlùkù àjàrá tí a kò fi pamọ́ máa ń fi ìbéèrè DeepSeek Flash ọ̀tọ̀ọ̀tọ̀ tí ó ní owó ránṣẹ́ nípa àkọọ́lẹ̀ tí a yàn tàbí àwọn ìwé ẹ̀rí API Oṣìṣẹ́. Ṣíṣí ìrònú padà máa ń tún àwọn àbájáde tí a ti fipamọ́ lò; yíyí olùpèsè, èdè, ọ̀rọ̀ orísun, tàbí ètò ìbéèrè padà lè fi ìbéèrè tuntun tí ó ní owó ránṣẹ́.",
+  "natural": 0.49,
+  "meaning": 0.88
+ },
+ {
+  "lang": "yo",
+  "key": "translating",
+  "en": "Translating reasoning",
+  "tr": "Títumọ̀ ìrònú",
+  "natural": 0.59,
+  "meaning": 0.9
+ },
+ {
+  "lang": "yo",
+  "key": "saveFailed",
+  "en": "The deployment did not accept these values; they were left for you to correct.",
+  "tr": "Ìfìsílẹ̀ náà kò gbà àwọn ìníyẹ̀ wọ̀nyí; à fì wọ́n sílẹ̀ fún ọ́ láti ṣé àtúnṣé.",
+  "natural": 0.59,
+  "meaning": 0.91
+ },
+ {
+  "lang": "yo",
+  "key": "restartReasonPackageMoved",
+  "en": "An installed package now resolves to another directory, or the change replaces a package the DSH installation provides. Uninstall a package before installing it from another location.",
+  "tr": "Àpò tí á fì sílẹ̀ ń tọ́ka sí ìtọ́sọ́nà mìíràn nísínsìnyí, tàbí àyípadà náà rọ́pò àpò tí fífì DSH sílẹ̀ pèsè. Yọ́ àpò kúrò kí ó tó tún fì ọ̀míràn sílẹ̀ látí ìbì mìíràn.",
+  "natural": 0.46,
+  "meaning": 0.87
+ },
+ {
+  "lang": "yo",
+  "key": "restartReasonUnmanagedPlugin",
+  "en": "The change reaches a plugin running outside the plugin list.",
+  "tr": "Àyípadà náà dé àfìkún tí ń ṣíṣẹ́ ní òdé àkójọ́ àwọ́n àfìkún.",
+  "natural": 0.56,
+  "meaning": 0.84
+ },
+ {
+  "lang": "yo",
+  "key": "installUpgradeNotice",
+  "en": "On-demand Official plugins offer Update when their version differs from DSH. To update other plugins, uninstall and reinstall them.",
+  "tr": "Àwọ́n àfìkún tí á bèrè fún nígbà tí á nílò wọ́n máá fúnnì ní àtúnṣè nígbà tí ẹ̀yà wọ́n bá yàtọ̀ sí tí DSH. Látí ṣé àtúnṣè sí àwọ́n àfìkún mìíràn, yọ́ wọ́n kúrò kí ó sì tún fì wọ́n sílẹ̀.",
+  "natural": 0.52,
+  "meaning": 0.87
+ },
+ {
+  "lang": "yo",
+  "key": "installDoneRestart",
+  "en": "Installed; restart DSH to load it. {reason}",
+  "tr": "Á tì fì sílẹ̀ tán; tún DSH bẹ̀rẹ̀ látí kó ó. {reason}",
+  "natural": 0.57,
+  "meaning": 0.89
+ },
+ {
+  "lang": "yo",
+  "key": "close",
+  "en": "Close keyboard shortcuts",
+  "tr": "Tì àwọn ọ̀nà àbùjá kíbọ̀ọ̀dì",
+  "natural": 0.45,
+  "meaning": 0.61
+ },
+ {
+  "lang": "yo",
+  "key": "sourcesDescription",
+  "en": "A plugin market is published as the URL of one index file. Discover browses the indexes listed here.",
+  "tr": "Wọ́n ṣe àtẹ̀jáde ọjà àfikún gẹ́gẹ́ bí URL fáìlì àtọ́ka kan. Ìwárí ń ṣàyẹ̀wò àwọn àtọ́ka tí wọ́n ṣe àkójọ níbí.",
+  "natural": 0.59,
+  "meaning": 0.9
+ },
+ {
+  "lang": "yo",
+  "key": "exempted",
+  "en": "This version is not compatible with the running DSH, but you set a compatibility exemption for it.",
+  "tr": "Ẹ̀yà yìí kò bá DSH tí ń ṣiṣẹ́ lọ́wọ́ mu, ṣùgbọ́n o ti gba ìyọ̀nda ìbáramu fún un.",
+  "natural": 0.58,
+  "meaning": 0.87
+ },
+ {
+  "lang": "yo",
+  "key": "timing.conflict",
+  "en": "This task changed while you were editing. Your draft is retained. Cancel and reopen after refresh to edit the latest rule.",
+  "tr": "Iṣẹ́ yìí ti yípadà nígbà tí ń ṣe àtúnṣe rẹ̀. Àkọsilẹ̀ rẹ̀ ti wà láàrin. Fagilé, kí o sì tún ṣí i lẹ́yìn ìmúdójú, kí o lè ṣe àtúnṣe àṣẹ tó kẹ́yìn.",
+  "natural": 0.55,
+  "meaning": 0.9
+ },
+ {
+  "lang": "yo",
+  "key": "delete.description",
+  "en": "This stops the task from triggering and deletes it together with its saved delivery records. The original session and its messages remain; queued messages are not withdrawn.",
+  "tr": "Èyí ń dá ìṣẹ́ náà dúró láti má ṣiṣẹ́, ó sì ń pà á rẹ́ pẹ̀lú àwọ́n àkọsílẹ̀ ìfijiṣẹ́ tí à ti pàmọ́. Ìpàdé àtilẹ̀wá àti àwọ́n ìfiránṣẹ́ rẹ̀ ń wà sí i; àwọ́n ìfiránṣẹ́ tí ó wà ní ìlà ìdúró kò ní fàpàdà.",
+  "natural": 0.51,
+  "meaning": 0.87
+ },
+ {
+  "lang": "yo",
+  "key": "list.nextPrefix",
+  "en": "Next scheduled time:",
+  "tr": "Àkókò ìṣẹ̀tò tó kàn:",
+  "natural": 0.57,
+  "meaning": 0.82
+ },
+ {
+  "lang": "yo",
+  "key": "delivery.cursorError",
+  "en": "Records were updated.",
+  "tr": "Àwọ́n àkọ́sílẹ̀ tí yípadà.",
+  "natural": 0.58,
+  "meaning": 0.82
+ },
+ {
+  "lang": "yo",
+  "key": "delivery.retentionBounds",
+  "en": "Each task keeps up to {records} delivery records from the last {days} days.",
+  "tr": "Ìṣẹ́ kọ̀ọ̀kán máá pá àwọ́n àkọ́sílẹ̀ ìfìjiṣẹ́ {records} mọ́ láti ọ̀jọ́ {days} tó kọ̀já lọ́.",
+  "natural": 0.52,
+  "meaning": 0.78
+ },
+ {
+  "lang": "yo",
+  "key": "delivery.retentionExplanation",
+  "en": "When a new record is saved, older records outside these limits are cleared automatically. Clearing records does not stop the task.",
+  "tr": "Nígbà tí á bá fì àkọ́sílẹ̀ tútùn pámọ́, àwọ́n àkọ́sílẹ̀ àtìjọ́ tó wà ní òdè àwọ́n ààlà wọ̀nyí ní á máá pá rẹ́ fúnrá rẹ̀. Pípá àwọ́n àkọ́sílẹ̀ rẹ́ kò dá ìṣẹ́ dúró.",
+  "natural": 0.51,
+  "meaning": 0.78
+ },
+ {
+  "lang": "yo",
+  "key": "detail.sessionLoading",
+  "en": "Loading original session information.",
+  "tr": "Ń gbà ìròyìn ìpàdé àtìlẹ̀wá.",
+  "natural": 0.51,
+  "meaning": 0.86
+ },
+ {
+  "lang": "yo",
+  "key": "detail.sessionArchived",
+  "en": "The original session is archived.",
+  "tr": "À tí fì ìpàdé àtìlẹ̀wá pámọ́.",
+  "natural": 0.52,
+  "meaning": 0.86
+ },
+ {
+  "lang": "yo",
+  "key": "delivery.label",
+  "en": "Saved delivery record",
+  "tr": "Àkọ́sílẹ̀ ìfìjiṣẹ́ tí á pámọ́.",
+  "natural": 0.55,
+  "meaning": 0.85
+ },
+ {
+  "lang": "yo",
+  "key": "cron.day.both",
+  "en": "Day {days} of every month or {weekdays}{months}",
+  "tr": "Ọjọ́ {days} ti oṣùkọ̀ọ̀kán tàbí {weekdays}{months}",
+  "natural": 0.57,
+  "meaning": 0.82
+ },
+ {
+  "lang": "yo",
+  "key": "cron.day.bothStarred",
+  "en": "Day {days} of every month and {weekdays}{months}",
+  "tr": "Ọjọ́ {days} ti oṣùkọ̀ọ̀kán àti {weekdays}{months}",
+  "natural": 0.59,
+  "meaning": 0.91
+ },
+ {
+  "lang": "yo",
+  "key": "cron.time.joinedHourlyAt",
+  "en": "every hour at minute {minutes}",
+  "tr": "ní wákàtí kọ̀ọ̀kán ní ìṣẹ́jú {minutes}",
+  "natural": 0.59,
+  "meaning": 0.91
+ },
+ {
+  "lang": "yo",
+  "key": "cron.time.hoursAt",
+  "en": "at minute {minutes} of hours {hours}",
+  "tr": "ní ìṣẹ́jú {minutes} ti àwọn wákàtí {hours}",
+  "natural": 0.59,
+  "meaning": 0.89
+ },
+ {
+  "lang": "yo",
+  "key": "timing.intervalHint.hour",
+  "en": "At least 1 hour. The interval counts from task creation or the last rule change and is independent of time zones.",
+  "tr": "Ó gbọdọ̀ jẹ́ ó kéré jùlọ wákàtí kan. Àkókò náà ń ka látinú ìṣẹ̀dá iṣẹ́ náà tàbí ìyípadà àṣẹ tó kẹ́yìn, ó sì ní òmìnira sí àkókò orílẹ̀-èdè.",
+  "natural": 0.57,
+  "meaning": 0.9
+ },
+ {
+  "lang": "yo",
+  "key": "timing.zoneNoStored",
+  "en": "A one-time task stores only its target moment, not a time zone. The date and time are interpreted in the selected time zone.",
+  "tr": "Iṣẹ́ tí ó ṣẹlẹ̀ lẹ́kan kanìpín àkókò rẹ̀ nìkan, kò sì ń fi àkókò orílẹ̀-èdè pamọ́. Ọjọ́ àti àkókò náà ń jẹ́ ìtumọ̀ nínú àkókò orílẹ̀-èdè tí a yàn.",
+  "natural": 0.49,
+  "meaning": 0.79
+ },
+ {
+  "lang": "yo",
+  "key": "timing.subagentSession",
+  "en": "This session belongs to a sub-agent, which never receives delivered reminders.",
+  "tr": "Ìjíròrò yìí jẹ́ ti agẹ́ntì kékeré, tí kò gbà àwọn ìrántí tí wọ́n ti fi ránṣẹ́.",
+  "natural": 0.51,
+  "meaning": 0.91
+ },
+ {
+  "lang": "yo",
+  "key": "timing.invalidInterval.second",
+  "en": "Enter an interval of at least 60 seconds.",
+  "tr": "Tẹ àkókò tí ó kéré jùlọ ìṣẹ́jú àáyá 60.",
+  "natural": 0.52,
+  "meaning": 0.88
+ },
+ {
+  "lang": "yo",
+  "key": "rule.cronInvalid",
+  "en": "Enter a five-field cron expression, for example 0 9 * * 1-5.",
+  "tr": "Tẹ àṣà cron tí ó ní àwọn àkànṣe márùn-ún, fún àpẹẹrẹ 0 9 * * 1-5.",
+  "natural": 0.5,
+  "meaning": 0.88
+ },
+ {
+  "lang": "yo",
+  "key": "rule.error.conflict",
+  "en": "This task changed before the update was saved. The row shows the saved rule; try again.",
+  "tr": "Ìṣẹ́ yìí ti yípàdà kí ìṣàtúnṣe tó wà pàmọ́. Ìlà náà ń fi òfin tí à ti pàmọ́ hàn; gbìyànjú lẹ́ẹ̀kàn sí i.",
+  "natural": 0.57,
+  "meaning": 0.88
+ },
+ {
+  "lang": "yo",
+  "key": "rule.error.unknown",
+  "en": "Could not confirm the rule update. The row shows the saved rule.",
+  "tr": "À kò lè jẹ́rìí ìmúdójúìwọ̀n òfin náà. Ìlà náà ń fi òfin tí à ti pàmọ́ hàn.",
+  "natural": 0.58,
+  "meaning": 0.91
+ },
+ {
+  "lang": "yo",
+  "key": "delete.close",
+  "en": "Close deletion confirmation",
+  "tr": "Pà ìjẹ́rìísí pípàrẹ́",
+  "natural": 0.51,
+  "meaning": 0.73
+ },
+ {
+  "lang": "yo",
+  "key": "toast.deleteFailed",
+  "en": "Could not delete the task.",
+  "tr": "À kò lè pà ìṣẹ́ náà rẹ́.",
+  "natural": 0.39,
+  "meaning": 0.82
+ },
+ {
+  "lang": "yo",
+  "key": "hostRelease.description",
+  "en": "The service version changed. This page paused live updates; reload to load the new version.",
+  "tr": "Ẹ̀yà ìṣẹ́ náà tí yípádà. Òjú ìwé yìí tí dá àwọn ìmúdójúwọ̀n láàyè dúró; tún gbé látí gbé ẹ̀yà túntún náà.",
+  "natural": 0.56,
+  "meaning": 0.91
+ },
+ {
+  "lang": "yo",
+  "key": "hostRelease.reload",
+  "en": "Reload to load the new version",
+  "tr": "Tún gbé látí gbé ẹ̀yà túntún náà",
+  "natural": 0.59,
+  "meaning": 0.96
+ },
+ {
+  "lang": "yo",
+  "key": "guideMinimalExplanation",
+  "en": "### What is included  One persistent shell tool, read_image, and a fixed system prompt. Image reading requires an image-capable model. Older history is compacted automatically under context pressure; use /compact while the agent is idle to compact it manually. The built-in preset does not load Skills, planning, or the standard runtime context.  ### When to choose it  Use it as a baseline for experiments and comparisons. It can still read files and execute scripts through shell commands, but offers fewer built-in ways to manage a long task. Fewer tools does not necessarily make it easier for a beginner.",
+  "tr": "### Kí ni ó wà nínú  Irinṣẹ́ ìkára kan tí ó dúró ṣinṣin, read_image, àti ìtọ́nisọ́nà ètò tí ó dúró. Kíkà àwòrán nílò mọ́dẹ́lì tí ó lè kà àwòrán. Ìtàn àtijọ́ ń fúnpọ̀ fúnra rẹ̀ lábẹ́ ìfúnpá ọ̀rọ̀ àyíká; lo /compact nígbà tí aṣojú náà bá wà ní ìsinmi láti fún un pọ̀ lọ́wọ́. Àtúnṣe tí ó wà nínú rẹ̀ kò gbé Ọgbọ́n, ètò, tàbí ọ̀rọ̀ àyíká ìṣiṣẹ́ déédéé.  ### Ìgbà láti yàn án  Lò ó gẹ́gẹ́ bí ìpìlẹ̀ fún àwọn àdánwò àti ìfiwéra. Ó ṣì lè kà àwọn fáìlì àti ṣiṣẹ́ àwọn àkọsílẹ̀ àṣẹ nípasẹ̀ àwọn àṣẹ ìkára, ṣùgbọ́n ó ní ọ̀nà díẹ̀ tí ó wà nínú rẹ̀ láti ṣàkóso iṣẹ́ gígùn. Irinṣẹ́ díẹ̀ kò túmọ̀ sí pé ó rọrùn fún olùbẹ̀rẹ̀.",
+  "natural": 0.38,
+  "meaning": 0.89
+ },
+ {
+  "lang": "yo",
+  "key": "presetMinimalDescription",
+  "en": "The agent uses a terminal and image reading, with context compaction. Useful for testing and comparing its basic performance.",
+  "tr": "Aṣojú náà ń lo Terminal àti kíkà àwòrán, pẹ̀lú ìfúnpọ̀ ọ̀rọ̀ àyíká. Ó wúlò fún ìdánwò àti ìfiwéra iṣẹ́ ìpìlẹ̀ rẹ̀.",
+  "natural": 0.51,
+  "meaning": 0.93
+ },
+ {
+  "lang": "yo",
+  "key": "keyPlaceholderFallback",
+  "en": "Leave blank to use env as auth ({hint})",
+  "tr": "Fí òfò sílẹ̀ látí lò env gẹ́gẹ́ bí auth ({hint})",
+  "natural": 0.52,
+  "meaning": 0.82
+ },
+ {
+  "lang": "yo",
+  "key": "keyFallbackMissing",
+  "en": "Env var not detected. Enter an API key, or configure {hint} in your env.",
+  "tr": "À kò rí env var. Tẹ̀ API key kàn wọ̀lé, tàbí ṣè àtúnṣẹ̀ {hint} nínú env rẹ̀.",
+  "natural": 0.38,
+  "meaning": 0.79
+ },
+ {
+  "lang": "yo",
+  "key": "keyFallbackUnchecked",
+  "en": "Environment credential status has not been confirmed.",
+  "tr": "À kò tíì fìdí ìpò ìjẹ́rísí àyíká múlẹ̀.",
+  "natural": 0.55,
+  "meaning": 0.87
+ },
+ {
+  "lang": "yo",
+  "key": "keyHelp",
+  "en": "Saved credentials are used first. Environment fallbacks shown here, in order: {env}. Sources are launch environment, $cwd/.env, then $DSH_HOME/.env.",
+  "tr": "Àwọ́n ìjẹ́rísí tí à tí fìpàmọ́ ní à kọ́kọ́ lò. Àwọ́n àyípàdà àyíká tí à fí hàn níbí, ní tòlẹ́sẹ̀lẹ́sẹ̀: {env}. Àwọ́n órísùn ní àyíká ìbẹ̀rẹ̀, $cwd/.env, lẹ́yìn náà $DSH_HOME/.env.",
+  "natural": 0.5,
+  "meaning": 0.85
+ },
+ {
+  "lang": "yo",
+  "key": "baseUrlConfigured",
+  "en": "Provider-configured endpoint",
+  "tr": "ójú ọ̀nà tí òlùpèsè tí ṣàtúnṣẹ̀",
+  "natural": 0.45,
+  "meaning": 0.78
+ },
+ {
+  "lang": "yo",
+  "key": "modelReasoningHelpText",
+  "en": "The API value is sent in the request's reasoning-effort field, such as OpenAI's reasoning_effort. It defaults to the level name; where the model provider's API documentation specifies a different value, follow it. Off turns reasoning off and needs no value; a value already written in the configuration is kept and sent.",
+  "tr": "À máà ń rán ìyé API nínú pápá reasoning-effort tí ìbéèrè, bíi reasoning_effort tí OpenAI. Ó máà ń yípàdà sí orúkọ̀ ìpẹ́lẹ̀; níbí tí ìwé àlàyé API tí òlùpèsè àwòṣẹ̀ bá sọ́ ìyé mìíràn, tẹ̀lé ẹ̀. Off máà ń pá ìrònú kúrò ó sì kò nílò ìyé kànkàn; ìyé tí à tí kọ́ sínú àtúnṣẹ̀ náà ní à máà ń pá mọ́ tí à sì rán.",
+  "natural": 0.4,
+  "meaning": 0.68
+ },
+ {
+  "lang": "yo",
+  "key": "modelReasoningNeedsLevel",
+  "en": "Add at least one level besides Off, or turn reasoning levels off.",
+  "tr": "Fí kún ìpẹ́lẹ̀ kàn ṣọ̀ṣọ yàtọ̀ sí Off, tàbí pá àwọ́n ìpẹ́lẹ̀ ìrònú kúrò.",
+  "natural": 0.55,
+  "meaning": 0.74
+ },
+ {
+  "lang": "yo",
+  "key": "deepSeekBaseUrl",
+  "en": "https://api.deepseek.com/anthropic (Default to use DEEPSEEK_BASE_URL)",
+  "tr": "https://api.deepseek.com/anthropic (Àìyípàdà látí lò DEEPSEEK_BASE_URL)",
+  "natural": 0.48,
+  "meaning": 0.84
+ },
+ {
+  "lang": "yo",
+  "key": "fontSize.terminal.description",
+  "en": "Used for the sidebar terminal",
+  "tr": "Á ń lò ó fún Terminal ẹ̀gbẹ́",
+  "natural": 0.57,
+  "meaning": 0.85
+ },
+ {
+  "lang": "yo",
+  "key": "fontFamily.text.description",
+  "en": "Used for the interface and conversation text. Separate fonts with commas; leave empty for the default",
+  "tr": "Á ń lò ó fún ọ̀rọ̀ ìfàmọ́rà àtí ọ̀rọ̀ ìfọ̀rọ̀wérọ̀. Yà àwọ̀n fọ́ọ̀ntì pẹ̀lú àmì ìdáná; fì òfìfó sílẹ̀ fún àìyípadà.",
+  "natural": 0.56,
+  "meaning": 0.87
+ },
+ {
+  "lang": "yo",
+  "key": "useSearchApiHint",
+  "en": "Off by default: search runs through DeepSeek Messages. For the new Web Search API's features and pricing, see the",
+  "tr": "Ní ìbẹ̀rẹ̀, à tì pá á: ìwádìí ń ṣiṣẹ́ nípa DeepSeek Messages. Fún àwọn ẹ̀yà àti ìdíyélé Web Search API tùntùn, wò",
+  "natural": 0.42,
+  "meaning": 0.74
+ },
+ {
+  "lang": "yo",
+  "key": "searchApiBaseUrlHint",
+  "en": "Include the API prefix, such as https://api.deepseek.com/v1/tools. The provider appends /search or /fetch. Leave blank to restore the default.",
+  "tr": "Fì ìbẹ̀rẹ̀ API kún, bíí https://api.deepseek.com/v1/tools. Òlùpèsè náà yóò fì /search tàbí /fetch kún. Fì òfò sílẹ̀ láti mú ìbẹ̀rẹ̀ padà.",
+  "natural": 0.52,
+  "meaning": 0.89
+ },
+ {
+  "lang": "yo",
+  "key": "countHint",
+  "en": "Results returned per query: an integer from 1 to 50, default 10. This controls result count, not search calls. web_search keeps no more sources than its own result limit.",
+  "tr": "Àwọn àbájádé tí à dá padà fún ìbéèrè kọ̀ọ̀kan: ọ̀nà òdòdò láti 1 sí 50, ìbẹ̀rẹ̀ ní 10. Èyí ń ṣàkósó ìyé àbájádé, kì í ṣé ìyé ìpè ìwádìí. web_search kò ní pá àwọn ọ̀rísùn mọ́ jù òpín àbájádé rẹ̀ lọ́.",
+  "natural": 0.48,
+  "meaning": 0.85
+ },
+ {
+  "lang": "yo",
+  "key": "baseUrl",
+  "en": "Messages API base URL",
+  "tr": "URL ìpìlẹ̀ fún Messages API",
+  "natural": 0.45,
+  "meaning": 0.92
+ },
+ {
+  "lang": "yo",
+  "key": "maxUsesHint",
+  "en": "How many searches the auxiliary model may run within one Messages request. Applies only to the Messages API.",
+  "tr": "Ìyé ìwádìí tí àwòṣé ìrànlọ́wọ́ lè ṣé nínú ìbéèrè Messages kàn. Ó kàn fún Messages API nìkan.",
+  "natural": 0.53,
+  "meaning": 0.89
+ },
+ {
+  "lang": "yo",
+  "key": "systemMicrophoneNamed",
+  "en": "System default ({name})",
+  "tr": "Àìpẹ́ ètò ({name})",
+  "natural": 0.52,
+  "meaning": 0.9
+ },
+ {
+  "lang": "yo",
+  "key": "toast.forkRequiresOpen",
+  "en": "Open the original session to complete migration before creating a branch.",
+  "tr": "Ṣí ìpàdé àtìlẹ̀wá láti parí ìjira kí o tó dá ẹ̀ka tuntun.",
+  "natural": 0.57,
+  "meaning": 0.9
+ },
+ {
+  "lang": "zh-hk",
+  "key": "detail.instruction",
+  "en": "Automation task instruction",
+  "tr": "自動化任務指示",
+  "natural": 0.53,
+  "meaning": 0.87
+ },
+ {
+  "lang": "zh-hk",
+  "key": "frequency.cron",
+  "en": "Cron {expression} ({timeZone})",
+  "tr": "排程{expression}（{timeZone}）",
+  "natural": 0.59,
+  "meaning": 0.85
+ },
+ {
+  "lang": "zh-hk",
+  "key": "cron.time.hourlyAt",
+  "en": "Every hour at minute {minutes}",
+  "tr": "每小時於{minutes}分",
+  "natural": 0.57,
+  "meaning": 0.9
+ },
+ {
+  "lang": "zh-hk",
+  "key": "cron.time.hoursEveryMinute",
+  "en": "every minute during hours {hours}",
+  "tr": "於{hours}期間每分鐘",
+  "natural": 0.54,
+  "meaning": 0.82
+ }
+]

@@ -1,6 +1,10 @@
 {
   "candidate.noCwd": "(hakuna cwd)",
   "crumb.root": "Eneo la kazi",
+  "fileOpen.close": "Funga",
+  "fileOpen.failed": "Imeshindikana kufungua “{path}”. Jaribu tena au funga ujumbe huu.",
+  "fileOpen.retry": "Jaribu tena",
+  "fileOpen.title": "Imeshindwa kufungua faili",
   "section.files": "Files na mafolda",
   "section.sessions": "Vikao",
   "section.subagents": "Mawakala saidizi",

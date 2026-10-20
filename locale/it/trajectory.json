@@ -23,6 +23,7 @@
   "details.event": "Dettagli evento",
   "details.failure.auth": "La chiave API non è valida",
   "details.hierarchy": "Gerarchia",
+  "details.lastAttemptError": "Errore dell'ultima tentativa",
   "details.model": "Modello",
   "details.provider": "Fornitore",
   "details.purpose": "Scopo",

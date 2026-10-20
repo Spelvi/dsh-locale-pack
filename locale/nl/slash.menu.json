@@ -1,8 +1,11 @@
 {
+  "command": "Opdrachten",
   "crumbs.aria": "Mapnavigatie",
   "drill.aria": "Map bladeren",
   "drill.hint": "Map bladeren",
   "drill.key": "Tab",
+  "loading": "Laadt…",
   "skill": "Vaardigheden",
+  "subagent": "Subagenten",
   "suggestions.aria": "Suggesties activeren"
 }

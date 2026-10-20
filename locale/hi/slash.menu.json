@@ -1,8 +1,11 @@
 {
+  "command": "कमांड्स",
   "crumbs.aria": "फ़ोल्डर नेविगेशन",
   "drill.aria": "फ़ोल्डर ब्राउज़ करें",
   "drill.hint": "फ़ोल्डर ब्राउज़ करें",
   "drill.key": "Tab",
+  "loading": "लोडिंग…",
   "skill": "कौशल",
+  "subagent": "उप एजेंट",
   "suggestions.aria": "सुझाव ट्रिगर करें"
 }

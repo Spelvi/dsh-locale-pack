@@ -1,6 +1,10 @@
 {
   "candidate.noCwd": "(無工作目錄)",
   "crumb.root": "工作區",
+  "fileOpen.close": "關閉",
+  "fileOpen.failed": "無法打開「{path}」。請再試一次或關閉此訊息。",
+  "fileOpen.retry": "重新嘗試",
+  "fileOpen.title": "無法打開檔案",
   "section.files": "檔案及資料夾",
   "section.sessions": "工作階段",
   "section.subagents": "子代理",

@@ -5,13 +5,13 @@
   "featureSeparator": ", ",
   "formulaWarning": "Naglalaman ang workbook na ito ng mga formula. Maaaring kulang o hindi tumpak ang mga ipinapakitang resulta.",
   "images": "mga larawan",
-  "invalid": "Hindi mabuksan ang spreadsheet na ito. Suriin ang format, nilalaman, o proteksyon ng password nito.",
+  "invalid": "Hindi mabuksan ang talahanayang ito. Suriin ang format, nilalaman, o proteksyon ng password nito.",
   "language": "en",
   "loading": "Nire-render ang dokumento...",
   "retry": "Subukang muli",
   "shapes": "mga hugis",
   "timeout": "Naubusan ng oras ang pagbubukas ng workbook na ito. Sumubok ng mas maliit na file.",
-  "title": "Spreadsheet",
+  "title": "Talahanayan",
   "tooLarge": "Lumampas ang workbook na ito sa limitasyon sa laki ng preview.",
   "unsupportedNotice": "Hindi sinusuportahan ng preview na ito ang {features} sa workbook na ito. Buksan ito sa isang aplikasyon ng sistema para sa buong karanasan."
 }

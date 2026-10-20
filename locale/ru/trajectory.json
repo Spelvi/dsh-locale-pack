@@ -23,6 +23,7 @@
   "details.event": "Сведения о событии",
   "details.failure.auth": "Недействительный ключ API",
   "details.hierarchy": "Иерархия",
+  "details.lastAttemptError": "Ошибка последней попытки",
   "details.model": "Модель",
   "details.provider": "Провайдер",
   "details.purpose": "Назначение",

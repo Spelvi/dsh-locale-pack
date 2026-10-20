@@ -7,5 +7,11 @@
   "retry": "Coba lagi",
   "title": "PDF",
   "unsupported": "Pratinjau PDF memerlukan isi file yang lengkap.",
-  "workerFailed": "Proses perenderan PDF tidak dapat dilanjutkan. Silakan coba lagi."
+  "workerFailed": "Proses perenderan PDF tidak dapat dilanjutkan. Silakan coba lagi.",
+  "zoomControls": "Kontrol zoom",
+  "zoomFitWidth": "Sesuaikan lebar",
+  "zoomIn": "Perbesar zoom",
+  "zoomMenu": "Pilih zoom",
+  "zoomOut": "Perkecil",
+  "zoomValue": "{percent}%"
 }

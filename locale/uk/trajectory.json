@@ -23,6 +23,7 @@
   "details.event": "Деталі події",
   "details.failure.auth": "Ключ API недійсний",
   "details.hierarchy": "Ієрархія",
+  "details.lastAttemptError": "Помилка попередньої спроби",
   "details.model": "Модель",
   "details.provider": "Провайдер",
   "details.purpose": "Призначення",

@@ -1,8 +1,11 @@
 {
+  "command": "Comandi",
   "crumbs.aria": "Navigazione cartelle",
   "drill.aria": "Sfoglia cartella",
   "drill.hint": "Sfoglia cartella",
   "drill.key": "Tab",
+  "loading": "Caricamento…",
   "skill": "Competenze",
+  "subagent": "Subagenti",
   "suggestions.aria": "Attiva suggerimenti"
 }

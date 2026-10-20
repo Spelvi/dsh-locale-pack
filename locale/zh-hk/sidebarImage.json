@@ -3,5 +3,11 @@
   "loading": "正在渲染文件……",
   "preview": "圖片預覽：{name}",
   "title": "圖片",
-  "unsupported": "圖片預覽需要完整檔案內容。"
+  "unsupported": "圖片預覽需要完整檔案內容。",
+  "zoomControls": "縮放控制",
+  "zoomFitWidth": "適應寬度",
+  "zoomIn": "放大",
+  "zoomMenu": "選擇縮放比例",
+  "zoomOut": "縮小",
+  "zoomValue": "{percent}%"
 }

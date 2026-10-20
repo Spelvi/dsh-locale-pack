@@ -23,6 +23,7 @@
   "details.event": "ইভেন্টের বিবরণ",
   "details.failure.auth": "API কী অবৈধ",
   "details.hierarchy": "অনুক্রম",
+  "details.lastAttemptError": "শেষ প্রচেষ্টার ত্রুটি",
   "details.model": "মডেল",
   "details.provider": "প্রদানকারী",
   "details.purpose": "উদ্দেশ্য",

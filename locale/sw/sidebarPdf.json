@@ -7,5 +7,11 @@
   "retry": "Jaribu tena",
   "title": "PDF",
   "unsupported": "Mwonekano awali wa PDF unahitaji maudhui kamili ya faili.",
-  "workerFailed": "Mchakato wa kuchora PDF hauwezi kuendelea. Tafadhali jaribu tena."
+  "workerFailed": "Mchakato wa kuchora PDF hauwezi kuendelea. Tafadhali jaribu tena.",
+  "zoomControls": "Vidhibiti vya kukuza",
+  "zoomFitWidth": "Toshea kwa upana",
+  "zoomIn": "Kukuza",
+  "zoomMenu": "Chagua kukuza",
+  "zoomOut": "Punguza",
+  "zoomValue": "{percent}%"
 }

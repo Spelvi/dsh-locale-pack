@@ -1,0 +1,3332 @@
+{
+ "ja": [
+  {
+   "ns": "schedule.manager",
+   "key": "frequency.cronRule"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "unit.day.one"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "unit.day.other"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "unit.hour.other"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "unit.minute.one"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "relative.now"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "timing.hour"
+  }
+ ],
+ "fr": [
+  {
+   "ns": "settings.webSearch",
+   "key": "overridden"
+  },
+  {
+   "ns": "open-in-app",
+   "key": "app.windowsterminal"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "factRepository"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "factCommit"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "time.locale"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "unit.day.one"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "unit.day.other"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "timing.zone"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "timing.zoneNoResults"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "timing.intervalHint.hour"
+  }
+ ],
+ "zh-tw": [
+  {
+   "ns": "schedule.manager",
+   "key": "unit.day.one"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "unit.day.other"
+  },
+  {
+   "ns": "session-inspector",
+   "key": "object.turn"
+  }
+ ],
+ "ko": [
+  {
+   "ns": "pluginMarket",
+   "key": "marketMenu"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "factCommit"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "unit.hour.other"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "unit.minute.other"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "unit.second.other"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "unit.day.one"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "unit.day.other"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "unit.hour.other"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "unit.minute.other"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "unit.second.other"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "relative.now"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "timing.unit.hour"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "timing.unit.minute"
+  },
+  {
+   "ns": "sidebarPdf",
+   "key": "zoomOut"
+  },
+  {
+   "ns": "sidebarPdf",
+   "key": "zoomIn"
+  }
+ ],
+ "vi": [
+  {
+   "ns": "schedule.manager",
+   "key": "timing.zoneSearch"
+  },
+  {
+   "ns": "session-inspector",
+   "key": "object.turn"
+  }
+ ],
+ "ur": [
+  {
+   "ns": "open-in-app",
+   "key": "app.ghostty"
+  },
+  {
+   "ns": "open-in-app",
+   "key": "app.warp"
+  },
+  {
+   "ns": "open-in-app",
+   "key": "app.kitty"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "switchToAscending"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "cron.day.every"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "unit.day.one"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "unit.day.other"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "unit.hour.other"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "relative.now"
+  },
+  {
+   "ns": "session-inspector",
+   "key": "table.type"
+  },
+  {
+   "ns": "session-inspector",
+   "key": "object.turn"
+  },
+  {
+   "ns": "settings.models",
+   "key": "modelReasoningValue"
+  },
+  {
+   "ns": "subagent",
+   "key": "catalog.migrationRequired"
+  },
+  {
+   "ns": "trajectory",
+   "key": "details.lastAttemptError"
+  }
+ ],
+ "pt-br": [
+  {
+   "ns": "cotTranslation",
+   "key": "unwrap"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "unit.day.one"
+  }
+ ],
+ "sv": [
+  {
+   "ns": "conversation",
+   "key": "row.commandArguments"
+  },
+  {
+   "ns": "cotTranslation",
+   "key": "unwrap"
+  },
+  {
+   "ns": "job",
+   "key": "section.live"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "emptyIndex"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "cron.time.hoursAt"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "relative.now"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "timing.second"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "rule.cancel"
+  },
+  {
+   "ns": "settings.theme",
+   "key": "fontSize.text.description"
+  },
+  {
+   "ns": "sidebarExcel",
+   "key": "shapes"
+  },
+  {
+   "ns": "sidebarExcel",
+   "key": "conditionalFormatting"
+  },
+  {
+   "ns": "subagent",
+   "key": "mode.external"
+  },
+  {
+   "ns": "voice-input",
+   "key": "deviceUnavailable"
+  }
+ ],
+ "yo": [
+  {
+   "ns": "chat",
+   "key": "settings.collapse.title"
+  },
+  {
+   "ns": "chat",
+   "key": "settings.collapse.description"
+  },
+  {
+   "ns": "chat",
+   "key": "settings.collapse.completion"
+  },
+  {
+   "ns": "chat",
+   "key": "settings.collapse.nextInput"
+  },
+  {
+   "ns": "chat",
+   "key": "message.taskStopped"
+  },
+  {
+   "ns": "chat",
+   "key": "message.failure.interrupted"
+  },
+  {
+   "ns": "conversation",
+   "key": "row.commandArguments"
+  },
+  {
+   "ns": "conversation",
+   "key": "row.imageSize"
+  },
+  {
+   "ns": "conversation",
+   "key": "row.imageSizeDownscaled"
+  },
+  {
+   "ns": "job",
+   "key": "terminal.commandLine"
+  },
+  {
+   "ns": "voice-input",
+   "key": "provider"
+  },
+  {
+   "ns": "cotTranslation",
+   "key": "deepseekAccount"
+  },
+  {
+   "ns": "cotTranslation",
+   "key": "deepseekOfficial"
+  },
+  {
+   "ns": "cotTranslation",
+   "key": "providerUnavailableOption"
+  },
+  {
+   "ns": "cotTranslation",
+   "key": "providerUnavailable"
+  },
+  {
+   "ns": "cotTranslation",
+   "key": "paidNotice"
+  },
+  {
+   "ns": "cotTranslation",
+   "key": "anonymousNotice"
+  },
+  {
+   "ns": "cotTranslation",
+   "key": "targetLanguageHint"
+  },
+  {
+   "ns": "cotTranslation",
+   "key": "privacy"
+  },
+  {
+   "ns": "cotTranslation",
+   "key": "translation"
+  },
+  {
+   "ns": "cotTranslation",
+   "key": "original"
+  },
+  {
+   "ns": "subagent",
+   "key": "retry"
+  },
+  {
+   "ns": "voice-input",
+   "key": "failed"
+  },
+  {
+   "ns": "cotTranslation",
+   "key": "translating"
+  },
+  {
+   "ns": "cotTranslation",
+   "key": "invalidProvider"
+  },
+  {
+   "ns": "cotTranslation",
+   "key": "invalidLanguage"
+  },
+  {
+   "ns": "settings.webSearch",
+   "key": "overridden"
+  },
+  {
+   "ns": "shortcuts",
+   "key": "reset"
+  },
+  {
+   "ns": "voice-input",
+   "key": "unavailable"
+  },
+  {
+   "ns": "settings.webSearch",
+   "key": "readOnly"
+  },
+  {
+   "ns": "settings.webSearch",
+   "key": "saveFailed"
+  },
+  {
+   "ns": "settings.webSearch",
+   "key": "save"
+  },
+  {
+   "ns": "settings.webSearch",
+   "key": "saving"
+  },
+  {
+   "ns": "sidebarCodePreview",
+   "key": "copied"
+  },
+  {
+   "ns": "cotTranslation",
+   "key": "codeTitle"
+  },
+  {
+   "ns": "cotTranslation",
+   "key": "wrap"
+  },
+  {
+   "ns": "cotTranslation",
+   "key": "unwrap"
+  },
+  {
+   "ns": "documentMarkdown",
+   "key": "footnotes"
+  },
+  {
+   "ns": "job",
+   "key": "count.idle.other"
+  },
+  {
+   "ns": "job",
+   "key": "section.live"
+  },
+  {
+   "ns": "workspace",
+   "key": "status.completed"
+  },
+  {
+   "ns": "job",
+   "key": "status.killed"
+  },
+  {
+   "ns": "workflowRun",
+   "key": "status.failed"
+  },
+  {
+   "ns": "job",
+   "key": "terminal.noExitCode"
+  },
+  {
+   "ns": "job",
+   "key": "terminal.failed"
+  },
+  {
+   "ns": "job",
+   "key": "terminal.collapseAria"
+  },
+  {
+   "ns": "open-in-app",
+   "key": "app.cursor"
+  },
+  {
+   "ns": "pluginManager",
+   "key": "installedTab"
+  },
+  {
+   "ns": "pluginManager",
+   "key": "previewAlt"
+  },
+  {
+   "ns": "pluginManager",
+   "key": "previewUnavailable"
+  },
+  {
+   "ns": "pluginManager",
+   "key": "sourceTitle"
+  },
+  {
+   "ns": "pluginManager",
+   "key": "installConfirmedTitle"
+  },
+  {
+   "ns": "pluginManager",
+   "key": "installConfirmedRefused"
+  },
+  {
+   "ns": "pluginManager",
+   "key": "statusMissingFiles"
+  },
+  {
+   "ns": "pluginManager",
+   "key": "statusUpdateAvailable"
+  },
+  {
+   "ns": "pluginManager",
+   "key": "sourceTargetSpec"
+  },
+  {
+   "ns": "pluginManager",
+   "key": "sourceTargetVersion"
+  },
+  {
+   "ns": "pluginManager",
+   "key": "update"
+  },
+  {
+   "ns": "pluginManager",
+   "key": "updateLabel"
+  },
+  {
+   "ns": "pluginManager",
+   "key": "terminalCommandLine"
+  },
+  {
+   "ns": "pluginManager",
+   "key": "reasonAlreadyInstalled"
+  },
+  {
+   "ns": "sidebarTerminal",
+   "key": "title"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "refresh"
+  },
+  {
+   "ns": "voice-input",
+   "key": "loading"
+  },
+  {
+   "ns": "subagent",
+   "key": "retry"
+  },
+  {
+   "ns": "shortcuts",
+   "key": "close"
+  },
+  {
+   "ns": "voice-input",
+   "key": "cancel"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "emptyTitle"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "emptyDescription"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "addFirstSource"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "sourcesFailed"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "manageSources"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "marketMenu"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "sourcesTitle"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "sourcesDescription"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "sourcesLabel"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "sourceUrl"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "addSource"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "removeSource"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "removeSourceNamed"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "sourcesTrust"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "sourceInvalid"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "sourceDuplicate"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "sourceUnavailable"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "sourceFailed"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "readFailed"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "readInvalid"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "readChanged"
+  },
+  {
+   "ns": "shortcuts",
+   "key": "search"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "filter"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "filterCount"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "sortBy"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "sortRelevance"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "sortDefault"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "sortPublished"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "switchToAscending"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "switchToDescending"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "categoriesLabel"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "allCategories"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "emptyIndex"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "noMatches"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "showMore"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "install"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "installTitle"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "openInstalled"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "statusInstalled"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "statusUpdate"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "statusProvided"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "incompatible"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "noCompatibleVersion"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "exempted"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "backToList"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "factSource"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "factPackage"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "factRegistry"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "factRepository"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "factCommit"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "factDirectory"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "factPublished"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "factAuthor"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "factHomepage"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "factSourceCode"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "factCategory"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "factLabels"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "factMarket"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "versionsTitle"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "versionsLabel"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "versionDefault"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "versionInstalled"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "versionIncompatible"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "versionExempted"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "versionPrerelease"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "confirmTitle"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "installTrust"
+  },
+  {
+   "ns": "reference",
+   "key": "fileOpen.title"
+  },
+  {
+   "ns": "reference",
+   "key": "fileOpen.failed"
+  },
+  {
+   "ns": "reference",
+   "key": "fileOpen.close"
+  },
+  {
+   "ns": "reference",
+   "key": "fileOpen.retry"
+  },
+  {
+   "ns": "schedule.catalog",
+   "key": "trigger.other"
+  },
+  {
+   "ns": "schedule.catalog",
+   "key": "list.nextRun"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "frequency.weekday.1"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "frequency.weekday.2"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "frequency.weekday.3"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "frequency.weekday.4"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "frequency.weekday.5"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "frequency.weekday.6"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "frequency.weekday.7"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "unit.hour.other"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "unit.minute.other"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "unit.second.other"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "timing.conflict"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "delete.action"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "delete.description"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "panel"
+  },
+  {
+   "ns": "sidebarTerminal",
+   "key": "title"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "new.action"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "list.label"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "list.nextPrefix"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "list.loading"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "list.error"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "list.retry"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "list.empty"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "list.emptyInactive"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "list.noMatches"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "search.label"
+  },
+  {
+   "ns": "workspace",
+   "key": "search.placeholder"
+  },
+  {
+   "ns": "workspace",
+   "key": "search.clear"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "empty.action"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "statusFilter.label"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "status.active"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "status.inactive"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "detail.label"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "detail.close"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "detail.more"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "detail.nextRun"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "detail.tabs"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "detail.rule"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "detail.records"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "delivery.empty"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "delivery.loading"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "delivery.error"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "delivery.notFound"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "delivery.cursorError"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "delivery.retry"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "delivery.refresh"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "delivery.loadMore"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "delivery.expand"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "delivery.collapse"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "delivery.pruned"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "delivery.retention"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "delivery.retentionBounds"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "delivery.retentionExplanation"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "detail.name"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "detail.instruction"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "detail.next"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "detail.frequency"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "detail.id"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "detail.session"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "detail.openSession"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "detail.openSessionTitle"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "detail.sessionLoading"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "detail.sessionArchived"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "detail.sessionUnavailable"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "detail.missing"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "delivery.label"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "frequency.once"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "frequency.every"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "frequency.weekly"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "cron.months"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "cron.day.every"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "cron.day.monthDays"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "cron.day.both"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "cron.day.bothStarred"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "cron.time.everyMinute"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "cron.time.everyMinutes"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "cron.time.joinedEveryMinute"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "cron.time.joinedEveryMinutes"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "cron.time.everyHour"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "cron.time.joinedEveryHour"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "cron.time.hourlyAt"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "cron.time.joinedHourlyAt"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "cron.time.hoursEveryMinute"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "cron.time.hoursEveryMinutes"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "cron.time.hoursAt"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "frequency.weekday.1"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "frequency.weekday.2"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "frequency.weekday.3"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "frequency.weekday.4"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "frequency.weekday.5"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "frequency.weekday.6"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "frequency.weekday.7"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "unit.day.one"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "unit.day.other"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "unit.hour.one"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "unit.hour.other"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "unit.minute.one"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "unit.minute.other"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "unit.second.one"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "unit.second.other"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "relative.now"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "relative.future"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "relative.overdue"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "timing.time"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "timing.hour"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "timing.minute"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "timing.second"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "timing.prevMonth"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "timing.nextMonth"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "timing.zone"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "timing.zoneSearch"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "timing.zoneNoResults"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "timing.interval"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "timing.intervalIncrease"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "timing.intervalDecrease"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "timing.unit.hour"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "timing.unit.minute"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "timing.unit.second"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "timing.intervalHint.hour"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "timing.intervalHint.minute"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "timing.intervalHint.second"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "timing.zoneNoStored"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "timing.inactive"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "timing.conflict"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "timing.notFound"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "timing.subagentSession"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "timing.invalid"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "timing.invalidZone"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "timing.notFuture"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "timing.invalidInterval"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "timing.invalidInterval.hour"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "timing.invalidInterval.minute"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "timing.invalidInterval.second"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "timing.error"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "rule.title"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "rule.repeat"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "rule.weekday"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "rule.weekdayOption"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "rule.unsaved"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "rule.save"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "rule.saving"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "rule.cancel"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "rule.invalidTitle"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "rule.invalidPrompt"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "rule.once"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "rule.everyMinutes"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "rule.everyHours"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "rule.everySeconds"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "rule.daily"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "rule.weekdays"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "rule.weekly"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "rule.cron"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "rule.cronLabel"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "rule.cronInvalid"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "cronForm.monthly"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "cronForm.weekly"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "cronForm.atMinute"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "cronForm.minuteIncrease"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "cronForm.minuteDecrease"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "rule.zone.system"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "rule.error.conflict"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "rule.error.notFound"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "rule.error.unknown"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "delete.action"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "delete.title"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "delete.description"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "delete.confirm"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "delete.cancel"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "delete.close"
+  },
+  {
+   "ns": "workspace",
+   "key": "delete.pending"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "toast.deleted"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "toast.deleteFailed"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "card.open"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "card.openLabel"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "card.deleted"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "tool.invoked"
+  },
+  {
+   "ns": "secretMask",
+   "key": "secret.reveal"
+  },
+  {
+   "ns": "secretMask",
+   "key": "secret.hide"
+  },
+  {
+   "ns": "session-inspector",
+   "key": "table.type"
+  },
+  {
+   "ns": "session-inspector",
+   "key": "filter.cancel"
+  },
+  {
+   "ns": "session-inspector",
+   "key": "table.data"
+  },
+  {
+   "ns": "session-inspector",
+   "key": "table.older"
+  },
+  {
+   "ns": "session-inspector",
+   "key": "table.loading"
+  },
+  {
+   "ns": "session-inspector",
+   "key": "table.close"
+  },
+  {
+   "ns": "session-inspector",
+   "key": "object.turn"
+  },
+  {
+   "ns": "session-inspector",
+   "key": "object.step"
+  },
+  {
+   "ns": "session-inspector",
+   "key": "object.more"
+  },
+  {
+   "ns": "settings",
+   "key": "hostRelease.title"
+  },
+  {
+   "ns": "settings",
+   "key": "hostRelease.description"
+  },
+  {
+   "ns": "settings",
+   "key": "hostRelease.service"
+  },
+  {
+   "ns": "settings",
+   "key": "hostRelease.page"
+  },
+  {
+   "ns": "settings",
+   "key": "hostRelease.unknown"
+  },
+  {
+   "ns": "settings",
+   "key": "hostRelease.reload"
+  },
+  {
+   "ns": "settings",
+   "key": "hostRelease.later"
+  },
+  {
+   "ns": "settings.agentPreset",
+   "key": "guideMinimalExplanation"
+  },
+  {
+   "ns": "settings.agentPreset",
+   "key": "presetMinimalDescription"
+  },
+  {
+   "ns": "settings.models",
+   "key": "accountSignedIn"
+  },
+  {
+   "ns": "settings.models",
+   "key": "keyReveal"
+  },
+  {
+   "ns": "settings.models",
+   "key": "keyHide"
+  },
+  {
+   "ns": "settings.models",
+   "key": "keyPlaceholderFallback"
+  },
+  {
+   "ns": "settings.models",
+   "key": "keyPlaceholderSaved"
+  },
+  {
+   "ns": "settings.models",
+   "key": "keyFallbackMissing"
+  },
+  {
+   "ns": "settings.models",
+   "key": "keyFallbackDetected"
+  },
+  {
+   "ns": "settings.models",
+   "key": "keyFallbackDetectedHidden"
+  },
+  {
+   "ns": "settings.models",
+   "key": "keyFallbackUnchecked"
+  },
+  {
+   "ns": "settings.models",
+   "key": "keyHelp"
+  },
+  {
+   "ns": "settings.models",
+   "key": "authHelp"
+  },
+  {
+   "ns": "settings.models",
+   "key": "baseUrlEnvironment"
+  },
+  {
+   "ns": "settings.models",
+   "key": "baseUrlConfigured"
+  },
+  {
+   "ns": "settings.models",
+   "key": "modelReasoning"
+  },
+  {
+   "ns": "settings.models",
+   "key": "modelReasoningValue"
+  },
+  {
+   "ns": "settings.models",
+   "key": "modelReasoningHelp"
+  },
+  {
+   "ns": "settings.models",
+   "key": "modelReasoningHelpText"
+  },
+  {
+   "ns": "settings.models",
+   "key": "modelReasoningNeedsLevel"
+  },
+  {
+   "ns": "settings.models",
+   "key": "modelReasoningValueRequired"
+  },
+  {
+   "ns": "settings.models",
+   "key": "modelReasoningAdd"
+  },
+  {
+   "ns": "settings.models",
+   "key": "modelReasoningRemove"
+  },
+  {
+   "ns": "settings.models",
+   "key": "modelReasoningOffValuePlaceholder"
+  },
+  {
+   "ns": "settings.models",
+   "key": "baseUrlDefault"
+  },
+  {
+   "ns": "settings.models",
+   "key": "deepSeekBaseUrl"
+  },
+  {
+   "ns": "settings.theme",
+   "key": "fontSize.text.title"
+  },
+  {
+   "ns": "settings.theme",
+   "key": "fontSize.text.description"
+  },
+  {
+   "ns": "settings.theme",
+   "key": "fontSize.text.increase"
+  },
+  {
+   "ns": "settings.theme",
+   "key": "fontSize.text.decrease"
+  },
+  {
+   "ns": "settings.theme",
+   "key": "fontSize.code.title"
+  },
+  {
+   "ns": "settings.theme",
+   "key": "fontSize.code.description"
+  },
+  {
+   "ns": "settings.theme",
+   "key": "fontSize.code.increase"
+  },
+  {
+   "ns": "settings.theme",
+   "key": "fontSize.code.decrease"
+  },
+  {
+   "ns": "settings.theme",
+   "key": "fontSize.terminal.title"
+  },
+  {
+   "ns": "settings.theme",
+   "key": "fontSize.terminal.description"
+  },
+  {
+   "ns": "settings.theme",
+   "key": "fontSize.terminal.increase"
+  },
+  {
+   "ns": "settings.theme",
+   "key": "fontSize.terminal.decrease"
+  },
+  {
+   "ns": "settings.theme",
+   "key": "fontFamily.text.title"
+  },
+  {
+   "ns": "settings.theme",
+   "key": "fontFamily.text.description"
+  },
+  {
+   "ns": "settings.theme",
+   "key": "fontFamily.code.title"
+  },
+  {
+   "ns": "settings.theme",
+   "key": "fontFamily.code.description"
+  },
+  {
+   "ns": "settings.theme",
+   "key": "fontFamily.terminal.title"
+  },
+  {
+   "ns": "settings.theme",
+   "key": "fontFamily.terminal.description"
+  },
+  {
+   "ns": "settings.theme",
+   "key": "fontSize.more"
+  },
+  {
+   "ns": "settings.webSearch",
+   "key": "useSearchApi"
+  },
+  {
+   "ns": "settings.webSearch",
+   "key": "useSearchApiHint"
+  },
+  {
+   "ns": "settings.webSearch",
+   "key": "searchGuide"
+  },
+  {
+   "ns": "settings.webSearch",
+   "key": "searchApiBaseUrl"
+  },
+  {
+   "ns": "settings.webSearch",
+   "key": "searchApiBaseUrlHint"
+  },
+  {
+   "ns": "settings.webSearch",
+   "key": "count"
+  },
+  {
+   "ns": "settings.webSearch",
+   "key": "countHint"
+  },
+  {
+   "ns": "settings.webSearch",
+   "key": "invalidCount"
+  },
+  {
+   "ns": "settings.webSearch",
+   "key": "baseUrlHint"
+  },
+  {
+   "ns": "shortcuts.layout",
+   "key": "toggle"
+  },
+  {
+   "ns": "sidebarTerminal",
+   "key": "title"
+  },
+  {
+   "ns": "sidebarOffice",
+   "key": "invalid"
+  },
+  {
+   "ns": "voice-input",
+   "key": "tooLarge"
+  },
+  {
+   "ns": "sidebarOffice",
+   "key": "timeout"
+  },
+  {
+   "ns": "sidebarExcel",
+   "key": "encoding"
+  },
+  {
+   "ns": "sidebarExcel",
+   "key": "formulaWarning"
+  },
+  {
+   "ns": "sidebarExcel",
+   "key": "unsupportedNotice"
+  },
+  {
+   "ns": "sidebarExcel",
+   "key": "charts"
+  },
+  {
+   "ns": "sidebarExcel",
+   "key": "images"
+  },
+  {
+   "ns": "sidebarExcel",
+   "key": "shapes"
+  },
+  {
+   "ns": "sidebarExcel",
+   "key": "conditionalFormatting"
+  },
+  {
+   "ns": "sidebarPdf",
+   "key": "zoomControls"
+  },
+  {
+   "ns": "sidebarPdf",
+   "key": "zoomMenu"
+  },
+  {
+   "ns": "sidebarPdf",
+   "key": "zoomOut"
+  },
+  {
+   "ns": "sidebarPdf",
+   "key": "zoomIn"
+  },
+  {
+   "ns": "sidebarPdf",
+   "key": "zoomFitWidth"
+  },
+  {
+   "ns": "sidebarPdf",
+   "key": "zoomControls"
+  },
+  {
+   "ns": "sidebarPdf",
+   "key": "zoomMenu"
+  },
+  {
+   "ns": "sidebarPdf",
+   "key": "zoomOut"
+  },
+  {
+   "ns": "sidebarPdf",
+   "key": "zoomIn"
+  },
+  {
+   "ns": "sidebarPdf",
+   "key": "zoomFitWidth"
+  },
+  {
+   "ns": "slash.menu",
+   "key": "command"
+  },
+  {
+   "ns": "slash.menu",
+   "key": "subagent"
+  },
+  {
+   "ns": "voice-input",
+   "key": "loading"
+  },
+  {
+   "ns": "subagent",
+   "key": "catalog.migrationRequired"
+  },
+  {
+   "ns": "subagent",
+   "key": "mode.external"
+  },
+  {
+   "ns": "trajectory",
+   "key": "details.lastAttemptError"
+  },
+  {
+   "ns": "voice-input",
+   "key": "inputDevice"
+  },
+  {
+   "ns": "voice-input",
+   "key": "systemMicrophone"
+  },
+  {
+   "ns": "voice-input",
+   "key": "systemMicrophoneNamed"
+  },
+  {
+   "ns": "voice-input",
+   "key": "inputLevel"
+  },
+  {
+   "ns": "voice-input",
+   "key": "deviceUnavailable"
+  },
+  {
+   "ns": "voice-input",
+   "key": "deviceMissing"
+  },
+  {
+   "ns": "workspace",
+   "key": "menu.sessionId"
+  },
+  {
+   "ns": "workspace",
+   "key": "toast.sessionIdCopied"
+  },
+  {
+   "ns": "workspace",
+   "key": "toast.sessionIdCopyFailed"
+  },
+  {
+   "ns": "workspace",
+   "key": "toast.forkRequiresOpen"
+  },
+  {
+   "ns": "workspace",
+   "key": "toast.openForkSource"
+  }
+ ],
+ "bn": [
+  {
+   "ns": "schedule.catalog",
+   "key": "list.nextRun"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "cron.day.every"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "cron.day.weekdays"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "unit.day.one"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "unit.day.other"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "unit.hour.other"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "unit.minute.other"
+  },
+  {
+   "ns": "session-inspector",
+   "key": "object.turn"
+  }
+ ],
+ "sw": [
+  {
+   "ns": "chat",
+   "key": "message.failure.interrupted"
+  },
+  {
+   "ns": "conversation",
+   "key": "row.commandArguments"
+  },
+  {
+   "ns": "voice-input",
+   "key": "provider"
+  },
+  {
+   "ns": "cotTranslation",
+   "key": "paidNotice"
+  },
+  {
+   "ns": "cotTranslation",
+   "key": "anonymousNotice"
+  },
+  {
+   "ns": "cotTranslation",
+   "key": "translation"
+  },
+  {
+   "ns": "voice-input",
+   "key": "failed"
+  },
+  {
+   "ns": "cotTranslation",
+   "key": "translating"
+  },
+  {
+   "ns": "cotTranslation",
+   "key": "invalidProvider"
+  },
+  {
+   "ns": "voice-input",
+   "key": "unavailable"
+  },
+  {
+   "ns": "settings.webSearch",
+   "key": "saveFailed"
+  },
+  {
+   "ns": "settings.webSearch",
+   "key": "saving"
+  },
+  {
+   "ns": "sidebarCodePreview",
+   "key": "copied"
+  },
+  {
+   "ns": "cotTranslation",
+   "key": "unwrap"
+  },
+  {
+   "ns": "documentMarkdown",
+   "key": "footnotes"
+  },
+  {
+   "ns": "job",
+   "key": "section.live"
+  },
+  {
+   "ns": "workspace",
+   "key": "status.running"
+  },
+  {
+   "ns": "workspace",
+   "key": "status.completed"
+  },
+  {
+   "ns": "job",
+   "key": "status.killed"
+  },
+  {
+   "ns": "workflowRun",
+   "key": "status.failed"
+  },
+  {
+   "ns": "job",
+   "key": "terminal.noExitCode"
+  },
+  {
+   "ns": "job",
+   "key": "terminal.running"
+  },
+  {
+   "ns": "job",
+   "key": "terminal.failed"
+  },
+  {
+   "ns": "open-in-app",
+   "key": "app.cursor"
+  },
+  {
+   "ns": "open-in-app",
+   "key": "app.windsurf"
+  },
+  {
+   "ns": "open-in-app",
+   "key": "app.fork"
+  },
+  {
+   "ns": "pluginManager",
+   "key": "restartReasonHostModule"
+  },
+  {
+   "ns": "pluginManager",
+   "key": "restartReasonUnmanagedPlugin"
+  },
+  {
+   "ns": "pluginManager",
+   "key": "previewUnavailable"
+  },
+  {
+   "ns": "pluginManager",
+   "key": "installConfirmedTitle"
+  },
+  {
+   "ns": "pluginManager",
+   "key": "statusUpdateAvailable"
+  },
+  {
+   "ns": "pluginManager",
+   "key": "reasonAlreadyInstalled"
+  },
+  {
+   "ns": "pluginManager",
+   "key": "installUpgradeNotice"
+  },
+  {
+   "ns": "pluginManager",
+   "key": "reasonIncompatibleVersion"
+  },
+  {
+   "ns": "voice-input",
+   "key": "loading"
+  },
+  {
+   "ns": "voice-input",
+   "key": "cancel"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "emptyDescription"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "sourcesDescription"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "sourcesLabel"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "sourceInvalid"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "sourceDuplicate"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "readInvalid"
+  },
+  {
+   "ns": "shortcuts",
+   "key": "search"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "filter"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "sortBy"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "exempted"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "factCommit"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "factHomepage"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "versionsTitle"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "versionDefault"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "versionIncompatible"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "versionExempted"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "versionPrerelease"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "confirmTitle"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "installTrust"
+  },
+  {
+   "ns": "reference",
+   "key": "fileOpen.failed"
+  },
+  {
+   "ns": "schedule.catalog",
+   "key": "trigger.other"
+  },
+  {
+   "ns": "schedule.catalog",
+   "key": "list.nextRun"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "frequency.weekday.1"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "frequency.weekday.3"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "frequency.weekday.4"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "frequency.weekday.5"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "frequency.weekday.7"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "delete.description"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "list.loading"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "list.error"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "detail.more"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "detail.nextRun"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "detail.rule"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "delivery.empty"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "delivery.loading"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "delivery.error"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "delivery.expand"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "delivery.collapse"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "delivery.retention"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "delivery.retentionBounds"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "detail.next"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "detail.frequency"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "cron.time.hourlyAt"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "cron.time.joinedHourlyAt"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "cron.time.hoursAt"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "frequency.weekday.1"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "frequency.weekday.3"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "frequency.weekday.4"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "frequency.weekday.5"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "frequency.weekday.6"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "frequency.weekday.7"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "unit.day.one"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "unit.day.other"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "unit.hour.one"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "unit.hour.other"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "unit.minute.other"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "unit.second.other"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "relative.now"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "timing.intervalHint.second"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "timing.conflict"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "timing.notFound"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "timing.subagentSession"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "timing.error"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "rule.repeat"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "rule.cancel"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "rule.weekdays"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "rule.cronLabel"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "rule.cronInvalid"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "cronForm.frequency"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "cronForm.minuteDecrease"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "rule.error.conflict"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "delete.confirm"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "delete.cancel"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "toast.deleteFailed"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "tool.invoked"
+  },
+  {
+   "ns": "secretMask",
+   "key": "secret.hide"
+  },
+  {
+   "ns": "session-inspector",
+   "key": "filter.cancel"
+  },
+  {
+   "ns": "session-inspector",
+   "key": "table.older"
+  },
+  {
+   "ns": "session-inspector",
+   "key": "table.loading"
+  },
+  {
+   "ns": "session-inspector",
+   "key": "object.turn"
+  },
+  {
+   "ns": "settings",
+   "key": "hostRelease.description"
+  },
+  {
+   "ns": "settings",
+   "key": "hostRelease.reload"
+  },
+  {
+   "ns": "settings.agentPreset",
+   "key": "guideMinimalExplanation"
+  },
+  {
+   "ns": "settings.agentPreset",
+   "key": "presetMinimalDescription"
+  },
+  {
+   "ns": "settings.models",
+   "key": "accountSignedIn"
+  },
+  {
+   "ns": "settings.models",
+   "key": "baseUrlEnvironment"
+  },
+  {
+   "ns": "settings.models",
+   "key": "modelReasoningHelpText"
+  },
+  {
+   "ns": "settings.models",
+   "key": "modelReasoningOffValuePlaceholder"
+  },
+  {
+   "ns": "settings.theme",
+   "key": "fontFamily.code.description"
+  },
+  {
+   "ns": "sidebarOffice",
+   "key": "invalid"
+  },
+  {
+   "ns": "voice-input",
+   "key": "tooLarge"
+  },
+  {
+   "ns": "sidebarExcel",
+   "key": "conditionalFormatting"
+  },
+  {
+   "ns": "sidebarPdf",
+   "key": "zoomControls"
+  },
+  {
+   "ns": "sidebarPdf",
+   "key": "zoomMenu"
+  },
+  {
+   "ns": "sidebarPdf",
+   "key": "zoomOut"
+  },
+  {
+   "ns": "sidebarPdf",
+   "key": "zoomIn"
+  },
+  {
+   "ns": "sidebarPdf",
+   "key": "zoomFitWidth"
+  },
+  {
+   "ns": "sidebarPdf",
+   "key": "zoomControls"
+  },
+  {
+   "ns": "sidebarPdf",
+   "key": "zoomMenu"
+  },
+  {
+   "ns": "sidebarPdf",
+   "key": "zoomOut"
+  },
+  {
+   "ns": "sidebarPdf",
+   "key": "zoomIn"
+  },
+  {
+   "ns": "sidebarPdf",
+   "key": "zoomFitWidth"
+  },
+  {
+   "ns": "voice-input",
+   "key": "loading"
+  },
+  {
+   "ns": "subagent",
+   "key": "catalog.migrationRequired"
+  },
+  {
+   "ns": "trajectory",
+   "key": "details.lastAttemptError"
+  },
+  {
+   "ns": "voice-input",
+   "key": "unnamedSelectedMicrophone"
+  },
+  {
+   "ns": "voice-input",
+   "key": "unnamedMicrophone"
+  },
+  {
+   "ns": "voice-input",
+   "key": "inputLevel"
+  }
+ ],
+ "pl": [
+  {
+   "ns": "chat",
+   "key": "settings.collapse.nextInput"
+  },
+  {
+   "ns": "job",
+   "key": "terminal.collapse"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "factCommit"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "versionExempted"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "time.locale"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "unit.day.one"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "unit.day.other"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "unit.hour.other"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "cronForm.atMinute"
+  },
+  {
+   "ns": "settings",
+   "key": "hostRelease.reload"
+  },
+  {
+   "ns": "settings.webSearch",
+   "key": "searchApiBaseUrlHint"
+  }
+ ],
+ "ru": [
+  {
+   "ns": "pluginManager",
+   "key": "terminalCommandLine"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "factCommit"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "list.empty"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "list.emptyInactive"
+  },
+  {
+   "ns": "session-inspector",
+   "key": "object.turn"
+  },
+  {
+   "ns": "settings.agentPreset",
+   "key": "guideMinimalExplanation"
+  }
+ ],
+ "it": [
+  {
+   "ns": "cotTranslation",
+   "key": "unwrap"
+  },
+  {
+   "ns": "job",
+   "key": "count.idle.other"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "relative.now"
+  },
+  {
+   "ns": "session-inspector",
+   "key": "table.loading"
+  },
+  {
+   "ns": "session-inspector",
+   "key": "object.turn"
+  }
+ ],
+ "tr": [
+  {
+   "ns": "pluginMarket",
+   "key": "factCommit"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "cron.day.every"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "timing.interval"
+  }
+ ],
+ "de": [
+  {
+   "ns": "open-in-app",
+   "key": "app.windsurf"
+  },
+  {
+   "ns": "open-in-app",
+   "key": "app.fork"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "sourceFailed"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "cron.day.every"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "cron.time.everyMinute"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "cron.time.everyMinutes"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "cron.time.joinedEveryMinute"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "cron.time.joinedEveryMinutes"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "cron.time.joinedEveryHour"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "cron.time.everyNHours"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "cron.time.joinedEveryNHours"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "cron.time.hourlyAt"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "cron.time.joinedHourlyAt"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "cron.time.hoursEveryMinute"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "cron.time.hoursEveryMinutes"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "cron.time.hoursAt"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "timing.interval"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "timing.conflict"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "cronForm.atMinute"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "delete.close"
+  },
+  {
+   "ns": "settings.agentPreset",
+   "key": "guideMinimalExplanation"
+  },
+  {
+   "ns": "settings.models",
+   "key": "keyReveal"
+  },
+  {
+   "ns": "settings.theme",
+   "key": "fontSize.more"
+  },
+  {
+   "ns": "settings.webSearch",
+   "key": "searchApiBaseUrl"
+  },
+  {
+   "ns": "settings.webSearch",
+   "key": "searchApiBaseUrlHint"
+  },
+  {
+   "ns": "slash.menu",
+   "key": "subagent"
+  },
+  {
+   "ns": "workspace",
+   "key": "menu.sessionId"
+  }
+ ],
+ "ar": [
+  {
+   "ns": "settings.webSearch",
+   "key": "overridden"
+  },
+  {
+   "ns": "subagent",
+   "key": "duration.minutes"
+  },
+  {
+   "ns": "open-in-app",
+   "key": "app.windsurf"
+  },
+  {
+   "ns": "open-in-app",
+   "key": "app.fork"
+  },
+  {
+   "ns": "open-in-app",
+   "key": "app.kitty"
+  },
+  {
+   "ns": "shortcuts",
+   "key": "search"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "factCommit"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "detail.sessionArchived"
+  },
+  {
+   "ns": "session-inspector",
+   "key": "object.turn"
+  },
+  {
+   "ns": "session-inspector",
+   "key": "object.step"
+  }
+ ],
+ "uk": [
+  {
+   "ns": "open-in-app",
+   "key": "app.kitty"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "factCommit"
+  },
+  {
+   "ns": "session-inspector",
+   "key": "object.turn"
+  },
+  {
+   "ns": "workspace",
+   "key": "toast.sessionIdCopied"
+  }
+ ],
+ "pt": [
+  {
+   "ns": "cotTranslation",
+   "key": "unwrap"
+  },
+  {
+   "ns": "open-in-app",
+   "key": "app.windowsterminal"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "exempted"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "unit.day.one"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "relative.now"
+  },
+  {
+   "ns": "settings.agentPreset",
+   "key": "guideMinimalExplanation"
+  }
+ ],
+ "he": [
+  {
+   "ns": "cotTranslation",
+   "key": "translating"
+  },
+  {
+   "ns": "settings.webSearch",
+   "key": "overridden"
+  },
+  {
+   "ns": "job",
+   "key": "terminal.running"
+  },
+  {
+   "ns": "open-in-app",
+   "key": "app.cursor"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "factCommit"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "list.loading"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "cron.day.every"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "unit.day.one"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "unit.day.other"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "unit.hour.one"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "unit.hour.other"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "cronForm.atMinute"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "card.open"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "tool.invoked"
+  },
+  {
+   "ns": "session-inspector",
+   "key": "table.type"
+  },
+  {
+   "ns": "session-inspector",
+   "key": "object.turn"
+  },
+  {
+   "ns": "slash.menu",
+   "key": "subagent"
+  },
+  {
+   "ns": "workspace",
+   "key": "menu.sessionId"
+  },
+  {
+   "ns": "workspace",
+   "key": "toast.sessionIdCopied"
+  },
+  {
+   "ns": "workspace",
+   "key": "toast.forkRequiresOpen"
+  },
+  {
+   "ns": "workspace",
+   "key": "toast.openForkSource"
+  }
+ ],
+ "es": [
+  {
+   "ns": "pluginMarket",
+   "key": "factCommit"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "time.locale"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "frequency.weekday.5"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "cron.time.hourlyAt"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "cron.time.joinedHourlyAt"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "cron.time.hoursAt"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "cronForm.atMinute"
+  }
+ ],
+ "hi": [
+  {
+   "ns": "open-in-app",
+   "key": "app.kitty"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "noMatches"
+  },
+  {
+   "ns": "schedule.catalog",
+   "key": "list.nextRun"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "frequency.weekday.7"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "relative.now"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "rule.unsaved"
+  },
+  {
+   "ns": "session-inspector",
+   "key": "object.turn"
+  }
+ ],
+ "id": [
+  {
+   "ns": "settings.webSearch",
+   "key": "overridden"
+  },
+  {
+   "ns": "open-in-app",
+   "key": "app.cursor"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "unit.day.other"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "unit.hour.other"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "unit.minute.other"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "unit.second.other"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "timing.unit.hour"
+  },
+  {
+   "ns": "session-inspector",
+   "key": "object.turn"
+  },
+  {
+   "ns": "sidebarPdf",
+   "key": "zoomFitWidth"
+  }
+ ],
+ "ro": [
+  {
+   "ns": "chat",
+   "key": "settings.collapse.nextInput"
+  },
+  {
+   "ns": "settings.webSearch",
+   "key": "saving"
+  },
+  {
+   "ns": "job",
+   "key": "terminal.collapse"
+  },
+  {
+   "ns": "job",
+   "key": "terminal.collapseAria"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "panel"
+  },
+  {
+   "ns": "sidebarTerminal",
+   "key": "title"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "unit.day.one"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "unit.day.other"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "relative.overdue"
+  },
+  {
+   "ns": "settings.models",
+   "key": "modelReasoningHelpText"
+  },
+  {
+   "ns": "settings.models",
+   "key": "modelReasoningNeedsLevel"
+  },
+  {
+   "ns": "settings.models",
+   "key": "modelReasoningOffValuePlaceholder"
+  },
+  {
+   "ns": "settings.webSearch",
+   "key": "useSearchApiHint"
+  }
+ ],
+ "th": [
+  {
+   "ns": "cotTranslation",
+   "key": "translating"
+  },
+  {
+   "ns": "open-in-app",
+   "key": "app.cursor"
+  },
+  {
+   "ns": "schedule.catalog",
+   "key": "trigger.other"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "unit.day.one"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "unit.day.other"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "unit.hour.other"
+  },
+  {
+   "ns": "settings",
+   "key": "hostRelease.later"
+  },
+  {
+   "ns": "settings.agentPreset",
+   "key": "guideMinimalExplanation"
+  }
+ ],
+ "nl": [
+  {
+   "ns": "settings.webSearch",
+   "key": "overridden"
+  },
+  {
+   "ns": "settings.webSearch",
+   "key": "saving"
+  },
+  {
+   "ns": "cotTranslation",
+   "key": "unwrap"
+  },
+  {
+   "ns": "job",
+   "key": "terminal.collapse"
+  },
+  {
+   "ns": "job",
+   "key": "terminal.collapseAria"
+  },
+  {
+   "ns": "pluginManager",
+   "key": "previewUnavailable"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "delivery.collapse"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "detail.sessionArchived"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "cronForm.atMinute"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "cronForm.minuteIncrease"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "tool.invoked"
+  },
+  {
+   "ns": "session-inspector",
+   "key": "table.loading"
+  },
+  {
+   "ns": "session-inspector",
+   "key": "object.turn"
+  },
+  {
+   "ns": "sidebarPdf",
+   "key": "zoomFitWidth"
+  }
+ ],
+ "fa": [
+  {
+   "ns": "job",
+   "key": "terminal.collapse"
+  },
+  {
+   "ns": "open-in-app",
+   "key": "app.github"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "sourcesDescription"
+  },
+  {
+   "ns": "pluginMarket",
+   "key": "removeSourceNamed"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "detail.sessionArchived"
+  }
+ ],
+ "zh-hk": [
+  {
+   "ns": "pluginManager",
+   "key": "sourceNotInstalled"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "unit.day.other"
+  },
+  {
+   "ns": "session-inspector",
+   "key": "object.turn"
+  }
+ ],
+ "tl": [
+  {
+   "ns": "pluginMarket",
+   "key": "factCommit"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "detail.close"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "delivery.expand"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "frequency.weekday.1"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "frequency.weekday.2"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "frequency.weekday.5"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "frequency.weekday.6"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "frequency.weekday.7"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "rule.weekly"
+  },
+  {
+   "ns": "schedule.manager",
+   "key": "cronForm.weekly"
+  },
+  {
+   "ns": "session-inspector",
+   "key": "table.type"
+  },
+  {
+   "ns": "session-inspector",
+   "key": "filter.cancel"
+  },
+  {
+   "ns": "session-inspector",
+   "key": "object.turn"
+  },
+  {
+   "ns": "settings.agentPreset",
+   "key": "guideMinimalExplanation"
+  },
+  {
+   "ns": "settings.models",
+   "key": "modelReasoningOffValuePlaceholder"
+  }
+ ]
+}

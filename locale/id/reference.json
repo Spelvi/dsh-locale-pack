@@ -1,6 +1,10 @@
 {
   "candidate.noCwd": "(tanpa cwd)",
   "crumb.root": "Ruang kerja",
+  "fileOpen.close": "Tutup",
+  "fileOpen.failed": "Tidak dapat membuka \"{path}\". Cobalah lagi atau tutup pesan ini.",
+  "fileOpen.retry": "Coba lagi",
+  "fileOpen.title": "Tidak dapat membuka file",
   "section.files": "Berkas & folder",
   "section.sessions": "Sesi",
   "section.subagents": "Subagen",

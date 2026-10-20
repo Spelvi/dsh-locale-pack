@@ -23,6 +23,7 @@
   "details.event": "Mga detalye ng kaganapan",
   "details.failure.auth": "Hindi wasto ang API key",
   "details.hierarchy": "Hierarkiya",
+  "details.lastAttemptError": "Error sa huling pagsubok",
   "details.model": "Modelo",
   "details.provider": "Tagapagbigay",
   "details.purpose": "Layunin",

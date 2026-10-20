@@ -3,5 +3,11 @@
   "loading": "Dokument wird gerendert...",
   "preview": "Bildvorschau: {name}",
   "title": "Bild",
-  "unsupported": "Die Bildvorschau erfordert den vollständigen Dateiinhalt."
+  "unsupported": "Die Bildvorschau erfordert den vollständigen Dateiinhalt.",
+  "zoomControls": "Zoomsteuerung",
+  "zoomFitWidth": "Breite anpassen",
+  "zoomIn": "Zoom vergrößern",
+  "zoomMenu": "Zoom wählen",
+  "zoomOut": "Verkleinern",
+  "zoomValue": "{percent}%"
 }

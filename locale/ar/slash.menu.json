@@ -1,8 +1,11 @@
 {
+  "command": "الأوامر",
   "crumbs.aria": "التنقل في المجلدات",
   "drill.aria": "تصفح المجلد",
   "drill.hint": "تصفح المجلد",
   "drill.key": "Tab",
+  "loading": "يتم التحميل…",
   "skill": "المهارات",
+  "subagent": "الوكلاء الفرعيون",
   "suggestions.aria": "تشغيل الاقتراحات"
 }

@@ -1,6 +1,10 @@
 {
   "candidate.noCwd": "(không có cwd)",
   "crumb.root": "Không gian làm việc",
+  "fileOpen.close": "Đóng",
+  "fileOpen.failed": "Không thể mở “{path}”. Hãy thử lại hoặc đóng thông báo này.",
+  "fileOpen.retry": "Thử lại",
+  "fileOpen.title": "Không thể mở tập tin",
   "section.files": "Tệp & thư mục",
   "section.sessions": "Phiên",
   "section.subagents": "Tác tử phụ",

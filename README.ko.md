@@ -33,7 +33,7 @@ DeepSeek Harness는 코딩 도구입니다. 할 일을 넘기면 에이전트가
 | Português (Portugal) | `pt` | Kiswahili | `sw` |
 | Yorùbá | `yo` | | |
 
-29개 언어 × 2,528키 = 73,312개 문구입니다. 사전은 DeepSeek Harness `0.2.0-rc.2` 기준으로 맞췄습니다.
+언어 29개, 키 3,046개, 문구 88,337개입니다. 사전은 DeepSeek Harness `0.2.1-rc.2` 기준으로 맞췄습니다.
 
 ## 설치
 

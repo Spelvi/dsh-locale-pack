@@ -23,6 +23,7 @@
   "details.event": "Ereignisdetails",
   "details.failure.auth": "API-Schlüssel ist ungültig",
   "details.hierarchy": "Hierarchie",
+  "details.lastAttemptError": "Fehler bei dem letzten Versuch",
   "details.model": "Modell",
   "details.provider": "Anbieter",
   "details.purpose": "Zweck",

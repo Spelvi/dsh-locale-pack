@@ -1,6 +1,10 @@
 {
   "candidate.noCwd": "(walang cwd)",
   "crumb.root": "Lugar ng trabaho",
+  "fileOpen.close": "Isara",
+  "fileOpen.failed": "Hindi mabuksan ang “{path}”. Subukan muli o isara ang mensaheng ito.",
+  "fileOpen.retry": "Subukan muli",
+  "fileOpen.title": "Hindi mabuksan ang file",
   "section.files": "Mga file at folder",
   "section.sessions": "Mga sesyon",
   "section.subagents": "Mga subagent",

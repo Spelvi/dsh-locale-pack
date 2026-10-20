@@ -1,8 +1,11 @@
 {
+  "command": "Àwọn Àṣẹ",
   "crumbs.aria": "Ìtọ́sọ́nà fóldà",
   "drill.aria": "Ṣàwárí fóldà",
   "drill.hint": "Ṣàwárí fóldà",
   "drill.key": "Tab",
+  "loading": "Ń gbà…",
   "skill": "Ìmọ̀",
+  "subagent": "Àwọn Àṣòjú Kékeré",
   "suggestions.aria": "Mú àbá wá"
 }

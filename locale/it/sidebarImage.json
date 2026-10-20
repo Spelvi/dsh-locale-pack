@@ -3,5 +3,11 @@
   "loading": "Visualizzazione del documento in corso...",
   "preview": "Anteprima immagine: {name}",
   "title": "Immagine",
-  "unsupported": "L'anteprima dell'immagine richiede il contenuto completo del file."
+  "unsupported": "L'anteprima dell'immagine richiede il contenuto completo del file.",
+  "zoomControls": "Controlli di zoom",
+  "zoomFitWidth": "Adatta larghezza",
+  "zoomIn": "Aumenta zoom",
+  "zoomMenu": "Scegli zoom",
+  "zoomOut": "Riduci zoom",
+  "zoomValue": "{percent}%"
 }

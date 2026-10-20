@@ -1,8 +1,11 @@
 {
+  "command": "Các lệnh",
   "crumbs.aria": "Điều hướng thư mục",
   "drill.aria": "Duyệt thư mục",
   "drill.hint": "Duyệt thư mục",
   "drill.key": "Tab",
+  "loading": "Đang tải…",
   "skill": "Kỹ năng",
+  "subagent": "Các tác nhân phụ",
   "suggestions.aria": "Kích hoạt gợi ý"
 }

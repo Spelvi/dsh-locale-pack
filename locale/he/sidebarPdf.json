@@ -7,5 +7,11 @@
   "retry": "נסה שוב",
   "title": "PDF",
   "unsupported": "תצוגה מקדימה של PDF דורשת את התוכן המלא של הקובץ.",
-  "workerFailed": "תהליך העיבוד של PDF לא יכול להמשיך. נסה שוב."
+  "workerFailed": "תהליך העיבוד של PDF לא יכול להמשיך. נסה שוב.",
+  "zoomControls": "פקדי זום",
+  "zoomFitWidth": "התאמה לרוחב",
+  "zoomIn": "הגדילו זום",
+  "zoomMenu": "בחרו זום",
+  "zoomOut": "הקטן",
+  "zoomValue": "{percent}%"
 }

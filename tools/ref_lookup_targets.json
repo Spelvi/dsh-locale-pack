@@ -1,0 +1,1067 @@
+{
+ "description": "60자 미만 짧은 문구(공식 OS·유사 앱 표현 대조 대상). now=현재 번역, natural=Jev 자연스러움 점수",
+ "items_by_lang": {
+  "ar": [
+   {
+    "en": "Day {days} of every month or {weekdays}{months}",
+    "key": "cron.day.both",
+    "now": "اليوم {days} من كل شهر أو {weekdays}{months}",
+    "natural": 0.59
+   }
+  ],
+  "bn": [
+   {
+    "en": "This deployment stores settings read-only.",
+    "key": "readOnly",
+    "now": "এই ডিপ্লয়মেন্ট সেটিংস শুধুমাত্র পড়ার জন্য সংরক্ষণ করে।",
+    "natural": 0.57
+   },
+   {
+    "en": "Weekly on {weekdays} at {time} ({timeZone})",
+    "key": "frequency.weekly",
+    "now": "সাপ্তাহিক {weekdays} তারিখে {time} সময়ে ({timeZone})",
+    "natural": 0.52
+   },
+   {
+    "en": "Cron {expression} ({timeZone})",
+    "key": "frequency.cron",
+    "now": "ক্রন {expression} ({timeZone})",
+    "natural": 0.56
+   },
+   {
+    "en": "Day {days} of every month{months}",
+    "key": "cron.day.monthDays",
+    "now": "প্রতি মাসের {days} তারিখে{months}",
+    "natural": 0.57
+   },
+   {
+    "en": "Day {days} of every month or {weekdays}{months}",
+    "key": "cron.day.both",
+    "now": "প্রতি মাসের {days} তারিখে অথবা {weekdays}{months}",
+    "natural": 0.55
+   },
+   {
+    "en": "Day {days} of every month and {weekdays}{months}",
+    "key": "cron.day.bothStarred",
+    "now": "প্রতি মাসের {days} তারিখে এবং {weekdays}{months}",
+    "natural": 0.59
+   },
+   {
+    "en": "{value} {unit} overdue",
+    "key": "relative.overdue",
+    "now": "{value} {unit} বকেয়া",
+    "natural": 0.57
+   },
+   {
+    "en": "Close deletion confirmation",
+    "key": "delete.close",
+    "now": "মোছার নিশ্চিতকরণ বন্ধ করুন",
+    "natural": 0.36
+   },
+   {
+    "en": "About reasoning levels",
+    "key": "modelReasoningHelp",
+    "now": "রিজনিং স্তরসমূহ সম্পর্কে",
+    "natural": 0.51
+   }
+  ],
+  "de": [
+   {
+    "en": "Day {days} of every month{months}",
+    "key": "cron.day.monthDays",
+    "now": "Tag {days} jedes Monats{months}",
+    "natural": 0.56
+   },
+   {
+    "en": "Day {days} of every month or {weekdays}{months}",
+    "key": "cron.day.both",
+    "now": "Tag {days} jedes Monats oder {weekdays}{months}",
+    "natural": 0.42
+   },
+   {
+    "en": "Day {days} of every month and {weekdays}{months}",
+    "key": "cron.day.bothStarred",
+    "now": "Tag {days} jedes Monats und {weekdays}{months}",
+    "natural": 0.47
+   },
+   {
+    "en": "Close deletion confirmation",
+    "key": "delete.close",
+    "now": "Löschbestätigung schließen",
+    "natural": 0.52
+   },
+   {
+    "en": "About reasoning levels",
+    "key": "modelReasoningHelp",
+    "now": "Über Denkstufen",
+    "natural": 0.59
+   }
+  ],
+  "es": [
+   {
+    "en": "every minute during hours {hours}",
+    "key": "cron.time.hoursEveryMinute",
+    "now": "cada minuto durante las horas {hours}",
+    "natural": 0.54
+   },
+   {
+    "en": "at minute {minutes} of hours {hours}",
+    "key": "cron.time.hoursAt",
+    "now": "en el minuto {minutes} de las horas {hours}",
+    "natural": 0.57
+   }
+  ],
+  "fa": [
+   {
+    "en": "When to Collapse Work Details",
+    "key": "settings.collapse.title",
+    "now": "زمان جمع شدن جزئیات کار",
+    "natural": 0.5
+   },
+   {
+    "en": "Linked session {title}: open original session",
+    "key": "detail.openSessionTitle",
+    "now": "نشست پیوندشده {title}: باز کردن نشست اصلی",
+    "natural": 0.59
+   },
+   {
+    "en": "Saved delivery record",
+    "key": "delivery.label",
+    "now": "رکورد تحویل ذخیرهشده",
+    "natural": 0.58
+   },
+   {
+    "en": "Cron {expression} ({timeZone})",
+    "key": "frequency.cron",
+    "now": "کرون {expression} ({timeZone})",
+    "natural": 0.59
+   },
+   {
+    "en": "Day {days} of every month and {weekdays}{months}",
+    "key": "cron.day.bothStarred",
+    "now": "روز {days} از هر ماه و {weekdays}{months}",
+    "natural": 0.52
+   },
+   {
+    "en": "Reload to load the new version",
+    "key": "hostRelease.reload",
+    "now": "برای بارگذاری نسخه جدید، بارگذاری مجدد کنید",
+    "natural": 0.55
+   }
+  ],
+  "fr": [
+   {
+    "en": "When to Collapse Work Details",
+    "key": "settings.collapse.title",
+    "now": "Quand réduire les détails du travail",
+    "natural": 0.53
+   },
+   {
+    "en": "every minute during hours {hours}",
+    "key": "cron.time.hoursEveryMinute",
+    "now": "chaque minute pendant les heures {hours}",
+    "natural": 0.56
+   },
+   {
+    "en": "at minute {minutes} of hours {hours}",
+    "key": "cron.time.hoursAt",
+    "now": "à la minute {minutes} des heures {hours}",
+    "natural": 0.58
+   },
+   {
+    "en": "{value} {unit} overdue",
+    "key": "relative.overdue",
+    "now": "{value} {unit} en retard",
+    "natural": 0.58
+   },
+   {
+    "en": "Close deletion confirmation",
+    "key": "delete.close",
+    "now": "Fermer la confirmation de suppression",
+    "natural": 0.56
+   }
+  ],
+  "he": [
+   {
+    "en": "Translating reasoning",
+    "key": "translating",
+    "now": "מתרגם את ההנמקה",
+    "natural": 0.55
+   },
+   {
+    "en": "Loading original session information.",
+    "key": "detail.sessionLoading",
+    "now": "טוען את פרטי ההפעלה המקורית.",
+    "natural": 0.55
+   },
+   {
+    "en": "Cron {expression} ({timeZone})",
+    "key": "frequency.cron",
+    "now": "קרון {expression} ({timeZone})",
+    "natural": 0.5
+   },
+   {
+    "en": "Day {days} of every month{months}",
+    "key": "cron.day.monthDays",
+    "now": "יום {days} בכל חודש{months}",
+    "natural": 0.52
+   },
+   {
+    "en": "Day {days} of every month or {weekdays}{months}",
+    "key": "cron.day.both",
+    "now": "יום {days} בכל חודש או {weekdays}{months}",
+    "natural": 0.5
+   },
+   {
+    "en": "Day {days} of every month and {weekdays}{months}",
+    "key": "cron.day.bothStarred",
+    "now": "יום {days} בכל חודש וגם {weekdays}{months}",
+    "natural": 0.5
+   },
+   {
+    "en": "at minute {minutes} of hours {hours}",
+    "key": "cron.time.hoursAt",
+    "now": "בדקה {minutes} של השעות {hours}",
+    "natural": 0.46
+   },
+   {
+    "en": "Close deletion confirmation",
+    "key": "delete.close",
+    "now": "סגור את אישור המחיקה",
+    "natural": 0.58
+   },
+   {
+    "en": "Open original session",
+    "key": "toast.openForkSource",
+    "now": "פתח את הסשן המקורי",
+    "natural": 0.55
+   }
+  ],
+  "hi": [
+   {
+    "en": "The original session is archived.",
+    "key": "detail.sessionArchived",
+    "now": "मूल सत्र संग्रहीत है।",
+    "natural": 0.55
+   },
+   {
+    "en": "Cron {expression} ({timeZone})",
+    "key": "frequency.cron",
+    "now": "क्रॉन {expression} ({timeZone})",
+    "natural": 0.57
+   },
+   {
+    "en": "Day {days} of every month or {weekdays}{months}",
+    "key": "cron.day.both",
+    "now": "हर महीने का दिन {days} या {weekdays}{months}",
+    "natural": 0.54
+   },
+   {
+    "en": "every minute during hours {hours}",
+    "key": "cron.time.hoursEveryMinute",
+    "now": "घंटों {hours} के दौरान हर मिनट",
+    "natural": 0.56
+   },
+   {
+    "en": "Close deletion confirmation",
+    "key": "delete.close",
+    "now": "हटाने की पुष्टि बंद करें",
+    "natural": 0.54
+   },
+   {
+    "en": "Search & Fetch guide",
+    "key": "searchGuide",
+    "now": "Search & Fetch मार्गदर्शिका",
+    "natural": 0.47
+   }
+  ],
+  "id": [
+   {
+    "en": "When to Collapse Work Details",
+    "key": "settings.collapse.title",
+    "now": "Kapan Detail Pekerjaan Diciutkan",
+    "natural": 0.48
+   },
+   {
+    "en": "Translating reasoning",
+    "key": "translating",
+    "now": "Menerjemahkan penalaran",
+    "natural": 0.4
+   },
+   {
+    "en": "This deployment stores settings read-only.",
+    "key": "readOnly",
+    "now": "Penerapan ini menyimpan pengaturan dalam mode hanya baca.",
+    "natural": 0.59
+   },
+   {
+    "en": "{count} background jobs",
+    "key": "count.idle.other",
+    "now": "{count} pekerjaan latar belakang",
+    "natural": 0.59
+   },
+   {
+    "en": "at minute {minutes} of hours {hours}",
+    "key": "cron.time.hoursAt",
+    "now": "pada menit {minutes} dari jam {hours}",
+    "natural": 0.5
+   },
+   {
+    "en": "Close deletion confirmation",
+    "key": "delete.close",
+    "now": "Tutup konfirmasi penghapusan",
+    "natural": 0.58
+   },
+   {
+    "en": "Opening this workbook timed out. Try a smaller file.",
+    "key": "timeout",
+    "now": "Membuka buku kerja ini kehabisan waktu. Coba file yang lebih kecil.",
+    "natural": 0.58
+   }
+  ],
+  "it": [
+   {
+    "en": "{width}x{height}px, {bytes} bytes",
+    "key": "row.imageSize",
+    "now": "{width}x{height}px, {bytes} byte",
+    "natural": 0.59
+   },
+   {
+    "en": "Translating reasoning",
+    "key": "translating",
+    "now": "Traduzione del ragionamento",
+    "natural": 0.54
+   }
+  ],
+  "ja": [
+   {
+    "en": "Switch plugin market, currently {market}",
+    "key": "marketMenu",
+    "now": "プラグインマーケットを切り替えます、現在は{market}です",
+    "natural": 0.54
+   },
+   {
+    "en": "every minute during hours {hours}",
+    "key": "cron.time.hoursEveryMinute",
+    "now": "{hours}時台は毎分",
+    "natural": 0.55
+   },
+   {
+    "en": "{value} {unit} overdue",
+    "key": "relative.overdue",
+    "now": "{value}{unit}超過",
+    "natural": 0.52
+   }
+  ],
+  "nl": [
+   {
+    "en": "This deployment stores settings read-only.",
+    "key": "readOnly",
+    "now": "Deze implementatie slaat instellingen alleen-lezen op.",
+    "natural": 0.57
+   },
+   {
+    "en": "{name} feature preview",
+    "key": "previewAlt",
+    "now": "{name} functiepreview",
+    "natural": 0.51
+   },
+   {
+    "en": "at minute {minutes} of hours {hours}",
+    "key": "cron.time.hoursAt",
+    "now": "op minuut {minutes} van uren {hours}",
+    "natural": 0.55
+   },
+   {
+    "en": "Close deletion confirmation",
+    "key": "delete.close",
+    "now": "Bevestiging voor verwijderen sluiten",
+    "natural": 0.55
+   },
+   {
+    "en": "Environment credential status has not been confirmed.",
+    "key": "keyFallbackUnchecked",
+    "now": "De status van de omgevingsreferentie is niet bevestigd.",
+    "natural": 0.46
+   }
+  ],
+  "pl": [
+   {
+    "en": "Saved delivery record",
+    "key": "delivery.label",
+    "now": "Zapisany rekord dostarczenia",
+    "natural": 0.59
+   },
+   {
+    "en": "at minute {minutes} of hours {hours}",
+    "key": "cron.time.hoursAt",
+    "now": "w minucie {minutes} w godzinach {hours}",
+    "natural": 0.51
+   },
+   {
+    "en": "Close deletion confirmation",
+    "key": "delete.close",
+    "now": "Zamknij potwierdzenie usunięcia",
+    "natural": 0.55
+   }
+  ],
+  "pt": [
+   {
+    "en": "at minute {minutes} of hours {hours}",
+    "key": "cron.time.hoursAt",
+    "now": "ao minuto {minutes} das horas {hours}",
+    "natural": 0.5
+   },
+   {
+    "en": "Use the new Web Search API",
+    "key": "useSearchApi",
+    "now": "Utiliza a nova Web Search API",
+    "natural": 0.55
+   },
+   {
+    "en": "Search & Fetch guide",
+    "key": "searchGuide",
+    "now": "Guia de Search & Fetch",
+    "natural": 0.54
+   }
+  ],
+  "pt-br": [
+   {
+    "en": "at minute {minutes} of hours {hours}",
+    "key": "cron.time.hoursAt",
+    "now": "no minuto {minutes} das horas {hours}",
+    "natural": 0.52
+   }
+  ],
+  "ro": [
+   {
+    "en": "When to Collapse Work Details",
+    "key": "settings.collapse.title",
+    "now": "Când se restrâng detaliile activității",
+    "natural": 0.57
+   },
+   {
+    "en": "Translating reasoning",
+    "key": "translating",
+    "now": "Se traduce raționamentul",
+    "natural": 0.34
+   },
+   {
+    "en": "This deployment stores settings read-only.",
+    "key": "readOnly",
+    "now": "Această implementare stochează setările doar în citire.",
+    "natural": 0.56
+   },
+   {
+    "en": "The change reaches modules DSH itself loaded.",
+    "key": "restartReasonHostModule",
+    "now": "Modificarea afectează modulele încărcate chiar de DSH.",
+    "natural": 0.49
+   },
+   {
+    "en": "Close deletion confirmation",
+    "key": "delete.close",
+    "now": "Închide confirmarea ștergerii",
+    "natural": 0.59
+   }
+  ],
+  "ru": [
+   {
+    "en": "at minute {minutes} of hours {hours}",
+    "key": "cron.time.hoursAt",
+    "now": "в минуту {minutes} часов {hours}",
+    "natural": 0.57
+   },
+   {
+    "en": "Close deletion confirmation",
+    "key": "delete.close",
+    "now": "Закрыть подтверждение удаления",
+    "natural": 0.55
+   }
+  ],
+  "sv": [
+   {
+    "en": "{width}x{height}px, {bytes} bytes",
+    "key": "row.imageSize",
+    "now": "{width}x{height}px, {bytes} byte",
+    "natural": 0.58
+   },
+   {
+    "en": "{name} feature preview",
+    "key": "previewAlt",
+    "now": "{name} förhandsvisning av funktion",
+    "natural": 0.55
+   },
+   {
+    "en": "This index lists no plugins.",
+    "key": "emptyIndex",
+    "now": "Detta index listar inga plugin.",
+    "natural": 0.51
+   },
+   {
+    "en": "Day {days} of every month and {weekdays}{months}",
+    "key": "cron.day.bothStarred",
+    "now": "Dag {days} i varje månad och {weekdays}{months}",
+    "natural": 0.44
+   },
+   {
+    "en": "at minute {minutes} of hours {hours}",
+    "key": "cron.time.hoursAt",
+    "now": "vid minut {minutes} under timmarna {hours}",
+    "natural": 0.54
+   }
+  ],
+  "sw": [
+   {
+    "en": "When to Collapse Work Details",
+    "key": "settings.collapse.title",
+    "now": "Lini maelezo ya kazi yakunjwe",
+    "natural": 0.55
+   },
+   {
+    "en": "Translating reasoning",
+    "key": "translating",
+    "now": "Inatafsiri hoja",
+    "natural": 0.54
+   },
+   {
+    "en": "{count} background jobs",
+    "key": "count.idle.other",
+    "now": "{count} kazi za nyuma",
+    "natural": 0.58
+   },
+   {
+    "en": "The change reaches modules DSH itself loaded.",
+    "key": "restartReasonHostModule",
+    "now": "Mabadiliko yanafikia sehemu ambazo DSH yenyewe ilipakia.",
+    "natural": 0.56
+   },
+   {
+    "en": "Built-in plugin settings",
+    "key": "basicTitle",
+    "now": "Mipangilio ya programu jalizi zilizojengewa ndani",
+    "natural": 0.59
+   },
+   {
+    "en": "{name} feature preview",
+    "key": "previewAlt",
+    "now": "{name} onyesho la awali la kipengele",
+    "natural": 0.57
+   },
+   {
+    "en": "Installed; restart DSH to load it. {reason}",
+    "key": "installDoneRestart",
+    "now": "Imesakinishwa; anzisha DSH upya ili kuipakia. {reason}",
+    "natural": 0.55
+   },
+   {
+    "en": "Loading recognition services…",
+    "key": "loading",
+    "now": "Inapakia huduma za utambuzi…",
+    "natural": 0.49
+   },
+   {
+    "en": "No plugin markets yet",
+    "key": "emptyTitle",
+    "now": "Hakuna masoko ya vijalizi bado",
+    "natural": 0.53
+   },
+   {
+    "en": "This index lists no plugins.",
+    "key": "emptyIndex",
+    "now": "Faharasa hii haiorodheshi vijalizi vyovyote.",
+    "natural": 0.58
+   },
+   {
+    "en": "The original session is archived.",
+    "key": "detail.sessionArchived",
+    "now": "Kipindi asili kimewekwa kwenye kumbukumbu.",
+    "natural": 0.51
+   },
+   {
+    "en": "Every hour at minute {minutes}",
+    "key": "cron.time.hourlyAt",
+    "now": "Kila saa katika dakika {minutes}",
+    "natural": 0.59
+   },
+   {
+    "en": "every hour at minute {minutes}",
+    "key": "cron.time.joinedHourlyAt",
+    "now": "kila saa katika dakika {minutes}",
+    "natural": 0.52
+   },
+   {
+    "en": "at minute {minutes} of hours {hours}",
+    "key": "cron.time.hoursAt",
+    "now": "katika dakika {minutes} ya saa {hours}",
+    "natural": 0.43
+   },
+   {
+    "en": "Enter an interval of at least 60 seconds.",
+    "key": "timing.invalidInterval.second",
+    "now": "Weka muda wa angalau sekunde 60.",
+    "natural": 0.58
+   },
+   {
+    "en": "Leave blank to use env as auth ({hint})",
+    "key": "keyPlaceholderFallback",
+    "now": "Acha wazi ili kutumia mazingira kwa uthibitisho ({hint})",
+    "natural": 0.59
+   },
+   {
+    "en": "Environment credential status has not been confirmed.",
+    "key": "keyFallbackUnchecked",
+    "now": "Hali ya uthibitisho wa mazingira haijathibitishwa.",
+    "natural": 0.5
+   },
+   {
+    "en": "Provider-configured endpoint",
+    "key": "baseUrlConfigured",
+    "now": "Ncha ya muunganisho iliyosanidiwa na mtoa huduma",
+    "natural": 0.59
+   }
+  ],
+  "th": [
+   {
+    "en": "Translating reasoning",
+    "key": "translating",
+    "now": "กำลังแปลการให้เหตุผล",
+    "natural": 0.47
+   },
+   {
+    "en": "Saved delivery record",
+    "key": "delivery.label",
+    "now": "ระเบียนการจัดส่งที่บันทึกไว้",
+    "natural": 0.51
+   },
+   {
+    "en": "Cron {expression} ({timeZone})",
+    "key": "frequency.cron",
+    "now": "ครอน {expression} ({timeZone})",
+    "natural": 0.59
+   },
+   {
+    "en": "Day {days} of every month or {weekdays}{months}",
+    "key": "cron.day.both",
+    "now": "วันที่ {days} ของทุกเดือน หรือ {weekdays}{months}",
+    "natural": 0.57
+   },
+   {
+    "en": "Day {days} of every month and {weekdays}{months}",
+    "key": "cron.day.bothStarred",
+    "now": "วันที่ {days} ของทุกเดือน และ {weekdays}{months}",
+    "natural": 0.59
+   },
+   {
+    "en": "every minute during hours {hours}",
+    "key": "cron.time.hoursEveryMinute",
+    "now": "ทุกนาทีในช่วงชั่วโมง {hours}",
+    "natural": 0.59
+   },
+   {
+    "en": "Close deletion confirmation",
+    "key": "delete.close",
+    "now": "ปิดการยืนยันการลบ",
+    "natural": 0.57
+   }
+  ],
+  "tl": [
+   {
+    "en": "When to Collapse Work Details",
+    "key": "settings.collapse.title",
+    "now": "Kailan Ititiklop ang mga Detalye ng Trabaho",
+    "natural": 0.57
+   },
+   {
+    "en": "Translating reasoning",
+    "key": "translating",
+    "now": "Isinasalin ang pangangatwiran",
+    "natural": 0.45
+   },
+   {
+    "en": "Enter auto or a language code, such as zh, en, or ja.",
+    "key": "invalidLanguage",
+    "now": "Ilagay ang auto o isang code ng wika, tulad ng zh, en, o ja.",
+    "natural": 0.55
+   },
+   {
+    "en": "Translation preferences are unavailable.",
+    "key": "unavailable",
+    "now": "Hindi magagamit ang mga kagustuhan sa pagsasalin.",
+    "natural": 0.48
+   },
+   {
+    "en": "This deployment stores settings read-only.",
+    "key": "readOnly",
+    "now": "Iniimbak ng deployment na ito ang mga setting bilang read-only.",
+    "natural": 0.57
+   },
+   {
+    "en": "{name} feature preview",
+    "key": "previewAlt",
+    "now": "{name} preview ng feature",
+    "natural": 0.55
+   },
+   {
+    "en": "Version for this DSH",
+    "key": "sourceTargetVersion",
+    "now": "Bersyon para sa DSH na ito",
+    "natural": 0.59
+   },
+   {
+    "en": "The original session is unavailable.",
+    "key": "detail.sessionUnavailable",
+    "now": "Hindi available ang orihinal na sesyon.",
+    "natural": 0.53
+   },
+   {
+    "en": "Every hour at minute {minutes}",
+    "key": "cron.time.hourlyAt",
+    "now": "Bawat oras sa minuto {minutes}",
+    "natural": 0.56
+   },
+   {
+    "en": "every minute during hours {hours}",
+    "key": "cron.time.hoursEveryMinute",
+    "now": "bawat minuto sa mga oras na {hours}",
+    "natural": 0.55
+   },
+   {
+    "en": "every {step} minutes during hours {hours}",
+    "key": "cron.time.hoursEveryMinutes",
+    "now": "bawat {step} minuto sa mga oras na {hours}",
+    "natural": 0.56
+   },
+   {
+    "en": "at minute {minutes} of hours {hours}",
+    "key": "cron.time.hoursAt",
+    "now": "sa minuto {minutes} ng mga oras na {hours}",
+    "natural": 0.44
+   },
+   {
+    "en": "{value} {unit} overdue",
+    "key": "relative.overdue",
+    "now": "{value} {unit} nang lumampas sa takda",
+    "natural": 0.57
+   },
+   {
+    "en": "Enter an interval of at least 60 seconds.",
+    "key": "timing.invalidInterval.second",
+    "now": "Maglagay ng pagitan na hindi bababa sa 60 segundo.",
+    "natural": 0.56
+   },
+   {
+    "en": "Reload to load the new version",
+    "key": "hostRelease.reload",
+    "now": "I-reload para i-load ang bagong bersyon",
+    "natural": 0.43
+   },
+   {
+    "en": "Provider-configured endpoint",
+    "key": "baseUrlConfigured",
+    "now": "Endpoint na isinaayos ng provider",
+    "natural": 0.52
+   },
+   {
+    "en": "About reasoning levels",
+    "key": "modelReasoningHelp",
+    "now": "Tungkol sa mga antas ng pangangatuwiran",
+    "natural": 0.54
+   },
+   {
+    "en": "Search & Fetch guide",
+    "key": "searchGuide",
+    "now": "Gabay sa Search & Fetch",
+    "natural": 0.47
+   },
+   {
+    "en": "Search / Fetch API base URL",
+    "key": "searchApiBaseUrl",
+    "now": "Base URL ng Search / Fetch API",
+    "natural": 0.59
+   },
+   {
+    "en": "System default ({name})",
+    "key": "systemMicrophoneNamed",
+    "now": "Default ng sistema ({name})",
+    "natural": 0.57
+   }
+  ],
+  "tr": [
+   {
+    "en": "{count} background jobs",
+    "key": "count.idle.other",
+    "now": "{count} arka plan işi",
+    "natural": 0.59
+   },
+   {
+    "en": "Day {days} of every month{months}",
+    "key": "cron.day.monthDays",
+    "now": "Her ayın {days}. günü{months}",
+    "natural": 0.34
+   },
+   {
+    "en": "Day {days} of every month or {weekdays}{months}",
+    "key": "cron.day.both",
+    "now": "Her ayın {days}. günü veya {weekdays}{months}",
+    "natural": 0.3
+   },
+   {
+    "en": "Enter an interval of at least 60 seconds.",
+    "key": "timing.invalidInterval.second",
+    "now": "En az 60 saniyelik bir aralık girin.",
+    "natural": 0.55
+   }
+  ],
+  "uk": [
+   {
+    "en": "at minute {minutes} of hours {hours}",
+    "key": "cron.time.hoursAt",
+    "now": "о хвилині {minutes} годин {hours}",
+    "natural": 0.55
+   },
+   {
+    "en": "Close deletion confirmation",
+    "key": "delete.close",
+    "now": "Закрити підтвердження видалення",
+    "natural": 0.59
+   }
+  ],
+  "ur": [
+   {
+    "en": "DeepSeek Flash — Account (paid)",
+    "key": "deepseekAccount",
+    "now": "ڈیپ سیک فلیش - اکاؤنٹ (ادا شدہ)",
+    "natural": 0.49
+   },
+   {
+    "en": "This deployment stores settings read-only.",
+    "key": "readOnly",
+    "now": "یہ تعیناتی ترتیبات صرف پڑھنے کے موڈ میں محفوظ کرتی ہے۔",
+    "natural": 0.49
+   },
+   {
+    "en": "Day {days} of every month{months}",
+    "key": "cron.day.monthDays",
+    "now": "ہر مہینے کا دن {days}{months}",
+    "natural": 0.53
+   },
+   {
+    "en": "Day {days} of every month or {weekdays}{months}",
+    "key": "cron.day.both",
+    "now": "ہر مہینے کا دن {days} یا {weekdays}{months}",
+    "natural": 0.47
+   },
+   {
+    "en": "Day {days} of every month and {weekdays}{months}",
+    "key": "cron.day.bothStarred",
+    "now": "ہر مہینے کا دن {days} اور {weekdays}{months}",
+    "natural": 0.5
+   },
+   {
+    "en": "{value} {unit} overdue",
+    "key": "relative.overdue",
+    "now": "{value} {unit} زائد المیعاد",
+    "natural": 0.5
+   },
+   {
+    "en": "Search & Fetch guide",
+    "key": "searchGuide",
+    "now": "تلاش اور فیچ گائیڈ",
+    "natural": 0.54
+   },
+   {
+    "en": "Search / Fetch API base URL",
+    "key": "searchApiBaseUrl",
+    "now": "تلاش / فیچ API بنیادی URL",
+    "natural": 0.49
+   }
+  ],
+  "vi": [
+   {
+    "en": "{width}x{height}px, {bytes} bytes",
+    "key": "row.imageSize",
+    "now": "{width}x{height}px, {bytes} byte",
+    "natural": 0.54
+   },
+   {
+    "en": "Day {days} of every month and {weekdays}{months}",
+    "key": "cron.day.bothStarred",
+    "now": "Ngày {days} của mọi tháng và {weekdays}{months}",
+    "natural": 0.47
+   }
+  ],
+  "yo": [
+   {
+    "en": "When to Collapse Work Details",
+    "key": "settings.collapse.title",
+    "now": "Ìgbà Tí Àwọn Àlàyé Ìṣẹ́ Yóò Fàrà Pàmọ́",
+    "natural": 0.54
+   },
+   {
+    "en": "Choose when to automatically collapse work details",
+    "key": "settings.collapse.description",
+    "now": "Yàn ìgbà tí àwọn àlàyé ìṣẹ́ yóò fàrà pàmọ́ fúnrárẹ̀",
+    "natural": 0.57
+   },
+   {
+    "en": "Translating reasoning",
+    "key": "translating",
+    "now": "Títumọ̀ ìrònú",
+    "natural": 0.59
+   },
+   {
+    "en": "Installed; restart DSH to load it. {reason}",
+    "key": "installDoneRestart",
+    "now": "Á tì fì sílẹ̀ tán; tún DSH bẹ̀rẹ̀ látí kó ó. {reason}",
+    "natural": 0.57
+   },
+   {
+    "en": "Close keyboard shortcuts",
+    "key": "close",
+    "now": "Tì àwọn ọ̀nà àbùjá kíbọ̀ọ̀dì",
+    "natural": 0.45
+   },
+   {
+    "en": "Next scheduled time:",
+    "key": "list.nextPrefix",
+    "now": "Àkókò ìṣẹ̀tò tó kàn:",
+    "natural": 0.57
+   },
+   {
+    "en": "Records were updated.",
+    "key": "delivery.cursorError",
+    "now": "Àwọ́n àkọ́sílẹ̀ tí yípadà.",
+    "natural": 0.58
+   },
+   {
+    "en": "Loading original session information.",
+    "key": "detail.sessionLoading",
+    "now": "Ń gbà ìròyìn ìpàdé àtìlẹ̀wá.",
+    "natural": 0.51
+   },
+   {
+    "en": "The original session is archived.",
+    "key": "detail.sessionArchived",
+    "now": "À tí fì ìpàdé àtìlẹ̀wá pámọ́.",
+    "natural": 0.52
+   },
+   {
+    "en": "Saved delivery record",
+    "key": "delivery.label",
+    "now": "Àkọ́sílẹ̀ ìfìjiṣẹ́ tí á pámọ́.",
+    "natural": 0.55
+   },
+   {
+    "en": "Day {days} of every month or {weekdays}{months}",
+    "key": "cron.day.both",
+    "now": "Ọjọ́ {days} ti oṣùkọ̀ọ̀kán tàbí {weekdays}{months}",
+    "natural": 0.57
+   },
+   {
+    "en": "Day {days} of every month and {weekdays}{months}",
+    "key": "cron.day.bothStarred",
+    "now": "Ọjọ́ {days} ti oṣùkọ̀ọ̀kán àti {weekdays}{months}",
+    "natural": 0.59
+   },
+   {
+    "en": "every hour at minute {minutes}",
+    "key": "cron.time.joinedHourlyAt",
+    "now": "ní wákàtí kọ̀ọ̀kán ní ìṣẹ́jú {minutes}",
+    "natural": 0.59
+   },
+   {
+    "en": "at minute {minutes} of hours {hours}",
+    "key": "cron.time.hoursAt",
+    "now": "ní ìṣẹ́jú {minutes} ti àwọn wákàtí {hours}",
+    "natural": 0.59
+   },
+   {
+    "en": "Enter an interval of at least 60 seconds.",
+    "key": "timing.invalidInterval.second",
+    "now": "Tẹ àkókò tí ó kéré jùlọ ìṣẹ́jú àáyá 60.",
+    "natural": 0.52
+   },
+   {
+    "en": "Close deletion confirmation",
+    "key": "delete.close",
+    "now": "Pà ìjẹ́rìísí pípàrẹ́",
+    "natural": 0.51
+   },
+   {
+    "en": "Could not delete the task.",
+    "key": "toast.deleteFailed",
+    "now": "À kò lè pà ìṣẹ́ náà rẹ́.",
+    "natural": 0.39
+   },
+   {
+    "en": "Reload to load the new version",
+    "key": "hostRelease.reload",
+    "now": "Tún gbé látí gbé ẹ̀yà túntún náà",
+    "natural": 0.59
+   },
+   {
+    "en": "Leave blank to use env as auth ({hint})",
+    "key": "keyPlaceholderFallback",
+    "now": "Fí òfò sílẹ̀ látí lò env gẹ́gẹ́ bí auth ({hint})",
+    "natural": 0.52
+   },
+   {
+    "en": "Environment credential status has not been confirmed.",
+    "key": "keyFallbackUnchecked",
+    "now": "À kò tíì fìdí ìpò ìjẹ́rísí àyíká múlẹ̀.",
+    "natural": 0.55
+   },
+   {
+    "en": "Provider-configured endpoint",
+    "key": "baseUrlConfigured",
+    "now": "ójú ọ̀nà tí òlùpèsè tí ṣàtúnṣẹ̀",
+    "natural": 0.45
+   },
+   {
+    "en": "Used for the sidebar terminal",
+    "key": "fontSize.terminal.description",
+    "now": "Á ń lò ó fún Terminal ẹ̀gbẹ́",
+    "natural": 0.57
+   },
+   {
+    "en": "Messages API base URL",
+    "key": "baseUrl",
+    "now": "URL ìpìlẹ̀ fún Messages API",
+    "natural": 0.45
+   },
+   {
+    "en": "System default ({name})",
+    "key": "systemMicrophoneNamed",
+    "now": "Àìpẹ́ ètò ({name})",
+    "natural": 0.52
+   }
+  ],
+  "zh-hk": [
+   {
+    "en": "Automation task instruction",
+    "key": "detail.instruction",
+    "now": "自動化任務指示",
+    "natural": 0.53
+   },
+   {
+    "en": "Cron {expression} ({timeZone})",
+    "key": "frequency.cron",
+    "now": "排程{expression}（{timeZone}）",
+    "natural": 0.59
+   },
+   {
+    "en": "Every hour at minute {minutes}",
+    "key": "cron.time.hourlyAt",
+    "now": "每小時於{minutes}分",
+    "natural": 0.57
+   },
+   {
+    "en": "every minute during hours {hours}",
+    "key": "cron.time.hoursEveryMinute",
+    "now": "於{hours}期間每分鐘",
+    "natural": 0.54
+   }
+  ]
+ }
+}

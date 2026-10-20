@@ -23,6 +23,7 @@
   "details.event": "Gebeurtenisdetails",
   "details.failure.auth": "API-sleutel is ongeldig",
   "details.hierarchy": "Hiërarchie",
+  "details.lastAttemptError": "Fout bij de vorige poging",
   "details.model": "Model",
   "details.provider": "Provider",
   "details.purpose": "Doel",

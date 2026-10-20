@@ -1,6 +1,10 @@
 {
   "candidate.noCwd": "(कोई cwd नहीं)",
   "crumb.root": "कार्यक्षेत्र",
+  "fileOpen.close": "बंद करें",
+  "fileOpen.failed": "“{path}” खोला नहीं जा सका। पुनः प्रयास करें या इस संदेश को बंद करें।",
+  "fileOpen.retry": "पुनः प्रयास करें",
+  "fileOpen.title": "फ़ाइल खोली नहीं जा सकी",
   "section.files": "फ़ाइलें और फ़ोल्डर",
   "section.sessions": "सत्र",
   "section.subagents": "सबएजेंट",

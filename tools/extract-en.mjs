@@ -15,16 +15,48 @@ import { execSync } from 'node:child_process';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 
+// --root <dir>: read the bundles from an npm install prefix instead of the
+// locally installed app.asar. Use it to build a baseline for a harness version
+// that is not installed yet:
+//   npm install --prefix <dir> @deepseek-ai/dsh@<version>
+//   node tools/extract-en.mjs --root <dir>
+const rootArg = process.argv.indexOf('--root');
+const rootDir = rootArg >= 0 ? process.argv[rootArg + 1] : null;
+
 function asarRoot() {
-  // Installed location of the running DSH build.
-  const base = join(process.env.LOCALAPPDATA ?? '', 'Programs', 'DeepSeek Harness', 'resources', 'app.asar');
-  if (!existsSync(base)) throw new Error(`app.asar not found: ${base}`);
+  // Installed location of the running DSH build (Windows first, then macOS).
+  const candidates = [
+    join(process.env.LOCALAPPDATA ?? '', 'Programs', 'DeepSeek Harness', 'resources', 'app.asar'),
+    '/Applications/DeepSeek Harness.app/Contents/Resources/app.asar',
+  ];
+  const base = candidates.find((p) => p && existsSync(p));
+  if (!base) throw new Error(`app.asar not found (tried: ${candidates.join(', ')})`);
   const tmp = join(process.env.TEMP ?? '.', 'dsh-asar');
   if (!existsSync(join(tmp, 'dsh'))) {
     console.log('extracting app.asar (one-time, ~1min)…');
     execSync(`asar extract "${base}" "${tmp}"`, { stdio: 'inherit' });
   }
   return tmp;
+}
+
+// Either layout: an npm prefix, or the extracted app.asar.
+function resolveTarget() {
+  if (rootDir) {
+    const pkgs = join(rootDir, 'node_modules', '@deepseek-ai');
+    if (!existsSync(pkgs)) throw new Error(`no @deepseek-ai packages under ${rootDir}`);
+    // The harness itself is at <root> when <root> is the installed package
+    // (homebrew prefix), and under node_modules when <root> is an install
+    // prefix (npm writes its own package.json into the prefix, so pick the
+    // manifest that actually belongs to @deepseek-ai/dsh).
+    const candidates = [join(rootDir, 'package.json'), join(pkgs, 'dsh', 'package.json')];
+    const manifest = candidates.find((p) => {
+      try { return JSON.parse(readFileSync(p, 'utf8')).name === '@deepseek-ai/dsh'; } catch { return false; }
+    });
+    if (!manifest) throw new Error(`no dsh package.json (tried: ${candidates.join(', ')})`);
+    return { pkgs, manifest };
+  }
+  const tmp = asarRoot();
+  return { pkgs: join(tmp, 'dsh', 'node_modules', '@deepseek-ai'), manifest: join(tmp, 'dsh', 'package.json') };
 }
 
 function blockAfter(src, marker) {
@@ -63,8 +95,7 @@ function stringPairs(block) {
   return out;
 }
 
-const tmp = asarRoot();
-const pkgs = join(tmp, 'dsh', 'node_modules', '@deepseek-ai');
+const { pkgs, manifest } = resolveTarget();
 const result = {};
 let files = 0;
 
@@ -109,6 +140,7 @@ for (const [file, marker, ns] of [
   ['dsh-client-ui-permission-presets', 'const accessEn = {', 'permission.access'],
   ['dsh-client-ui-permission-presets', 'const en = {', 'settings.permission'],
   ['dsh-client-ui-shortcuts', 'const en = {', 'shortcuts'],
+  ['dsh-client-ui-layout', 'const en = {', 'shortcuts.layout'],
   ['dsh-client-locale', 'const en$1 = {', 'common'],
 ]) {
   const client = join(pkgs, file, 'lib', 'client.js');
@@ -143,7 +175,66 @@ for (const [file, marker, ns] of [
   }
 }
 
-const version = JSON.parse(readFileSync(join(tmp, 'dsh', 'package.json'), 'utf8')).version ?? 'unknown';
+// 5) register-driven dictionaries. Rules 1 to 4 read ONE `const en` per bundle,
+// but a bundle that registers several namespaces uses suffixed dicts (`en$1 …
+// en$6`) or shorthand (`{ zh, en }`), so the block above lands on the wrong
+// object (or on nothing). Resolve every ctx.locale.register call to the
+// identifier it passes, and evaluate the file's object literals as one scope so
+// literals that spread a sibling dict (`...frequencyEn`) still resolve.
+// More accurate than rules 1 to 4, so it overwrites what they produced.
+function objectScope(src) {
+  const decls = [];
+  const re = /const ([A-Za-z_$][\w$]*) = \{/g;
+  let m;
+  while ((m = re.exec(src)) !== null) {
+    const block = blockAfter(src, m[0]);
+    if (block) decls.push([m[1], block]);
+  }
+  const scope = new Map();
+  for (let pass = 0; pass < 3; pass++) {
+    let progress = false;
+    for (const [name, block] of decls) {
+      if (scope.has(name)) continue;
+      try {
+        const preamble = [...scope].map(([n, v]) => `const ${n} = ${JSON.stringify(v)};`).join('\n');
+        const value = new Function(`${preamble} return (${block});`)();
+        if (value && typeof value === 'object') { scope.set(name, value); progress = true; }
+      } catch { /* a dict this one spreads is not evaluated yet */ }
+    }
+    if (!progress) break;
+  }
+  return scope;
+}
+{
+  const re = /ctx\.locale\.register\(\s*([^,]+?)\s*,\s*\{\s*([^}]*)\}/g;
+  for (const name of readdirSync(pkgs)) {
+    const client = join(pkgs, name, 'lib', 'client.js');
+    if (!existsSync(client)) continue;
+    const src = readFileSync(client, 'utf8');
+    const scope = objectScope(src);
+    if (!scope.size) continue;
+    let m;
+    while ((m = re.exec(src)) !== null) {
+      const nsTok = m[1].trim();
+      let ns = null;
+      if (/^["']/.test(nsTok)) ns = nsTok.slice(1, -1);
+      else {
+        const decl = new RegExp(`const ${nsTok.replace(/[$]/g, '\\$')} = ["']([^"']+)["']`).exec(src);
+        if (decl) ns = decl[1];
+      }
+      if (!ns) continue;
+      const enEntry = /(?:^|,)\s*en\s*(?::\s*([\w$]+))?\s*(?:,|$)/.exec(m[2]);
+      const dict = scope.get(enEntry?.[1] ?? 'en');
+      if (!dict) continue;
+      const flat = Object.fromEntries(Object.entries(dict).filter(([, v]) => typeof v === 'string'));
+      if (!Object.keys(flat).length) continue;
+      result[ns] = { ...(result[ns] ?? {}), ...flat };
+      files++;
+    }
+  }
+}
+
+const version = JSON.parse(readFileSync(manifest, 'utf8')).version ?? 'unknown';
 const out = join(root, 'tools', `en.${version}.json`);
 writeFileSync(out, JSON.stringify(result, null, 2), 'utf8');
 const keys = Object.values(result).reduce((n, o) => n + Object.keys(o).length, 0);

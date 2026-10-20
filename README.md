@@ -33,7 +33,7 @@ That interface was available in English and Simplified Chinese. Developers who p
 | Português (Portugal) | `pt` | Kiswahili | `sw` |
 | Yorùbá | `yo` | | |
 
-29 languages × 2,528 keys = 73,312 translated entries. The dictionaries are built against DeepSeek Harness `0.2.0-rc.2`.
+29 languages, 3,046 keys each — 88,337 translated entries in all. The dictionaries are built against DeepSeek Harness `0.2.1-rc.2`.
 
 ## Install
 

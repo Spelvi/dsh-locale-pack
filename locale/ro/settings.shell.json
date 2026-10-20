@@ -4,7 +4,7 @@
   "maxOutputBytes": "Limită de ieșire pe flux (octeți)",
   "maxOutputBytesHint": "Ieșirea care depășește această limită este salvată într-un fișier temporar, în loc să fie pierdută.",
   "overridden": "Suprascrisă",
-  "readOnly": "Această implementare stochează setările doar pentru citire.",
+  "readOnly": "Această implementare stochează setările doar în citire.",
   "reset": "Resetează la valoarea implicită",
   "save": "Salvează",
   "saveFailed": "Implementarea nu a acceptat aceste valori; acestea au fost păstrate pentru a le corecta.",

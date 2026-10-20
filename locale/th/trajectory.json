@@ -23,6 +23,7 @@
   "details.event": "รายละเอียดเหตุการณ์",
   "details.failure.auth": "คีย์ API ไม่ถูกต้อง",
   "details.hierarchy": "ลำดับชั้น",
+  "details.lastAttemptError": "ข้อผิดพลาดจากครั้งพยายามล่าสุด",
   "details.model": "โมเดล",
   "details.provider": "ผู้ให้บริการ",
   "details.purpose": "วัตถุประสงค์",

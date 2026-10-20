@@ -7,5 +7,11 @@
   "retry": "再試行",
   "title": "PDF",
   "unsupported": "PDFプレビューにはファイル全体の内容が必要です。",
-  "workerFailed": "PDFのレンダリング処理を続行できませんでした。再試行してください。"
+  "workerFailed": "PDFのレンダリング処理を続行できませんでした。再試行してください。",
+  "zoomControls": "ズームコントロール",
+  "zoomFitWidth": "幅に合わせる",
+  "zoomIn": "ズームイン",
+  "zoomMenu": "ズームの選択",
+  "zoomOut": "ズームアウト",
+  "zoomValue": "{percent}%"
 }

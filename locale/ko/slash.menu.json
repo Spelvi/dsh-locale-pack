@@ -1,8 +1,11 @@
 {
+  "command": "명령들",
   "crumbs.aria": "폴더 탐색",
   "drill.aria": "폴더 찾아보기",
   "drill.hint": "폴더 찾아보기",
   "drill.key": "Tab",
+  "loading": "로딩 중…",
   "skill": "스킬",
+  "subagent": "하위 에이전트들",
   "suggestions.aria": "제안 표시"
 }

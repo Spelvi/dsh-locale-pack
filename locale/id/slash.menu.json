@@ -1,8 +1,11 @@
 {
+  "command": "Perintah",
   "crumbs.aria": "Navigasi folder",
   "drill.aria": "Telusuri folder",
   "drill.hint": "Telusuri folder",
   "drill.key": "Tab",
+  "loading": "Memuat…",
   "skill": "Keterampilan",
+  "subagent": "Subagen",
   "suggestions.aria": "Picu saran"
 }

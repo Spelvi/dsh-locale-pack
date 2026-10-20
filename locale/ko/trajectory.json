@@ -23,6 +23,7 @@
   "details.event": "이벤트 상세",
   "details.failure.auth": "API 키가 유효하지 않습니다",
   "details.hierarchy": "계층",
+  "details.lastAttemptError": "마지막 시도 오류",
   "details.model": "모델",
   "details.provider": "프로바이더",
   "details.purpose": "목적",

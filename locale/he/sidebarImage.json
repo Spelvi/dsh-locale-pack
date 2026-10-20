@@ -3,5 +3,11 @@
   "loading": "מעבד מסמך...",
   "preview": "תצוגה מקדימה של תמונה: {name}",
   "title": "תמונה",
-  "unsupported": "תצוגה מקדימה של תמונה דורשת את תוכן הקובץ המלא."
+  "unsupported": "תצוגה מקדימה של תמונה דורשת את תוכן הקובץ המלא.",
+  "zoomControls": "בקרות זום",
+  "zoomFitWidth": "התאמה לרוחב",
+  "zoomIn": "הגדילו זום",
+  "zoomMenu": "בחרו זום",
+  "zoomOut": "הקטן",
+  "zoomValue": "{percent}%"
 }

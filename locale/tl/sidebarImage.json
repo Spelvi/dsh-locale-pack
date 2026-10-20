@@ -3,5 +3,11 @@
   "loading": "Nire-render ang dokumento...",
   "preview": "Paunang tingin sa larawan: {name}",
   "title": "Larawan",
-  "unsupported": "Nangangailangan ng kumpletong nilalaman ng file ang paunang tingin sa larawan."
+  "unsupported": "Nangangailangan ng kumpletong nilalaman ng file ang paunang tingin sa larawan.",
+  "zoomControls": "Mga kontrol sa zoom",
+  "zoomFitWidth": "Iangkop sa lapad",
+  "zoomIn": "Mag-zoom in",
+  "zoomMenu": "Pumili ng antas ng zoom",
+  "zoomOut": "Mag-zoom out",
+  "zoomValue": "{percent}%"
 }

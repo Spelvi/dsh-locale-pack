@@ -1,6 +1,10 @@
 {
   "candidate.noCwd": "(cwd নেই)",
   "crumb.root": "ওয়ার্কস্পেস",
+  "fileOpen.close": "বন্ধ করুন",
+  "fileOpen.failed": "“{path}” ফাইলটি খোলা যায়নি। আবার চেষ্টা করুন অথবা এই বার্তাটি বন্ধ করুন।",
+  "fileOpen.retry": "আবার চেষ্টা করুন",
+  "fileOpen.title": "ফাইলটি খোলা যায়নি",
   "section.files": "ফাইল ও ফোল্ডার",
   "section.sessions": "সেশন",
   "section.subagents": "সাবএজেন্ট",

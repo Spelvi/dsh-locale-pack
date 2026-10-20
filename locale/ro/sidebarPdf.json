@@ -7,5 +7,11 @@
   "retry": "Reîncercare",
   "title": "PDF",
   "unsupported": "Previzualizarea PDF necesită conținutul complet al fișierului.",
-  "workerFailed": "Procesul de randare PDF nu a putut continua. Vă rugăm să reîncercați."
+  "workerFailed": "Procesul de randare PDF nu a putut continua. Vă rugăm să reîncercați.",
+  "zoomControls": "Controale de zoom",
+  "zoomFitWidth": "Adaptează lățimea",
+  "zoomIn": "Mărește zoomul",
+  "zoomMenu": "Alegeți zoomul",
+  "zoomOut": "Redu zoomul",
+  "zoomValue": "{percent}%"
 }

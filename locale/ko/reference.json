@@ -1,6 +1,10 @@
 {
   "candidate.noCwd": "(cwd 없음)",
   "crumb.root": "작업 공간",
+  "fileOpen.close": "닫기",
+  "fileOpen.failed": "“{path}”를 열 수 없습니다. 다시 시도하거나 이 메시지를 닫으세요",
+  "fileOpen.retry": "다시 시도",
+  "fileOpen.title": "파일을 열 수 없습니다",
   "section.files": "파일 및 폴더",
   "section.sessions": "세션",
   "section.subagents": "서브에이전트",

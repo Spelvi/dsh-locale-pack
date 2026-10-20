@@ -1,6 +1,10 @@
 {
   "candidate.noCwd": "(geen cwd)",
   "crumb.root": "Werkruimte",
+  "fileOpen.close": "Sluiten",
+  "fileOpen.failed": "Het bestand “{path}” kon niet worden geopend. Probeer het opnieuw of sluit deze melding.",
+  "fileOpen.retry": "Opnieuw proberen",
+  "fileOpen.title": "Bestand kon niet worden geopend",
   "section.files": "Bestanden & mappen",
   "section.sessions": "Sessies",
   "section.subagents": "Subagenten",

@@ -1,8 +1,11 @@
 {
+  "command": "دستورها",
   "crumbs.aria": "ناوبری پوشه",
   "drill.aria": "مرور پوشه",
   "drill.hint": "مرور پوشه",
   "drill.key": "Tab",
+  "loading": "در حال بارگذاری…",
   "skill": "مهارت‌ها",
+  "subagent": "زیرعامل‌ها",
   "suggestions.aria": "فعال‌سازی پیشنهادها"
 }

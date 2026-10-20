@@ -1,8 +1,11 @@
 {
+  "command": "Comenzi",
   "crumbs.aria": "Navigare în dosar",
   "drill.aria": "Răsfoiește dosarul",
   "drill.hint": "Răsfoiește dosarul",
   "drill.key": "Tab",
+  "loading": "Se încarcă…",
   "skill": "Abilități",
+  "subagent": "Subagente",
   "suggestions.aria": "Declanșează sugestiile"
 }

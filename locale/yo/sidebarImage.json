@@ -3,5 +3,11 @@
   "loading": "À ń ṣàfìhàn ìwé náà...",
   "preview": "Àṣàyẹ̀wò àwòrán: {name}",
   "title": "Àwòrán",
-  "unsupported": "Àṣàyẹ̀wò àwòrán nílò gbogbo àkóónú fáìlì náà."
+  "unsupported": "Àṣàyẹ̀wò àwòrán nílò gbogbo àkóónú fáìlì náà.",
+  "zoomControls": "Àwọ́n ìṣàkósò ìsúnmọ́",
+  "zoomFitWidth": "Bá ìbú mú",
+  "zoomIn": "Tóbi sí",
+  "zoomMenu": "Yán ìsúnmọ́",
+  "zoomOut": "Kéré sí",
+  "zoomValue": "{percent}%"
 }
