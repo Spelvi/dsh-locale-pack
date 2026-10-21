@@ -24,7 +24,7 @@
   "panel.empty": "Wala pang tinukoy na plugin",
   "panel.group.current": "Sesyon na ito",
   "panel.group.others": "Iba pang mga sesyon",
-  "panel.hint": "Nasa Cordis panel sa itaas ng Settings ang mga kontrol sa pagtakbo",
+  "panel.hint": "Nasa Cordis panel sa itaas ng Mga Setting ang mga kontrol sa pagtakbo",
   "panel.loading": "Nagbabasa…",
   "panel.next": "Susunod: {packageId}",
   "panel.plugins.aria": "Mga plugin ng Cordis",
